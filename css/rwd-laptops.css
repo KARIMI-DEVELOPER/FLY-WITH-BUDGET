@@ -1,0 +1,315 @@
+/* responsive */
+/* Desktops and Laptops:
+/* Laptop screens: 1024px and above.(done) */
+@media (min-width:1023px)  {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* header */
+    header nav .box:nth-child(2){
+        padding: 4vw 2vw;
+        justify-content: space-between;
+    }
+    header nav .box ul li{
+      margin-left: 5%;
+    }
+
+}
+/* Desktop screens: 1280px and above. (done)*/
+/* Larger desktop screens: 1600px and above. (done)*/  
+
+
+
+/* Tablets:
+
+Standard tablets: 1024px to 1280px wide (e.g., regular-sized tablets).(done)
+Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
+
+/* Small tablets: 768px to 1024px wide (e.g., iPad Mini).(done) */
+@media (max-width:768.9px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* header */
+    header nav .box h2{
+        font-size: 2vw;
+    }
+    header nav .box:nth-child(2){
+        padding: 0vw 2vw;
+        justify-content: space-between;
+    }
+    header nav .box ul li{
+      margin-left: 5%;
+    }
+    header nav .box ul li a {
+        font-size: 1.8vw;
+    }
+
+}
+
+
+ 
+
+
+/* Mobile Phones:
+
+Large screens (phablets): 768px to 1024px wide (e.g., larger smartphones and smaller tablets).(done)
+
+Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones).(done)
+*/
+@media (max-width:480.9px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* header */
+    header{
+        height: 60vw;
+    }
+    header nav{
+        height: 10vw;
+    }
+    header nav .box h2{
+        font-size: 3vw;
+    }
+ 
+    header nav .box:nth-child(2){
+        display: none;
+    }
+    header h2{
+        font-size: 5vw;
+        padding-top: 15vw;
+    }
+    header p {
+        font-size: 3vw;
+        width: 100%;
+    }
+    /* main  */
+    main{
+        height: 260vw;
+        overflow: hidden;
+    }
+    /* about section */
+    section.aboutmain{
+        height: 100vw;
+    }
+    section.aboutmain .about{
+        height: 45vw;
+    }
+    section.aboutmain .about .box:first-child{
+       margin-left: -25%;
+    }
+    section.aboutmain .about .box h2{
+        font-size: 5vw;
+        width: 130%;
+        margin-left: 10%;
+        
+    }
+    section.aboutmain .about .box p{
+        font-size: 2.5vw;
+        margin-left: 20%;
+    }
+    section.aboutmain .about-2 .box-2 h2{
+        font-size: 4vw;
+    }
+    section.aboutmain .about-2 .box-2 p{
+        font-size: 2.5vw;
+        
+    }
+   
+    section.aboutmain .about-2{
+        height: 45vw;
+    }
+    /* about end */
+    /* service */
+    main section.service-main{
+        height: 70vw;
+    }
+    main section.service-main .service{
+        height: 45vw;
+    }
+    main section.service-main .service .box{
+        background-repeat: no-repeat;
+        background-size: 130%;
+    }
+    main section.service-main .service .box h1{
+        font-size: 4vw;
+    }
+    main section.service-main .service .box p{
+        font-size: 2vw;
+    }
+    main section.service-main .service .box button{
+        height: 6vw;
+        margin-left: 5%;
+        font-size: 2vw;
+    }
+    /* destination */
+    main section.destination-main h1{
+        font-size: 4vw;
+    }
+    main section.destination-main h2{
+        font-size: 3.5vw;
+        padding: 0vw 28vw;
+    }
+    main section.destination-main .destination .box{
+        padding: 10vw 2vw;
+    }
+    main section.destination-main .destination .box h3{
+        font-size: 3vw;
+        
+    }
+      /* footer  */
+      .containeroffooter{
+        margin-top: 3%;
+        flex-direction: column;
+    }
+    .footercontact h4, .footerlink h4, .footermedia h4{
+        margin-left: 30% ;
+    }
+    .footercontact p{
+        margin-left: 25%;
+    }
+    .footermedia ul{
+       margin-left: 45%;
+    }
+    .footerlink li {
+        list-style-type: none;
+    }
+    .footerlink a{
+
+        margin-left: 45%;
+    }
+
+
+}
+/* Small screens: 320px to 480px wide (e.g., older smartphones). */
+@media (min-width:319px) and (max-width:375.9px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* header  */
+    header nav .box h2{
+        font-size: 3.5vw;
+    }
+    header{
+        height: 70vw;
+    }
+    header h2{
+        font-size: 7vw;
+    }
+    header p{
+        font-size: 4vw;
+    }
+    header button{
+        height:10vw;
+    }
+    /* main  */
+    main{
+        height: 750vw
+        
+    }
+    /* abbout */
+    section.aboutmain{
+        height: 120vw;
+    }
+    section.aboutmain .about{
+        height: 55vw;
+        padding: 0vw 0vw;
+    }
+    section.aboutmain .about-2{
+        height: 55vw;
+        padding: 0vw 0vw;
+    }
+    section.aboutmain .about .box h2{
+        font-size: 6vw;
+        margin-left: 2%;
+        padding: 2vw 7vw;
+    }
+    section.aboutmain .about .box p{
+        font-size: 3vw;
+        margin-left: 15%;
+        width: 70%;
+    }
+    section.aboutmain .about-2 .box-2 h2{
+        width: 90%;
+    }
+    section.aboutmain .about-2 .box-2 p{
+        font-size: 3vw;
+        width: 90%;
+        margin-left: 2%; 
+    }
+    section.aboutmain .about-2 .box-2 img{
+        margin-left: -40%;
+    }
+    /* destinations */
+    main section.destination-main{
+        height: 330vw;
+        background-size: 132%;
+    }
+    main section.destination-main h1{
+        font-size: 7vw;
+        padding: 2vw 25vw;
+    }
+    main section.destination-main h2{
+        font-size: 6vw;
+        padding: 2vw 12vw;
+    }
+    main section.destination-main .destination{
+    height: 150vw;
+    flex-direction: column;
+    }
+    main section.destination-main .destination .box{
+        height: 40vw;
+        width: 60vw;
+        padding: 18vw 10vw;
+    }
+    main section.destination-main .destination .box h3{
+        font-size: 6vw;
+    }
+    /* services */
+    main section.service-main{
+        height: 285vw;
+        background-size: 130%;
+    }
+    main section.service-main h2{
+        font-size: 7vw;
+    }
+    main section.service-main h3{
+        font-size: 6vw;
+        padding: 0vw 10vw;
+    }
+   main section.service-main .service{
+    height: 230vw;
+    flex-direction: column;
+   }
+   main section.service-main .service .box{
+    height: 30%;
+    width: 60%;
+    background-size: 230%;
+    padding: 5vw 10vw;
+   }
+   main section.service-main .service .box h1{
+    font-size: 8vw;
+   }
+   main section.service-main .service .box p{
+    font-size: 3vw;
+   }
+   main section.service-main .service .box button{
+    height: 10vw;
+    width: 20vw;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding: 1vw 0vw    ;
+    font-size: 2.5vw;
+    border-radius: 5px;
+   }
+   
+
+}
