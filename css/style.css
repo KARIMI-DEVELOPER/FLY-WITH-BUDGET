@@ -5,7 +5,7 @@
 }
 header{
     height: 40vw;
-    background-image: url(create\ a\ \ mount\ 1.png);
+    background-image: url(create\ a\ mount\ 1.webp);
     object-fit: cover;
     background-attachment: fixed;
     background-size: 100%;
@@ -103,7 +103,7 @@ main{
 section.aboutmain{
     padding: 3vw 0vw;
     height: 80vw;
-    background-image: url(create\ a\ travel\ 0.png);
+    background-image: url(create\ a\ travel\ 0.webp);
     background-attachment: fixed;
     background-size: 100%;
     margin-top: 3vw;
@@ -180,7 +180,7 @@ section.aboutmain .about .box h2{
 main section.destination-main{
     height: 80vw;
     margin-top: 3vw;
-    background-image: url(create\ a\ backgr\ 1.png);
+    background-image: url(create\ a\ backgr\ 1.webp);
     background-attachment: fixed;
     background-position-y: 50%;
     background-size: 100%;
@@ -211,9 +211,9 @@ main section.destination-main .destination{
 main section.destination-main .destination .box{
     height: 25vw;
     width: 25vw;
-    background-image: url(create\ a\ travel\ 1.png);
+    background-image: url(create\ a\ travel\ 1.webp);
     background-size: 100%;
-    border-radius: 10%;
+    border-radius: 5%;
     padding: 10vw 5vw;
 }
 main section.destination-main .destination .box h3{
@@ -230,7 +230,7 @@ main section.service-main {
     height:60vw ;
     padding-top: 1vw;
     margin-top: 3vw;
-    background-image: url(create\ a\ travel\ 0.png);
+    background-image: url(create\ a\ travel\ 0.webp);
     background-attachment: fixed;
     background-position-y: 10%;
     background-size: 100%;
@@ -262,7 +262,7 @@ main section.service-main .service .box{
     height: 90%;
     width: 32%;
     padding: 2vw 5vw;
-   background-image: url(create\ a\ backgr\ 0.png);
+   background-image: url(create\ a\ backgr\ 0.webp);
    background-position-y: 10%;
    background-size: 100%;
    border-radius: 10px;
@@ -271,7 +271,7 @@ main section.service-main .service .box:nth-child(2){
     background-image: url(A\ beautiful\ ima\ 1\ \(2\).png);
 }
 main section.service-main .service .box:nth-child(3){
-    background-image: url(create\ a\ backgr\ 1.png);
+    background-image: url(create\ a\ backgr\ 1.webp);
 }
    
 main section.service-main .service .box h1{
@@ -356,7 +356,7 @@ footer {
  section.visa-main{
     height: 90vw;
     margin-top: 3vw;
-    background-image: url(create\ a\ backgr\ 1.png);
+    background-image: url(create\ a\ backgr\ 1.webp);
     background-attachment: fixed;
     background-position-y: 50%;
     background-size: 100%;
@@ -378,13 +378,26 @@ footer {
     align-items: center;
     justify-content: space-around;
  }
- section.visa-main .visa .box h3 , section.visa-main .visa-2 .box-2 h3, section.visa-main .visa-3 .box-3 h3{
-    font-size: 2vw;
-    color: rgb(38, 37, 37);
-    font-family: "Poppins", sans-serif;
-    margin-top: 40%;
-    margin-left: 10%;
+ section.visa-main .visa .box a button , section.visa-main .visa-2 .box-2 a button, section.visa-main .visa-3 .box-3 a button{
+    width: 20vw;
+    height: 5vw;
+    border: none;
+   margin-top: 55%;
+ opacity: 0.5;
+ font-size: 2.5vw;
+ font-weight: 700;
+    color:white;
+    background-color: rgb(24, 24, 24);
  }  
+ section.visa-main .visa .box a button:hover {
+    opacity: 1;
+ }
+ section.visa-main .visa-2 .box-2 a button:hover {
+    opacity: 1;
+ }
+ section.visa-main .visa-3 .box-3 a button:hover{
+    opacity: 1;
+ }
  section.visa-main .visa-3{
     height: 30vw;
     margin-top: 2%;
@@ -397,79 +410,227 @@ footer {
     height: 15vw;
     width: 20vw;
     overflow: hidden;
-    background-image: url(../images/AZERBAIJAN.png);
+    background-image: url(../images/AZERBAIJAN.webp);
     background-position: center;
     background-size: 150%;
     border-radius: 10%;
-    padding: 6vw 2vw;
+    
  }
  section.visa-main .visa .box:nth-child(2){
-    background-image: url(../images/canada.png);
+    background-image: url(../images/canada.webp);
     background-position-x: 20%;
  }
  section.visa-main .visa .box:nth-child(3){
-    background-image: url(../images/AZERBAIJAN.png);
+    background-image: url(../images/duabi.webp);
  }
  section.visa-main .visa .box:nth-child(4){
-    background-image: url(../images/germany.png);
+    background-image: url(../images/germany.webp);
  }
  section.visa-main .visa-2 .box-2{
     height: 15vw;
     width: 20vw;
     overflow: hidden;
-    background-image: url(../images/iran.png);
+    background-image: url(../images/iran.webp);
     background-position: center;
     background-size: 150%;
     border-radius: 10%;
-    padding: 6vw 2vw;
+    
  }
  section.visa-main .visa-2 .box-2:nth-child(2){
-   background-image: url(../images/italy.png);
+   background-image: url(../images/italy.webp);
  }
  section.visa-main .visa-2 .box-2:nth-child(3){
-   background-image: url(../images/malaysia.png);
+   background-image: url(../images/malaysia.webp);
    background-position-x: 20%;
  }
  section.visa-main .visa-2 .box-2:nth-child(4){
-   background-image: url(../images/portugal.png);
+   background-image: url(../images/portugal.webp);
    background-position-x: 20%;
  }
  section.visa-main .visa-3 .box-3{
     height: 15vw;
     width: 20vw;
     overflow: hidden;
-    background-image: url(../images/singapore.png);
+    background-image: url(../images/singapore.webp);
     background-position: center;
     background-size: 150%;
     border-radius: 10%; 
-    padding: 6vw 2vw;
+    
  }
  section.visa-main .visa-3 .box-3:nth-child(1){
     background-position-x: 20%;
     background-position-y: 20%;
  }
  section.visa-main .visa-3 .box-3:nth-child(2){
-background-image: url(../images/AZERBAIJAN.png);
+background-image: url(../images/AZERBAIJAN.webp);
  }
  section.visa-main .visa-3 .box-3:nth-child(3){
-background-image: url(../images/turkey.png);
+background-image: url(../images/turkey.webp);
  }
  section.visa-main .visa-3 .box-3:nth-child(4){
-background-image: url(../images/thailand.png);
+background-image: url(../images/thailand.webp);
 background-size: 90%;
  }
- section.visa-main .visa-3 .box-3:hover{
-opacity: 0.8;
- }
- section.visa-main .visa-2 .box-2:hover{
-opacity: 0.8;
- }
- section.visa-main .visa .box:hover{
-opacity: 0.8;
- }
  
+ a{
+    text-decoration: none;
+ }
+
+/* des1 */
+.containerdes1{
+    height: 35vw;
+    margin-top: 3%;
+    display: flex;
+  }
+  .containerdes1 .box{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(38, 37, 37);
+  }
+  
+  .containerdes1 .box img{
+    margin-left: 3%;
+    margin-top: 8%;
+    height: 25vw;
+    width: 30vw;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 3px black ) drop-shadow(0 0 3px black);
+  }
+  
+  .containerdes1 .box h1{
+    margin-left: 25%;
+    margin-top: 3%;
+    font-weight: 600;
+    color: white;
+    word-spacing: 5vw;
+    font-family: "Poppins", sans-serif;
+  }
+  .containerdes1 .box p{
+    font-family: "Poppins", sans-serif;
+    font-size: 2vw;
+    margin-top: 5%;
+    margin-left: 3%;
+    color: white;
+  }
+  .containerdes1 .box button{
+    margin-top: 5%;
+    margin-left: 30%;
+    padding: 1.5vw 2vw;
+    color: rgb(38, 37, 37);
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    font-family: "Poppins", sans-serif;
+  }
+  .containerdes1 .box button:hover{
+    background-color: black;
+    color: white;
+  }
 
 
+  /* packeges page */
+  section.packeges-main{
+    height: 135vw;
+    background-image: url(A\ beautiful\ ima\ 0\ \(2\).png);
+    background-size: 200%;
+    margin-top: 3%;
+    border: solid 1px black;
+  }
+  section.packeges-main .packeges{
+    height: 30vw;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   background-color: rgb(38, 37, 37);
+  }
+  section.packeges-main .packeges .pac-box{
+    height: 90%;
+    width: 22%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgb(201, 195, 195);
+    filter: drop-shadow(0 0 1.5px white ) drop-shadow(0 0 1.5px white);
+  
+  }
+  section.packeges-main .packeges .pac-box .box{
+    height: 40%;
+  }
+  section.packeges-main .packeges .pac-box .box h2{
+    margin-left: 20%;
+    margin-top: 3%;
+    font-weight: 500;
+    color: rgb(38, 37, 37);
+    font-family: "Poppins", sans-serif;
+  }
+  section.packeges-main .packeges .pac-box .box button{
+    width: 25vw;
+    height: 4vw;
+    margin-top: 5%;
+    margin-left: -5%;
+    border: none;
+    opacity: 0.5;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color:white;
+    background-color: rgb(24, 24, 24);
+  }
+  section.packeges-main .packeges .pac-box .box button:hover{
+    opacity: 1;
+  }
+  section.packeges-main .packeges .pac-box .box:first-child{
+    height: 60%;
+    background-image: url(create\ a\ backgr\ 1.webp);
+    background-size: 100%;
+  }
+
+  section.packeges-main .packeges .pac-box .box .box-info{
+    height: 30px;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  section.packeges-main .packeges .pac-box .box .box-info .box-detail{
+    height: 100%;
+    width: 33%;
+
+  }
+  section.packeges-main .packeges .pac-box .box .box-info .box-detail h4{
+    margin-top: 3%;
+    font-weight: 400;
+    color: rgb(38, 37, 37);
+    font-family: "Poppins", sans-serif;
+  }
+    
+    /* packeges page back */
+    section.packegespages-main{
+        height: 45vw;
+        margin-top: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        border: solid 1px black;
+    }
+    section.packegespages-main .packegespages{
+        height: 100%;
+        width: 50%;
+        background-color: rgb(38, 37, 37);
+        border: solid 1px black ;
+    }
+    section.packegespages-main .packegespages h1{
+        margin-left: 25%;
+        margin-top: 3%;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 4vw;
+    }
+   
 
 
 

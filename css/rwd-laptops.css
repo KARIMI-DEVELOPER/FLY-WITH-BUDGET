@@ -212,41 +212,71 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
     /* main  */
     main{
-        height: 750vw
+        height: 960vw
         
     }
     /* abbout */
     section.aboutmain{
-        height: 120vw;
+        height: 330vw;
+        padding: 0vw 0vw;
     }
     section.aboutmain .about{
-        height: 55vw;
-        padding: 0vw 0vw;
+        height: 150vw;
+        flex-direction: column;
+        justify-content: center;
     }
     section.aboutmain .about-2{
-        height: 55vw;
+        height: 150vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+    section.aboutmain .about .box:first-child{
         padding: 0vw 0vw;
+        margin-left: -8%;
+    }
+    section.aboutmain .about .box:nth-child(2){
+        margin-top: -3%;
+    }
+    section.aboutmain .about .box{
+        height: 90vw;
+        padding: 0vw 0vw;
+        width: 100%;
+        margin-left: -2%;
     }
     section.aboutmain .about .box h2{
-        font-size: 6vw;
+        font-size: 7vw;
         margin-left: 2%;
         padding: 2vw 7vw;
     }
     section.aboutmain .about .box p{
-        font-size: 3vw;
-        margin-left: 15%;
+        font-size: 4vw;
+        margin-left: 10%;
         width: 70%;
+
+    }
+
+    section.aboutmain .about-2 .box-2{
+        height: 90vw;
+        padding: 0vw 0vw;
+        width: 100%;
+        margin-left: -2%;
     }
     section.aboutmain .about-2 .box-2 h2{
-        width: 90%;
+        font-size: 7vw;
+        margin-top: 5%;
+        padding: 4vw 7vw;
     }
     section.aboutmain .about-2 .box-2 p{
-        font-size: 3vw;
-        width: 90%;
-        margin-left: 2%; 
+        font-size: 4vw;
+        margin-left: 10%;
+        width: 70%;
+    }
+    section.aboutmain .about-2 .box-2 button{
+        height:10vw;
     }
     section.aboutmain .about-2 .box-2 img{
-        margin-left: -40%;
+        height: 80%;
+        margin-top: 5%;
     }
     /* destinations */
     main section.destination-main{
@@ -267,11 +297,11 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
     main section.destination-main .destination .box{
         height: 40vw;
-        width: 60vw;
-        padding: 18vw 10vw;
+        width: 50vw;
+        padding: 18vw 5vw;
     }
     main section.destination-main .destination .box h3{
-        font-size: 6vw;
+        font-size: 5vw;
     }
     /* services */
     main section.service-main{
