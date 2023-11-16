@@ -34,6 +34,42 @@ Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
         margin: 0;
         box-sizing: border-box;
     }
+    #check:checked ~ ul {
+        right: 0%;
+        transition: 1s;
+      }     
+      header nav ul{
+      background-color: rgb(24, 24, 24);
+      width: 45%;
+      height: 100vh;
+      }
+        
+    
+    label{
+      display: block;
+      margin-top: -180%;
+
+    }
+          
+       header nav #boxnav{
+        height: 50px;
+        width: 55px;
+        border-bottom-left-radius:10px ;
+        border-bottom-right-radius:10px ;
+        margin-left: 32%;
+        background-color:transparent;
+      }
+      header nav ul {
+        display: block;
+        flex-direction: column;
+        color: white;
+        font-weight: bold;
+        margin-top: 60%;
+        position: absolute;
+        right: -50%;
+        
+      }
+
     /* header */
     header nav .box h2{
         font-size: 2vw;
@@ -46,6 +82,30 @@ Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
       margin-left: 5%;
     }
     header nav .box ul li a {
+        font-size: 1.8vw;
+    }
+    /* packege  */
+    section.packeges-main{
+        height: 170vw;
+        border: solid 1px white;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+    section.packeges-main .packeges{
+        height: 35vw;
+        margin-top: 5%;
+    }
+    section.packeges-main .packeges .pac-box{
+        width: 23.5%;
+    }
+    section.packeges-main .packeges .pac-box .box h2{
+        font-size: 2vw;
+    }
+    section.packeges-main .packeges .pac-box .box .box-info .box-detail{
+        width: 35%;
+    }
+    section.packeges-main .packeges .pac-box .box .box-info .box-detail h4{
         font-size: 1.8vw;
     }
 
@@ -67,6 +127,42 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         margin: 0;
         box-sizing: border-box;
     }
+    /* toggle hamburger */
+    #check:checked ~ ul {
+        right: 0%;
+        transition: 1s;
+      }     
+      header nav ul{
+      background-color: rgb(24, 24, 24);
+      width: 45%;
+      height: 100vh;
+      }
+        
+    label{
+      display: block;
+      margin-top: -160%;
+
+    }
+          
+       header nav #boxnav{
+        height: 50px;
+        width: 55px;
+        border-bottom-left-radius:10px ;
+        border-bottom-right-radius:10px ;
+        margin-left: 32%;
+        background-color:transparent;
+      }
+      header nav ul {
+        display: block;
+        flex-direction: column;
+        color: white;
+        font-weight: bold;
+        margin-top: 80%;
+        position: absolute;
+        right: -50%;
+        
+      }
+
     /* header */
     header{
         height: 60vw;
@@ -77,10 +173,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     header nav .box h2{
         font-size: 3vw;
     }
- 
-    header nav .box:nth-child(2){
-        display: none;
-    }
+
     header h2{
         font-size: 5vw;
         padding-top: 15vw;
@@ -185,8 +278,95 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         margin-left: 45%;
     }
 
+        /* packeges */
+   section.packeges-main{
+    height: 430vw;
+   }
+   section.packeges-main .packeges{
+    height: 100vw;
+    background: transparent;
+    
+   }
+   section.packeges-main .packeges .pac-box{
+    width: 40%;
+    height: 45vw;
+   }
+   section.packeges-main .packeges .pac-box .box button{
+      width: 45vw;
+      height: 6vw;
+      font-size: 3vw;
+   }
+   section.packeges-main .packeges .pac-box .box h2{
+    margin-top: -3%;
+    font-size: 4vw;
+   }
+   section.packeges-main .packeges .pac-box .box .box-info .box-detail h4{
+    font-size: 3vw;
+   }
+   
+    /* des1 */
+    .containerdes1{
+        height: 50vw;
+    }
 
-}
+    .containerdes1 .box img{
+        margin-left: 20%;
+        margin-top: 30%;
+    }
+    .containerdes1 .box h1{
+        margin-left: 2%;
+    }
+    .containerdes1 .box p{
+        font-size: 3vw;
+    }
+     
+    .containerdes1 .box button{
+        margin-left: 5%;
+        margin-top: 5%;
+        padding: 3vw 0vw;
+    }
+    /* visa  */
+    section.visa-main{
+        height: 220vw;
+    }
+    section.visa-main .visa{
+        height: 70vw;
+        padding: 2vw 0vw;
+    }
+    section.visa-main .visa .box{
+        height: 30vw;
+        width: 40vw;
+        border-radius: 5px;
+    }
+    section.visa-main .visa-2{
+        height:70vw ;
+    }
+    section.visa-main .visa-2 .box-2{
+        height: 30vw;
+        width: 40vw;
+        border-radius: 5px;
+    }
+    section.visa-main .visa-3{
+        height: 70vw;
+    }
+    section.visa-main .visa-3 .box-3{
+        height: 30vw;
+        width: 40vw;
+        border-radius: 5px;
+    }
+    section.visa-main .visa .box a button , section.visa-main .visa-2 .box-2 a button, section.visa-main .visa-3 .box-3 a button{
+        width: 40vw;
+        height: 10vw;
+        font-size: 5vw;
+     }
+     /* visa click page  */
+     .containerdes1{
+        height: 130vw;
+     }
+     .containerdes1 .box{
+        
+     }
+} 
 /* Small screens: 320px to 480px wide (e.g., older smartphones). */
 @media (min-width:319px) and (max-width:375.9px){
     *{
@@ -194,6 +374,45 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         margin: 0;
         box-sizing: border-box;
     }
+    /* hamburger */
+    #check:checked ~ ul {
+        right: 0%;
+        transition: 1s;
+      }     
+      header nav ul{
+      background-color: rgb(24, 24, 24);
+      width: 45%;
+      height: 100vh;
+      }
+        
+    
+    label{
+      display: block;
+      margin-top: -120%;
+
+    }
+          
+       header nav #boxnav{
+        height: 50px;
+        width: 55px;
+        border-bottom-left-radius:10px ;
+        border-bottom-right-radius:10px ;
+        margin-left: 32%;
+        background-color:transparent;
+      }
+      header nav ul {
+        display: block;
+        flex-direction: column;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 140%;
+        position: absolute;
+        right: -50%;
+        
+      }
+
+
     /* header  */
     header nav .box h2{
         font-size: 3.5vw;
@@ -340,6 +559,24 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     font-size: 2.5vw;
     border-radius: 5px;
    }
-   
 
+   /* packeges */
+   section.packeges-main{
+    height: 550vw;
+   }
+   section.packeges-main .packeges{
+    height: 130vw;
+    flex-direction: column;
+   }
+   section.packeges-main .packeges .pac-box{
+    height: 60vw;
+   }
+   section.packeges-main .packeges .pac-box .box button{
+    margin-top: 10%;
+   }
+   
+   /* visa page */
+    
+
+ 
 }

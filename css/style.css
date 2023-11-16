@@ -478,7 +478,8 @@ background-size: 90%;
 
 /* des1 */
 .containerdes1{
-    height: 35vw;
+    height: 70vw;
+    border: solid 1px black;
     margin-top: 3%;
     display: flex;
   }
@@ -534,7 +535,8 @@ background-size: 90%;
     background-image: url(A\ beautiful\ ima\ 0\ \(2\).png);
     background-size: 200%;
     margin-top: 3%;
-    border: solid 1px black;
+    background-attachment: fixed;
+
   }
   section.packeges-main .packeges{
     height: 30vw;
@@ -631,7 +633,10 @@ background-size: 90%;
         font-size: 4vw;
     }
    
-
+/* toggle */
+label, #check {
+    display: none;
+  }
 
 
 
