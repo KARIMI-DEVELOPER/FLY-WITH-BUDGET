@@ -1,7 +1,7 @@
 /* responsive */
 /* Desktops and Laptops:
 /* Laptop screens: 1024px and above.(done) */
-@media (min-width:1023px)  {
+@media (max-width:1024.9px)  {
     *{
         padding: 0;
         margin: 0;
@@ -15,7 +15,30 @@
     header nav .box ul li{
       margin-left: 5%;
     }
-
+    /* packeges */
+    section.packeges-main{
+        height: 170vw;
+        border: solid 1px white;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+    section.packeges-main .packeges{
+        height: 35vw;
+        margin-top: 5%;
+    }
+    section.packeges-main .packeges .pac-box{
+        width: 23.5%;
+    }
+    section.packeges-main .packeges .pac-box .box h2{
+        font-size: 2vw;
+    }
+    section.packeges-main .packeges .pac-box .box .box-info .box-detail{
+        width: 35%;
+    }
+    section.packeges-main .packeges .pac-box .box .box-info .box-detail h4{
+        font-size: 1.8vw;
+    }
 }
 /* Desktop screens: 1280px and above. (done)*/
 /* Larger desktop screens: 1600px and above. (done)*/  
@@ -57,7 +80,7 @@ Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
         border-bottom-left-radius:10px ;
         border-bottom-right-radius:10px ;
         margin-left: 32%;
-        background-color:transparent;
+
       }
       header nav ul {
         display: block;
@@ -380,12 +403,11 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         transition: 1s;
       }     
       header nav ul{
-      background-color: rgb(24, 24, 24);
+      background-color: rgb(38,37,37);
       width: 45%;
       height: 100vh;
       }
-        
-    
+
     label{
       display: block;
       margin-top: -120%;
@@ -403,22 +425,19 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
       header nav ul {
         display: block;
         flex-direction: column;
-        color: white;
-        font-size: 20px;
-        font-weight: bold;
         margin-top: 140%;
         position: absolute;
         right: -50%;
         
       }
-
+    
 
     /* header  */
     header nav .box h2{
         font-size: 3.5vw;
     }
     header{
-        height: 70vw;
+        height: 80vw;
     }
     header h2{
         font-size: 7vw;
@@ -428,6 +447,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
     header button{
         height:10vw;
+        margin-top: -2%;
     }
     /* main  */
     main{
@@ -437,6 +457,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     /* abbout */
     section.aboutmain{
         height: 330vw;
+        overflow: hidden;
         padding: 0vw 0vw;
     }
     section.aboutmain .about{
@@ -500,7 +521,8 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     /* destinations */
     main section.destination-main{
         height: 330vw;
-        background-size: 132%;
+        background-size: 180%;
+        background-position-x: 40%;
     }
     main section.destination-main h1{
         font-size: 7vw;
@@ -562,20 +584,88 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
 
    /* packeges */
    section.packeges-main{
-    height: 550vw;
+    height: 1850vw;
    }
    section.packeges-main .packeges{
-    height: 130vw;
+    height: 450vw;
     flex-direction: column;
+
    }
    section.packeges-main .packeges .pac-box{
-    height: 60vw;
+    height: 90vw;
+    width: 80%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
    }
    section.packeges-main .packeges .pac-box .box button{
-    margin-top: 10%;
+
+    width: 120%;
+    height: 50px;
+    margin-top: 3%;
+    font-size: 5vw;
+   }
+   section.packeges-main .packeges .pac-box .box h2{
+    font-size: 7vw;
+    margin-top: 3%;
+   }
+   section.packeges-main .packeges .pac-box .box .box-info .box-detail h4{
+    font-size: 5vw;
+    margin-left: 10%;
    }
    
-   /* visa page */
+   /* visa page des */
+   .containerdes1{
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 200vw;
+   }
+   .containerdes1 .box{
+    width: 100vw;
+   
+   }
+   .containerdes1 .box:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .containerdes1 .box img{
+    width: 80%;
+    margin-top: 3%;
+    height: 200px;
+    margin-left: 0%;
+   }
+   .containerdes1 .box p{
+    font-size: 4.2vw;
+   }
+
+    footer{
+        margin-top: 3%;
+    }
+
+    /* visa main page */
+    section.visa-main{
+     height: 800vw;
+     background-size: 160%;
+     background-position-x: 40%;
+    }
+    section.visa-main .visa,  section.visa-main .visa-2, section.visa-main .visa-3 {
+        height: 250vw;
+        padding: 3vw 0vw;
+        width: 100vw;
+        flex-direction: column;
+    }
+ 
+   section.visa-main .visa .box, section.visa-main .visa-2 .box-2, section.visa-main .visa-3 .box-3{
+    height: 60vw;
+    width: 80vw;
+   }
+   section.visa-main .visa .box a button , section.visa-main .visa-2 .box-2 a button, section.visa-main .visa-3 .box-3 a button{
+    width: 100vw;
+    margin-left: 0%;
+    height: 60px;
+    margin-top: 56%;
+   }
     
 
  
