@@ -617,21 +617,47 @@ background-size: 90%;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        border: solid 1px black;
+        background-image: url(A\ beautiful\ ima\ 0\ \(2\).png);
+        background-size: 100%;
     }
     section.packegespages-main .packegespages{
-        height: 100%;
+        height: 80%;
         width: 50%;
-        background-color: rgb(38, 37, 37);
-        border: solid 1px black ;
+        background-color: rgba(38, 37, 37, 0.495);
     }
-    section.packegespages-main .packegespages h1{
-        margin-left: 25%;
-        margin-top: 3%;
-        color: white;
-        font-family: "Poppins", sans-serif;
-        font-size: 4vw;
+    section.packegespages-main .packegespages:first-child{
+        padding: 3vw 10vw;
     }
+ section.packegespages-main .packegespages:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ section.packegespages-main .packegespages h2{
+    font-weight: 700;
+    font-size: 4vw;
+    color:rgb(255, 251, 251);
+    font-family: "Poppins", sans-serif;
+ }
+ section.packegespages-main .packegespages h5{
+    font-family: "Poppins", sans-serif;
+    margin-top: 5%;
+    font-weight: 400;
+    font-size: 2vw;
+    color: white;
+ }
+ section.packegespages-main .packegespages button{
+    padding: 1vw 3vw;
+    font-size: 2vw;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10%;
+ }
+ section.packegespages-main .packegespages button:hover{
+    background-color: rgb(23, 22, 22);
+    color: white;
+ }
    
 /* toggle */
 label, #check {
