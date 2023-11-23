@@ -441,6 +441,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
     header h2{
         font-size: 7vw;
+        margin-left: 2%;
     }
     header p{
         font-size: 4vw;

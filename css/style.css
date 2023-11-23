@@ -5,10 +5,12 @@
 }
 header{
     height: 40vw;
-    background-image: url(create\ a\ mount\ 1.webp);
+    background-image: url(travel\ agency\ fly\ with\ budget\ header\ carosoul\ best\ travel\ agency.webp);
     object-fit: cover;
     background-attachment: fixed;
     background-size: 100%;
+    background-position-y: 30%;
+    background-position-x: 80%;
     position: relative;
 }
 header nav{
@@ -32,13 +34,13 @@ header nav .box{
 header nav .box h2{
     font-size: 25px;
     font-family: "Poppins", sans-serif;
-    color: rgb(69, 174, 203);
+    color: rgb(1, 156, 205);
     cursor: pointer;
     padding:0 0 ;
     margin-left: 3%;
 }
 header nav .box span{
-    color: green;
+    color: rgb(128, 163, 1);
 }
 
 header nav .box ul{
@@ -54,43 +56,49 @@ header nav .box ul li{
 header nav .box ul li a{
       text-decoration: none;
       font-size: 18px;
-      color: white;
+      color:rgb(255, 170, 1);
       word-spacing: 5px;
       font-family: "Poppins", sans-serif;
 }
 header nav .box ul li a:hover{
   cursor: pointer;
-  color: rgb(104, 82, 82);
+  color: rgb(96, 67, 8);
  
 }
 header h2{
     font-size: 3vw;
-    color:white;
+    color: rgb(1, 156, 205);
     word-spacing: 5px;
     padding-top: 9vw;
     padding-left: 15vw;
     font-family: "Poppins", sans-serif;
 }
+header h2 span{
+    color:rgb(128, 163, 1) ;
+}
 header p {
     font-size: 2vw;
-    color:white;
+    color:  rgb(1, 156, 205);
     font-weight: 500;
-    width: 70%;
+    width: 60%;
+    font-weight: 500;
     padding: 2vw 10vw;
     font-family: "Poppins", sans-serif;
 }
 header button{
-    padding: 1.5vw 2vw;
+    padding: 1.5vw 5vw;
     border-radius: 10px;
     border: none;
-    margin-left: 15vw;
+    margin-left: 20vw;
     margin-top: 1vw;
-    color:rgb(24, 24, 24);
+    font-size: 20px;
+    color: #fff;
+    background-color:rgb(212, 154, 38);
 }
 header button:hover{
     cursor: pointer;
     color: white;
-    background-color:rgb(24, 24, 24) ;
+    background-color:rgb(255, 170, 1);
 }
 /* header end */
 /* main start */
