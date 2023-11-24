@@ -554,7 +554,7 @@ background-size: 90%;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-   background-color: rgb(38, 37, 37);
+   background-color: rgba(38, 37, 37, 0.527);
   }
   section.packeges-main .packeges .pac-box{
     height: 90%;
