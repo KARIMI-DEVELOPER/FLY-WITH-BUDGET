@@ -12,6 +12,7 @@ header{
     background-position-y: 30%;
     background-position-x: 80%;
     position: relative;
+    padding: 0vw 0vw;
 }
 header nav{
     height: 5vw;
@@ -279,6 +280,7 @@ main section.service-main .service .box:nth-child(2){
 }
 main section.service-main .service .box:nth-child(3){
     background-image: url(create-an-image-0.webp);
+    background-position-x: 40%;
 }
    
 main section.service-main .service .box h1{
@@ -593,9 +595,12 @@ background-size: 90%;
   }
   section.packeges-main .packeges .pac-box .box:first-child{
     height: 60%;
-    background-image: url(create\ a\ backgr\ 1.webp);
-    background-size: 100%;
+
   }
+  section.packeges-main .packeges .pac-box .box:nth-child(2){
+    background-color: rgb(201, 195, 195);
+  }
+
 
   section.packeges-main .packeges .pac-box .box .box-info{
     height: 30px;
