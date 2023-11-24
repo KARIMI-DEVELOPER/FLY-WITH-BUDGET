@@ -407,6 +407,8 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
       width: 45%;
       height: 100vh;
       }
+ 
+       
 
     label{
       display: block;
@@ -425,7 +427,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
       header nav ul {
         display: block;
         flex-direction: column;
-        margin-top: 140%;
+        margin-top: 150%;
         position: absolute;
         right: -50%;
         
@@ -670,4 +672,14 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     
 
  
+}
+@media screen and (max-width:320px) {
+    header nav ul {
+        display: block;
+        flex-direction: column;
+        margin-top: 140%;
+        position: absolute;
+        right: -50%;
+        
+      }
 }
