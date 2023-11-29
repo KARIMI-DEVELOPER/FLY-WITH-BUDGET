@@ -131,6 +131,24 @@ Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
     section.packeges-main .packeges .pac-box .box .box-info .box-detail h4{
         font-size: 1.8vw;
     }
+    /* packege back  */
+    section.packegespages-main{
+        height: 60vw;
+    }
+    section.packegespages-main .packegespages img{
+        height: 80%;
+        width: 80%;
+    }
+    section.packegespages-main .packegespages h2{
+        font-size: 5vw;
+    }
+    section.packegespages-main .packegespages h5{
+        font-size: 3vw;
+    }
+    section.packegespages-main .packegespages button{
+        padding: 2vw 8vw;
+    }
+
 
 }
 
@@ -670,8 +688,40 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     margin-top: 56%;
    }
     
-
+     /* packeges pages back */
+     section.packegespages-main{
+        height: 100vh;
+        flex-direction: column-reverse;
+        background-size: cover;
+     }
+     section.packegespages-main .packegespages{
+        height: 50%;
+        width: 100%;
+     }
+     section.packegespages-main .packegespages:first-child{
+        padding: 2vw 20vw;
+        
+     }
+     section.packegespages-main .packegespages h2{
+       font-size: 8vw;
+     }
+     section.packegespages-main .packegespages h5{
+        font-size: 5vw;
+     }
+     section.packegespages-main .packegespages button{
+    
+        font-size: 5vw;
+     }
  
+}
+@media screen and (max-width:360.99px) {
+      section.packegespages-main .packegespages button{
+        margin-top: 3%;
+      }
+      /* header */
+      header nav ul {
+        margin-top: 125%;
+      }
 }
 @media screen and (max-width:320px) {
     header nav ul {
