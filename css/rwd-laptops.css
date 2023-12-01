@@ -198,7 +198,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         flex-direction: column;
         color: white;
         font-weight: bold;
-        margin-top: 80%;
+        margin-top: 120%;
         position: absolute;
         right: -50%;
         
@@ -210,6 +210,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
     header nav{
         height: 10vw;
+      
     }
     header nav .box h2{
         font-size: 3vw;
@@ -325,7 +326,6 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
    }
    section.packeges-main .packeges{
     height: 100vw;
-    background: transparent;
     
    }
    section.packeges-main .packeges .pac-box{
@@ -339,10 +339,12 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
    }
    section.packeges-main .packeges .pac-box .box h2{
     margin-top: -3%;
-    font-size: 4vw;
+    margin-left: 3%;
+    font-size: 3.5vw;
+    font-weight: 550;
    }
    section.packeges-main .packeges .pac-box .box .box-info .box-detail h4{
-    font-size: 3vw;
+    font-size: 2.5vw;
    }
    
     /* des1 */
@@ -409,7 +411,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
      }
 } 
 /* Small screens: 320px to 480px wide (e.g., older smartphones). */
-@media (min-width:319px) and (max-width:375.9px){
+@media (min-width:319px) and (max-width:420.9px){
     *{
         padding: 0;
         margin: 0;
@@ -458,6 +460,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
     header{
         height: 80vw;
+        background-size: cover;
     }
     header h2{
         font-size: 7vw;
@@ -480,6 +483,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         height: 330vw;
         overflow: hidden;
         padding: 0vw 0vw;
+        background-size: cover;
     }
     section.aboutmain .about{
         height: 150vw;
@@ -541,7 +545,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
     /* destinations */
     main section.destination-main{
-        height: 330vw;
+        height: 400vw;
         background-size: 180%;
         background-position-x: 40%;
     }
@@ -583,20 +587,23 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
    }
    main section.service-main .service .box{
     height: 30%;
-    width: 60%;
+    width: 70%;
     background-size: 230%;
     padding: 5vw 10vw;
    }
    main section.service-main .service .box h1{
     font-size: 8vw;
+    
    }
    main section.service-main .service .box p{
-    font-size: 3vw;
+    font-size: 3.5vw;
+    margin-top: 1vw;
+    font-weight: 500;
    }
    main section.service-main .service .box button{
     height: 10vw;
-    width: 20vw;
-    margin-left: 20%;
+    width: 30vw;
+    margin-left: 10%;
     margin-top: 10%;
     padding: 1vw 0vw    ;
     font-size: 2.5vw;

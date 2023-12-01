@@ -6,9 +6,8 @@
 header{
     height: 40vw;
     background-image: url(travel\ agency\ fly\ with\ budget\ header\ carosoul\ best\ travel\ agency.webp);
-    object-fit: cover;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
     background-position-y: 30%;
     background-position-x: 80%;
     position: relative;
@@ -80,7 +79,7 @@ header p {
     color: rgb(38, 37, 37);
     font-weight: 500;
     width: 60%;
-    font-weight: 500;
+    font-weight: 550;
     padding: 2vw 10vw;
     font-family: "Poppins", sans-serif;
 }
@@ -121,14 +120,14 @@ section.aboutmain{
 }
 section.aboutmain .about-2{
     height: 30vw;
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(24, 24, 24, 0.756);
     display: flex;
     justify-content: center;
     padding: 0vw 5vw;
 }
 section.aboutmain .about{
     height: 30vw;
-    background-color: rgb(24, 24, 24);
+    background-color: rgba(24, 24, 24, 0.756);
     display: flex;
     justify-content: center;
     padding: 0vw 5vw;
@@ -258,7 +257,7 @@ main section.service-main h3{
 }
 main section.service-main .service{
     height: 35vw;
-    background-color: rgb(24, 24, 24);
+    background-color: rgba(24, 24, 24, 0.758);
     margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
@@ -554,7 +553,7 @@ background-size: 90%;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-   background-color: rgba(38, 37, 37, 0.527);
+   background-color: rgba(38, 37, 37, 0.767);
   }
   section.packeges-main .packeges .pac-box{
     height: 90%;
