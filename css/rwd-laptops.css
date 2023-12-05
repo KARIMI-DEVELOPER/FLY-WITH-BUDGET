@@ -402,6 +402,19 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         height: 10vw;
         font-size: 5vw;
      }
+     section.packegespages-main{
+        height: 100vh;
+        background-size: cover;
+     }
+     section.packegespages-main .packegespages h5{
+        font-size: 5vw;
+     }
+     section.packegespages-main .packegespages ul{
+        font-size: 3.5vw;
+    }
+    section.packegespages-main .packegespages p{
+        font-size: 3vw;
+    }
      /* visa click page  */
      .containerdes1{
         height: 130vw;
@@ -698,19 +711,11 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
      /* packeges pages back */
      section.packegespages-main{
         height: 100vh;
-        flex-direction: column-reverse;
         background-size: cover;
      }
-     section.packegespages-main .packegespages{
-        height: 50%;
-        width: 100%;
-     }
-     section.packegespages-main .packegespages:first-child{
-        padding: 2vw 20vw;
-        
-     }
+    
      section.packegespages-main .packegespages h2{
-       font-size: 8vw;
+       font-size: 6vw;
      }
      section.packegespages-main .packegespages h5{
         font-size: 5vw;
