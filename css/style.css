@@ -623,7 +623,7 @@ background-size: 90%;
     
     /* packeges page back */
     section.packegespages-main{
-        height: 45vw;
+        height: 200vh;
         margin-top: 3%;
         display: flex;
         flex-wrap: wrap;
@@ -633,17 +633,20 @@ background-size: 90%;
     }
     section.packegespages-main .packegespages{
         height: 80%;
-        width: 50%;
+        width: 100vw;
         background-color: rgba(38, 37, 37, 0.495);
-    }
-    section.packegespages-main .packegespages:first-child{
+        overflow: scroll;
         padding: 3vw 10vw;
     }
- section.packegespages-main .packegespages:nth-child(2){
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+    section.packegespages-main .packegespages::-webkit-scrollbar{
+        display: none;
+    }
+    section.packegespages-main .packegespages ul{
+        font-size: 1.8vw;
+        color: white;
+        font-family:"Poppins", sans-serif ;
+    }
+  
 
  section.packegespages-main .packegespages h2{
     font-weight: 700;
