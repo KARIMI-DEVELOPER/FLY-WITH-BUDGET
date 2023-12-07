@@ -69,7 +69,9 @@ Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
       width: 45%;
       height: 100vh;
       }
-        
+        header nav {
+            height: 8vw;
+        }
     
     label{
       display: block;
@@ -83,6 +85,7 @@ Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
         border-bottom-left-radius:10px ;
         border-bottom-right-radius:10px ;
         margin-left: 32%;
+        
 
       }
       header nav ul {
@@ -90,7 +93,6 @@ Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
         flex-direction: column;
         color: white;
         font-weight: bold;
-        margin-top: 60%;
         position: absolute;
         right: -50%;
         
