@@ -39,6 +39,9 @@
     section.packeges-main .packeges .pac-box .box .box-info .box-detail h4{
         font-size: 1.8vw;
     }
+    section.packegespages-main .packegespages .box-days .top-box .icon{
+        width: 5vw;
+     }
 }
 /* Desktop screens: 1280px and above. (done)*/
 /* Larger desktop screens: 1600px and above. (done)*/  
@@ -148,6 +151,50 @@ Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
     section.packegespages-main .packegespages button{
         padding: 2vw 8vw;
     }
+     /* packeges abck page */
+   section.packegespages-main{
+    height: 100vh;
+    background-size: cover;
+ }
+
+ section.packegespages-main .packegespages h2{
+   font-size: 5vw;
+ }
+ section.packegespages-main .packegespages p{
+    font-size: 3vw;
+ }
+ section.packegespages-main .packegespages h5{
+    font-size: 4vw;
+ }
+ section.packegespages-main .packegespages button{
+    font-size: 3.5vw;
+ }
+   
+   section.packegespages-main .packegespages .box-days {
+    width: 100%;
+    margin-left: 0vw;
+ }
+ section.packegespages-main .packegespages .box-days .top-box{
+    width: 100%;
+    margin-left: 0%;
+    
+ }
+ section.packegespages-main .packegespages .box-days .top-box .day{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+ section.packegespages-main .packegespages .box-days .top-box .icon{
+    width: 5vw;
+ }
+ section.packegespages-main .packegespages ul{
+    margin-left: 5vw;
+ }
+ section.packegespages-main .packegespages .box-days .top-box h6{
+    font-size: 3vw;
+ }
 
 
 }
@@ -198,7 +245,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         flex-direction: column;
         color: white;
         font-weight: bold;
-        margin-top: 120%;
+        margin-top: 93%;
         position: absolute;
         right: -50%;
         
@@ -346,7 +393,48 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
    section.packeges-main .packeges .pac-box .box .box-info .box-detail h4{
     font-size: 2.5vw;
    }
+   /* packeges abck page */
+   section.packegespages-main{
+    height: 100vh;
+    background-size: cover;
+ }
+
+ section.packegespages-main .packegespages h2{
+   font-size: 6vw;
+ }
+ section.packegespages-main .packegespages h5{
+    font-size: 5vw;
+ }
+ section.packegespages-main .packegespages button{
+
+    font-size: 5vw;
+ }
    
+   section.packegespages-main .packegespages .box-days {
+    width: 100%;
+    margin-left: 0vw;
+ }
+ section.packegespages-main .packegespages .box-days .top-box{
+    width: 100%;
+    margin-left: 0%;
+    
+ }
+ section.packegespages-main .packegespages .box-days .top-box .day{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+ section.packegespages-main .packegespages .box-days .top-box .icon{
+    width: 10vw;
+ }
+ section.packegespages-main .packegespages ul{
+    margin-left: 5vw;
+ }
+ section.packegespages-main .packegespages .box-days .top-box h6{
+    font-size: 3vw;
+ }
     /* des1 */
     .containerdes1{
         height: 50vw;
