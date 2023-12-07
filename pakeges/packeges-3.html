@@ -8,6 +8,9 @@
     <title>FLY WITH BUDGET</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/rwd-laptops.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -50,116 +53,472 @@
         <div class="packegespages">
             <h2>Skardu-Shigar-Hunza </h2>
             <h5>Travel Itinary </h5>
-            <h5>Day 1</h5>
-            <ul>
-                <li>Pickup and departure from Islamabad</li>
-                <li>Stop at Balakot/Mansehra</li>
-                <li>Check-in at hotel in Naran</li>
-                <li>Shopping/Free time in Naran</li>
-                <li>Evening walk around Naran (Optional)</li>
-                <li>Night Stay in Naran/Kaghan (Standard Hotel)
-                </li>
-            </ul>
-            <h5>Day 2</h5>
-            <ul>
-                <li>Departure for Skardu (early morning)</li>
-                <li>Early morning drive towards Babusar Pass (4,170m/ 13, 690 ft)</li>
-                <li>Stop at Lulusar Lake</li>
-                <li> Photograph, enjoy and witness the surreal beauty on one of the highest passes (Babusar Pass) in the
-                    world</li>
-                <li>Pass through Diamer district and enter Skardu road along Indus river</li>
-                <li> Night stay in Skardu (Shangrila Resort Hotel)
-                </li>
-            </ul>
-            <h5>Day 3</h5>
-            <ul>
-                <li>Visit Upper Kachura lake (7 30am)</li>
-                <li> Departure for Deosai Plateau</li>
-                <li> Stop at Sadara lake/Dam</li>
-                <li> Picnic lunch at Deosai National Park</li>
-                <li> Visit Skardu Bazaar</li>
-                <li> Visit and hike to Kharpocho fort (40min hike – optional)</li>
-                <li> Night stay in Skardu (Shangrila Resort Hotel)
-                </li>
-            </ul>
-            <h5>Day 4</h5>
-            <ul>
-                <li>Drive to Ghanche district</li>
+               <!--  day 1   -->
+               <div class="box-days" id="day-1">
+                <div class="top-box">
+                    <div class="day">
+                        <h5>Day 1:</h5>
+                    </div>
+                    <h6> From Islamabad </h6>
+                    <div class="icon" id="btn-1">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;"
+                            id="icon"></i>
+                    </div>
+                </div>
+                <ul id="list-1">
+                    <li>Pickup and departure from Islamabad</li>
+                    <li>Stop at Balakot/Mansehra</li>
+                    <li>Check-in at hotel in Naran</li>
+                    <li>Shopping/Free time in Naran</li>
+                    <li>Evening walk around Naran (Optional)</li>
+                    <li>Night Stay in Naran/Kaghan (Standard Hotel)
+                    </li>
+                </ul>
+            </div>
+            <!-- java 1st pack ka -->
+            <script>
+                var DayOne = document.querySelector('#day-1');
+                var BtnOne = document.querySelector('#btn-1');
+                var ListOne = document.querySelector('#list-1');
+                var IconOne = document.querySelector('#icon');
+                var isOpen = false;
+
+                BtnOne.addEventListener("click", function () {
+                    if (!isOpen) {
+                        DayOne.style.height = "50vh";
+                        DayOne.style.overflow = "scroll";
+                        IconOne.style.transform = "rotate(45deg)";
+                        ListOne.style.display = "block";
+                    } else {
+                        DayOne.style.height = "10vh";
+                        DayOne.style.overflow = "block";
+                        IconOne.style.transform = "rotate(90deg)";
+                        ListOne.style.display = "none";
+                    }
+                    isOpen = !isOpen;
+                });
+            </script>
+             <!-- day 2    -->
+             <div class="box-days" id="day-2">
+                <div class="top-box">
+                    <div class="day">
+                        <h5>Day 2:</h5>
+                    </div>
+                    <h6>From Skardu</h6>
+                    <div class="icon" id="btn-2">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;"
+                            id="icon-2"></i>
+                    </div>
+                </div>
+                <ul id="list-2">
+                    <li>Departure for Skardu (early morning)</li>
+                    <li>Early morning drive towards Babusar Pass (4,170m/ 13, 690 ft)</li>
+                    <li>Stop at Lulusar Lake</li>
+                    <li> Photograph, enjoy and witness the surreal beauty on one of the highest passes (Babusar Pass) in the
+                        world</li>
+                    <li>Pass through Diamer district and enter Skardu road along Indus river</li>
+                    <li> Night stay in Skardu (Shangrila Resort Hotel)
+                    </li>
+                </ul>
+            </div>
+            <!-- java day 2 ka -->
+            <script>
+                var DayTwo = document.querySelector('#day-2');
+                var BtnTwo = document.querySelector('#btn-2');
+                var ListTwo = document.querySelector('#list-2');
+                var IconTwo = document.querySelector('#icon-2');
+                var isOpen = false;
+                
+                    BtnTwo.addEventListener("click", function () {
+                        if (!isOpen) {
+                            DayTwo.style.height = "50vh";
+                            DayTwo.style.overflow = "scroll";
+                            IconTwo.style.transform = "rotate(45deg)";
+                            ListTwo.style.display = "block";
+                        } else {
+                            DayTwo.style.height = "10vh";
+                            DayTwo.style.overflow = "block";
+                            IconTwo.style.transform = "rotate(90deg)";
+                            ListTwo.style.display = "none";
+                        }
+                        isOpen = !isOpen;
+                    })
+                
+            </script>
+             <!-- day 3 -->
+             <div class="box-days" id="day-3">
+                <div class="top-box">
+                    <div class="day">
+                        <h5>Day 3:</h5>
+                    </div>
+                    <h6>Upper Kachura</h6>
+                    <div class="icon" id="btn-3">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;" id="icon-3"></i>
+                    </div>
+                </div>
+                <ul id="list-3">
+                    <li>Visit Upper Kachura lake (7 30am)</li>
+                    <li> Departure for Deosai Plateau</li>
+                    <li> Stop at Sadara lake/Dam</li>
+                    <li> Picnic lunch at Deosai National Park</li>
+                    <li> Visit Skardu Bazaar</li>
+                    <li> Visit and hike to Kharpocho fort (40min hike – optional)</li>
+                    <li> Night stay in Skardu (Shangrila Resort Hotel)
+                    </li>
+                </ul>
+            </div>
+            <!-- java day 3 ka -->
+            <script>
+                var DayThree = document.querySelector('#day-3');
+                var BtnThree = document.querySelector('#btn-3');
+                var ListThree = document.querySelector('#list-3');
+                var IconThree = document.querySelector('#icon-3');
+                var isOpen = false;
+                
+                    BtnThree.addEventListener("click", function () {
+                        if (!isOpen) {
+                            DayThree.style.height = "50vh";
+                            DayThree.style.overflow = "scroll";
+                            IconThree.style.transform = "rotate(45deg)";
+                            ListThree.style.display = "block";
+                        } else {
+                            DayThree.style.height = "10vh";
+                            DayThree.style.overflow = "block";
+                            IconThree.style.transform = "rotate(90deg)";
+                            ListThree.style.display = "none";
+                        }
+                        isOpen = !isOpen;
+                    })
+                
+            </script>
+              <!-- day 4 -->
+              <div class="box-days" id="day-4">
+                <div class="top-box">
+                    <div class="day 4:">
+                        <h5>Day 4:</h5>
+                    </div>
+                    <h6>Khunjerab Pass (Pak-China Border)</h6>
+                    <div class="icon" id="btn-4">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;" id="icon-4"></i>
+                    </div>
+                </div>
+                <ul id="list-4">
+                    <li>Drive to Ghanche district</li>
                 <li>Visit Sailing village and walk to fish farm</li>
                 <li>Drive to Khaplu</li>
                 <li>Visit Chaqchan</li>
                 <li>Visit of khaplu Fort</li>
                 <li>Drive to Shigar Fort (if time permits and if participants not tired)</li>
                 <li>Night stay in Skardu (Shangrila Resort Hotel)</li>
-            </ul>
-
-            <h5>Day 5</h5>
-            <ul>
-                <li>Drive to Karimabad, Hunza Valley</li>
-                <li>Pass through Alam bridge</li>
-                <li>Pass through Danyor</li>
-                <li>Visit Rakaposhi View point</li>
-                <li>Check in and rest at hotel</li>
-                <li>Evening walk (optional)</li>
-                <li>Night stay in Karimabad (Baltit Inn – Serena Hotels)</li>
-            </ul>
-            <h5>Day 6</h5>
-            <ul>
-                <li>Visit to and presentation inside Baltit Fort (more than 900 years old) in Karimabad</li>
-                <li>Trip to and presentation inside Altit Fort (more than 700 years old)</li>
-                <li>Tour of Altit village and gardens</li>
-                <li>Drive to highest view point (Duikar) in Hunza-Nagar (witness sunset on white peaks)</li>
-                <li>Visit to Eagle’s nest</li>
-                <li>Night stay in Karimabad (Baltit Inn – Serena Hotels)</li>
-
-            </ul>
-
-            <h5>Day 7</h5>
-            <ul>
-                <li> Departure for Pak-China Border (Khunjerab Pass – highest road border in the world)</li>
-                <li> Passage through Ganish bridge & ancient rock carvings</li>
-                <li> Stop at well known Attabad lake</li>
-                <li> Travel through newly constructed Pak-China friendship tunnels
-                    Passage through Hussany glacier, view of Passu Catheral/Cones(above 6000) and Shispar peak</li>
-                <li> Pass through Passu peak and Batura (world’s 4th largest glacier) view points</li>
-                <li> Cross through Wildlife Conservation Area in Khyber</li>
-                <li> Enter Khunjerab National Park in Deh</li>
-                <li> View wildlife habitats for ibex, snow leopards etc</li>
-                <li> Spot marmots</li>
-                <li> Reach Pak-China border and get stunned by the natural environment and witness snow in summers on a
-                    lucky day</li>
-                <li> Meet Chinese people (soldiers/border police/Chinese tourists from the other side)</li>
-                <li> Eat packed/picnic lunch on Pak-China Border (4733m)</li>
-                <li> Shopping time on return in Sost (Immigration/Customs point) for Chinese goods (electronics, watches
-                    etc)</li>
-                <li> Night stay in Karimabad (Baltit Inn – Serena Hotels)</li>
-            </ul>
-
-            <h5>Day 8</h5>
-            <ul>
-                <li>Visit Nagar district</li>
-                <li>Drive to Hoper glacier view point</li>
-                <li>Free relaxation time or shopping time around Karimabad</li>
-                <li>Visit to Hunza De Café – famous for walnut cake (optional)</li>
-                <li>Night stay in Karimabad (Baltit Inn – Serena Hotels)</li>
-
-            </ul>
-            <h5>Day 9</h5>
-            <ul>
-                <li>Morning drive to Naran</li>
-                <li>Stop at Rakaposhi view point</li>
-                <li>View of ancient Silk Route</li>
-                <li>Departure for Naran/Kaghan</li>
-                <li>Shopping/Free time in Naran</li>
-                <li>Night Stay in Naran/Kaghan</li>
-
-            </ul>
-            <h5>Day 10</h5>
-            <ul>
-                <li>Departure for Islamabad</li>
-                <li>Arrival and drop in Islamabad</li>
-
-            </ul>
+                </ul>
+            </div>
+             <!-- java day 4 ka -->
+             <script>
+                var DayFour = document.querySelector('#day-4');
+                var BtnFour = document.querySelector('#btn-4');
+                var ListFour = document.querySelector('#list-4');
+                var IconFour = document.querySelector('#icon-4');
+                var isOpen = false;
+                
+                    BtnFour.addEventListener("click", function () {
+                        if (!isOpen) {
+                            DayFour.style.height = "50vh";
+                            DayFour.style.overflow = "scroll";
+                            IconFour.style.transform = "rotate(45deg)";
+                            ListFour.style.display = "block";
+                        } else {
+                            DayFour.style.height = "10vh";
+                            DayFour.style.overflow = "block";
+                            IconFour.style.transform = "rotate(90deg)";
+                            ListFour.style.display = "none";
+                        }
+                        isOpen = !isOpen;
+                    })
+                
+            </script>
+             <!-- day 5 -->
+             <div class="box-days" id="day-5">
+                <div class="top-box">
+                    <div class="day">
+                        <h5>Day 5:</h5>
+                    </div>
+                    <h6> Karimabad - Hunza</h6>
+                    <div class="icon" id="btn-5">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;" id="icon-5"></i>
+                    </div>
+                </div>
+                <ul id="list-5">
+                    <li>Drive to Karimabad, Hunza Valley</li>
+                    <li>Pass through Alam bridge</li>
+                    <li>Pass through Danyor</li>
+                    <li>Visit Rakaposhi View point</li>
+                    <li>Check in and rest at hotel</li>
+                    <li>Evening walk (optional)</li>
+                    <li>Night stay in Karimabad (Baltit Inn – Serena Hotels)</li>
+                </ul>
+            </div>
+               <!-- java day 5 ka -->
+               <script>
+                var DayFive = document.querySelector('#day-5');
+                var BtnFive = document.querySelector('#btn-5');
+                var ListFive = document.querySelector('#list-5');
+                var IconFive = document.querySelector('#icon-5');
+                var isOpen = false;
+                
+                    BtnFive.addEventListener("click", function () {
+                        if (!isOpen) {
+                            DayFive.style.height = "50vh";
+                            DayFive.style.overflow = "scroll";
+                            IconFive.style.transform = "rotate(45deg)";
+                            ListFive.style.display = "block";
+                        } else {
+                            DayFive.style.height = "10vh";
+                            DayFive.style.overflow = "block";
+                            IconFive.style.transform = "rotate(90deg)";
+                            ListFive.style.display = "none";
+                        }
+                        isOpen = !isOpen;
+                    })
+                
+            </script>
+             <!-- day 6 -->
+             <div class="box-days" id="day-6">
+                <div class="top-box">
+                    <div class="day">
+                        <h5>Day 6:</h5>
+                    </div>
+                    <h6>Baltit - Fort</h6>
+                    <div class="icon" id="btn-6">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;" id="icon-6"></i>
+                    </div>
+                </div>
+                <ul id="list-6">
+                    <li>Visit to and presentation inside Baltit Fort (more than 900 years old) in Karimabad</li>
+                    <li>Trip to and presentation inside Altit Fort (more than 700 years old)</li>
+                    <li>Tour of Altit village and gardens</li>
+                    <li>Drive to highest view point (Duikar) in Hunza-Nagar (witness sunset on white peaks)</li>
+                    <li>Visit to Eagle’s nest</li>
+                    <li>Night stay in Karimabad (Baltit Inn – Serena Hotels)</li>
+                </ul>
+            </div>
+              <!-- java day 6 ka -->
+              <script>
+                var DaySix = document.querySelector('#day-6');
+                var BtnSix = document.querySelector('#btn-6');
+                var ListSix = document.querySelector('#list-6');
+                var IconSix = document.querySelector('#icon-6');
+                var isOpen = false;
+                
+                    BtnSix.addEventListener("click", function () {
+                        if (!isOpen) {
+                            DaySix.style.height = "50vh";
+                            DaySix.style.overflow = "scroll";
+                            IconSix.style.transform = "rotate(45deg)";
+                            ListSix.style.display = "block";
+                        } else {
+                            DaySix.style.height = "10vh";
+                            DaySix.style.overflow = "hidden";
+                            IconSix.style.transform = "rotate(90deg)";
+                            ListSix.style.display = "none";
+                        }
+                        isOpen = !isOpen;
+                    })
+                
+            </script>
+             <!-- day 7 -->
+             <div class="box-days" id="day-7">
+                <div class="top-box">
+                    <div class="day">
+                        <h5>Day 7:</h5>
+                    </div>
+                    <h6>Pak-Chine Border</h6>
+                    <div class="icon" id="btn-7">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;" id="icon-7"></i>
+                    </div>
+                </div>
+                <ul id="list-7">
+                    <li> Departure for Pak-China Border (Khunjerab Pass – highest road border in the world)</li>
+                    <li> Passage through Ganish bridge & ancient rock carvings</li>
+                    <li> Stop at well known Attabad lake</li>
+                    <li> Travel through newly constructed Pak-China friendship tunnels
+                        Passage through Hussany glacier, view of Passu Catheral/Cones(above 6000) and Shispar peak</li>
+                    <li> Pass through Passu peak and Batura (world’s 4th largest glacier) view points</li>
+                    <li> Cross through Wildlife Conservation Area in Khyber</li>
+                    <li> Enter Khunjerab National Park in Deh</li>
+                    <li> View wildlife habitats for ibex, snow leopards etc</li>
+                    <li> Spot marmots</li>
+                    <li> Reach Pak-China border and get stunned by the natural environment and witness snow in summers on a
+                        lucky day</li>
+                    <li> Meet Chinese people (soldiers/border police/Chinese tourists from the other side)</li>
+                    <li> Eat packed/picnic lunch on Pak-China Border (4733m)</li>
+                    <li> Shopping time on return in Sost (Immigration/Customs point) for Chinese goods (electronics, watches
+                        etc)</li>
+                    <li> Night stay in Karimabad (Baltit Inn – Serena Hotels)</li>
+                </ul>
+            </div>
+               <!-- java day 7 ka -->
+               <script>
+                var DaySeven = document.querySelector('#day-7');
+                var BtnSeven = document.querySelector('#btn-7');
+                var ListSeven = document.querySelector('#list-7');
+                var IconSeven = document.querySelector('#icon-7');
+                var isOpen = false;
+                
+                    BtnSeven.addEventListener("click", function () {
+                        if (!isOpen) {
+                            DaySeven.style.height = "50vh";
+                            DaySeven.style.overflow = "scroll";
+                            IconSeven.style.transform = "rotate(45deg)";
+                            ListSeven.style.display = "block";
+                        } else {
+                            DaySeven.style.height = "10vh";
+                            DaySeven.style.overflow = "block";
+                            IconSeven.style.transform = "rotate(90deg)";
+                            ListSeven.style.display = "none";
+                        }
+                        isOpen = !isOpen;
+                    })
+                
+            </script>
+             
+               <!-- day 8 -->
+               <div class="box-days" id="day-8">
+                <div class="top-box">
+                    <div class="day">
+                        <h5>Day 8:</h5>
+                    </div>
+                    <h6>Nagar-District</h6>
+                    <div class="icon" id="btn-8">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;" id="icon-8"></i>
+                    </div>
+                </div>
+                <ul id="list-8">
+                    <li>Visit Nagar district</li>
+                    <li>Drive to Hoper glacier view point</li>
+                    <li>Free relaxation time or shopping time around Karimabad</li>
+                    <li>Visit to Hunza De Café – famous for walnut cake (optional)</li>
+                    <li>Night stay in Karimabad (Baltit Inn – Serena Hotels)</li>
+                </ul>
+            </div>
+              <!-- java day 8 ka -->
+              <script>
+                var DayEight = document.querySelector('#day-8');
+                var BtnEight = document.querySelector('#btn-8');
+                var ListEight = document.querySelector('#list-8');
+                var IconEight = document.querySelector('#icon-8');
+                var isOpen = false;
+                
+                    BtnEight.addEventListener("click", function () {
+                        if (!isOpen) {
+                            DayEight.style.height = "50vh";
+                            DayEight.style.overflow = "scroll";
+                            IconEight.style.transform = "rotate(45deg)";
+                            ListEight.style.display = "block";
+                        } else {
+                            DayEight.style.height = "10vh";
+                            DayEight.style.overflow = "hidden";
+                            IconEight.style.transform = "rotate(90deg)";
+                            ListEight.style.display = "none";
+                        }
+                        isOpen = !isOpen;
+                    })
+                
+            </script>
+            <!-- day 9 -->
+               <div class="box-days" id="day-9">
+                <div class="top-box">
+                    <div class="day">
+                        <h5>Day 9:</h5>
+                    </div>
+                    <h6>MOrinig at Naran</h6>
+                    <div class="icon" id="btn-9">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;" id="icon-9"></i>
+                    </div>
+                </div>
+                <ul id="list-9">
+                    <li>Morning drive to Naran</li>
+                    <li>Stop at Rakaposhi view point</li>
+                    <li>View of ancient Silk Route</li>
+                    <li>Departure for Naran/Kaghan</li>
+                    <li>Shopping/Free time in Naran</li>
+                    <li>Night Stay in Naran/Kaghan</li>
+                </ul>
+            </div>
+              <!-- java day 9 ka -->
+              <script>
+                var DayNine = document.querySelector('#day-9');
+                var BtnNine = document.querySelector('#btn-9');
+                var ListNine = document.querySelector('#list-9');
+                var IconNine = document.querySelector('#icon-9');
+                var isOpen = false;
+                
+                    BtnNine.addEventListener("click", function () {
+                        if (!isOpen) {
+                            DayNine.style.height = "50vh";
+                            DayNine.style.overflow = "scroll";
+                            IconNine.style.transform = "rotate(45deg)";
+                            ListNine.style.display = "block";
+                        } else {
+                            DayNine.style.height = "10vh";
+                            DayNine.style.overflow = "hidden";
+                            IconNine.style.transform = "rotate(90deg)";
+                            ListNine.style.display = "none";
+                        }
+                        isOpen = !isOpen;
+                    })
+                
+            </script>
+           
+            <!-- day 10 -->
+               <div class="box-days" id="day-10">
+                <div class="top-box">
+                    <div class="day">
+                        <h5>Day 10:</h5>
+                    </div>
+                    <h6>Islamabad </h6>
+                    <div class="icon" id="btn-10">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;" id="icon-10"></i>
+                    </div>
+                </div>
+                <ul id="list-10">
+                    <li>Departure for Islamabad</li>
+                    <li>Arrival and drop in Islamabad</li>
+                </ul>
+            </div>
+              <!-- java day 10 ka -->
+              <script>
+                var DayTen = document.querySelector('#day-10');
+                var BtnTen = document.querySelector('#btn-10');
+                var ListTen = document.querySelector('#list-10');
+                var IconTen = document.querySelector('#icon-10');
+                var isOpen = false;
+                
+                    BtnTen.addEventListener("click", function () {
+                        if (!isOpen) {
+                            DayTen.style.height = "50vh";
+                            DayTen.style.overflow = "scroll";
+                            IconTen.style.transform = "rotate(45deg)";
+                            ListTen.style.display = "block";
+                        } else {
+                            DayTen.style.height = "10vh";
+                            DayTen.style.overflow = "hidden";
+                            IconTen.style.transform = "rotate(90deg)";
+                            ListTen.style.display = "none";
+                        }
+                        isOpen = !isOpen;
+                    })
+                
+            </script>
             <h5>Dream your journey 😉</h5>
 
 
