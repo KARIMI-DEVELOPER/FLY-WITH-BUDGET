@@ -724,6 +724,31 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     
         font-size: 5vw;
      }
+     section.packegespages-main .packegespages .box-days {
+        width: 90vw;
+        margin-left: -3vw;
+     }
+     section.packegespages-main .packegespages .box-days .top-box{
+        width: 100%;
+        margin-left: 0%;
+        
+     }
+     section.packegespages-main .packegespages .box-days .top-box .day{
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+     }
+     section.packegespages-main .packegespages .box-days .top-box .icon{
+        width: 10vw;
+     }
+     section.packegespages-main .packegespages ul{
+        margin-left: 5vw;
+     }
+     section.packegespages-main .packegespages .box-days .top-box h6{
+        font-size: 4vw;
+     }
  
 }
 @media screen and (max-width:360.99px) {

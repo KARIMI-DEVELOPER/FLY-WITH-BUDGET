@@ -646,11 +646,6 @@ background-size: 90%;
     section.packegespages-main .packegespages::-webkit-scrollbar{
         display: none;
     }
-    section.packegespages-main .packegespages ul{
-        font-size: 1.8vw;
-        color: white;
-        font-family:"Poppins", sans-serif ;
-    }
     section.packegespages-main .packegespages p{
         font-size: 2vw ;
         color: white;
@@ -666,9 +661,20 @@ background-size: 90%;
  }
  section.packegespages-main .packegespages h5{
     font-family: "Poppins", sans-serif;
-    margin-top: 5%;
     font-weight: 400;
+    margin-top: 2vw;
     font-size: 3vw;
+    color: white;
+ }
+ section.packegespages-main .packegespages .box-days .top-box .day h5{
+    margin-top: 0vw;
+    font-size: 2.5vw;
+    font-weight: 600;
+ }
+ section.packegespages-main .packegespages .box-days .top-box h6{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 2vw;
     color: white;
  }
  section.packegespages-main .packegespages button{
@@ -676,12 +682,61 @@ background-size: 90%;
     font-size: 2vw;
     border-radius: 10px;
     border: none;
-    margin-top: 10%;
+    margin-top: 2vw;
  }
  section.packegespages-main .packegespages button:hover{
     background-color: rgb(23, 22, 22);
     color: white;
  }
+
+ section.packegespages-main .packegespages ul {
+    font-size: 2vw;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: none;
+    margin-left: 3vw;
+}
+
+section.packegespages-main .packegespages .box-days {
+    height: 10vh;
+    width: 70vw;
+    margin-top: 2vw;
+    border: solid 1px white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+section.packegespages-main .packegespages .box-days::-webkit-scrollbar {
+    display: none;
+}
+
+section.packegespages-main .packegespages .box-days .top-box {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px white;
+}
+
+section.packegespages-main .packegespages .box-days .day {
+    height: 100%;
+    width: 20%;
+    padding: 0.8vw 2vw;
+    background-color: rgba(23, 22, 22, 0.742);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+section.packegespages-main .packegespages .box-days .icon {
+    height: 80%;
+    border-radius: 50%;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(23, 22, 22, 0.815);
+}
    
 /* toggle */
 label, #check {
