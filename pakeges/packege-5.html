@@ -50,54 +50,233 @@
         <div class="packegespages">
             <h2>Kashmir-Neelum Valley-Arang Kel</h2>
             <h5>Travel Itinary </h5>
-            <h5>Day 1</h5>
-            <ul>
-                <li>Departure for Neelum Valley from Islamabad</li>
-                <li>Tea stop at Kohala</li>
-                <li>Drive through Muzzaffarabad</li>
-                <li>Drive on Neelum Road aside Neelum River</li>
-                <li>Night Stay in Keran</li>
+           
+            <!--  day 1   -->
+            <div class="box-days" id="day-1">
+                <div class="top-box">
+                    <div class="day">
+                        <h5>Day 1:</h5>
+                    </div>
+                    <h6> From Islamabad </h6>
+                    <div class="icon" id="btn-1">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;"
+                            id="icon"></i>
+                    </div>
+                </div>
+                <ul id="list-1">
+                    <li>Departure for Neelum Valley from Islamabad</li>
+                    <li>Tea stop at Kohala</li>
+                    <li>Drive through Muzzaffarabad</li>
+                    <li>Drive on Neelum Road aside Neelum River</li>
+                    <li>Night Stay in Keran</li>
+                </ul>
+            </div>
+            <!-- java 1st pack ka -->
+            <script>
+                var DayOne = document.querySelector('#day-1');
+                var BtnOne = document.querySelector('#btn-1');
+                var ListOne = document.querySelector('#list-1');
+                var IconOne = document.querySelector('#icon');
+                var isOpen = false;
 
-            </ul>
-            <h5>Day 2</h5>
-            <ul>
-                <li>Morning walk in Keran</li>
+                BtnOne.addEventListener("click", function () {
+                    if (!isOpen) {
+                        DayOne.style.height = "50vh";
+                        DayOne.style.overflow = "scroll";
+                        IconOne.style.transform = "rotate(45deg)";
+                        ListOne.style.display = "block";
+                    } else {
+                        DayOne.style.height = "10vh";
+                        DayOne.style.overflow = "block";
+                        IconOne.style.transform = "rotate(90deg)";
+                        ListOne.style.display = "none";
+                    }
+                    isOpen = !isOpen;
+                });
+            </script>
+            <!-- day 2    -->
+            <div class="box-days" id="day-2">
+                <div class="top-box">
+                    <div class="day">
+                        <h5>Day 2:</h5>
+                    </div>
+                    <h6>KAREN</h6>
+                    <div class="icon" id="btn-2">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;"
+                            id="icon-2"></i>
+                    </div>
+                </div>
+                <ul id="list-2">
+                    <li>Morning walk in Keran</li>
                 <li>Drive through Dawarian</li>
                 <li>Landscape photography</li>
                 <li>Lunch at Keran</li>
                 <li>Departure for Sharda</li>
                 <li>Night Stay at Sharda</li>
+                </ul>
+            </div>
+            <!-- java day 2 ka -->
+            <script>
+                var DayTwo = document.querySelector('#day-2');
+                var BtnTwo = document.querySelector('#btn-2');
+                var ListTwo = document.querySelector('#list-2');
+                var IconTwo = document.querySelector('#icon-2');
+                var isOpen = false;
 
-            </ul>
-            <h5>Day 3</h5>
-            <ul>
-                <li>Breakfast at Sharda</li>
-                <li>Sightseeing of the beautiful valleys</li>
-                <li>Drive towards Kel</li>
-                <li>Small 2km hike towards Aurang Kel</li>
-                <li>Night Stay at Kel</li>
+                BtnTwo.addEventListener("click", function () {
+                    if (!isOpen) {
+                        DayTwo.style.height = "50vh";
+                        DayTwo.style.overflow = "scroll";
+                        IconTwo.style.transform = "rotate(45deg)";
+                        ListTwo.style.display = "block";
+                    } else {
+                        DayTwo.style.height = "10vh";
+                        DayTwo.style.overflow = "block";
+                        IconTwo.style.transform = "rotate(90deg)";
+                        ListTwo.style.display = "none";
+                    }
+                    isOpen = !isOpen;
+                })
 
-            </ul>
-            <h5>Day 4</h5>
-            <ul>
-                <li>Jeep ride towards Taobat</li>
+            </script>
+            <!-- day 3 -->
+            <div class="box-days" id="day-3">
+                <div class="top-box">
+                    <div class="day">
+                        <h5>Day 3:</h5>
+                    </div>
+                    <h6> SHARDA</h6>
+                    <div class="icon" id="btn-3">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;"
+                            id="icon-3"></i>
+                    </div>
+                </div>
+                <ul id="list-3">
+                    <li>Breakfast at Sharda</li>
+                    <li>Sightseeing of the beautiful valleys</li>
+                    <li>Drive towards Kel</li>
+                    <li>Small 2km hike towards Aurang Kel</li>
+                    <li>Night Stay at Kel</li>
+                </ul>
+            </div>
+            <!-- java day 3 ka -->
+            <script>
+                var DayThree = document.querySelector('#day-3');
+                var BtnThree = document.querySelector('#btn-3');
+                var ListThree = document.querySelector('#list-3');
+                var IconThree = document.querySelector('#icon-3');
+                var isOpen = false;
+
+                BtnThree.addEventListener("click", function () {
+                    if (!isOpen) {
+                        DayThree.style.height = "50vh";
+                        DayThree.style.overflow = "scroll";
+                        IconThree.style.transform = "rotate(45deg)";
+                        ListThree.style.display = "block";
+                    } else {
+                        DayThree.style.height = "10vh";
+                        DayThree.style.overflow = "block";
+                        IconThree.style.transform = "rotate(90deg)";
+                        ListThree.style.display = "none";
+                    }
+                    isOpen = !isOpen;
+                })
+
+            </script>
+            <!-- day 4 -->
+            <div class="box-days" id="day-4">
+                <div class="top-box">
+                    <div class="day 4:">
+                        <h5>Day 4:</h5>
+                    </div>
+                    <h6>TAOBAT</h6>
+                    <div class="icon" id="btn-4">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;"
+                            id="icon-4"></i>
+                    </div>
+                </div>
+                <ul id="list-4">
+                    <li>Jeep ride towards Taobat</li>
                 <li>Last station of Neelum Valley</li>
                 <li>Photography</li>
                 <li>Drive Back to Sharda</li>
                 <li>Night Stay at Sharda</li>
+                </ul>
+            </div>
+            <!-- java day 4 ka -->
+            <script>
+                var DayFour = document.querySelector('#day-4');
+                var BtnFour = document.querySelector('#btn-4');
+                var ListFour = document.querySelector('#list-4');
+                var IconFour = document.querySelector('#icon-4');
+                var isOpen = false;
 
+                BtnFour.addEventListener("click", function () {
+                    if (!isOpen) {
+                        DayFour.style.height = "50vh";
+                        DayFour.style.overflow = "scroll";
+                        IconFour.style.transform = "rotate(45deg)";
+                        ListFour.style.display = "block";
+                    } else {
+                        DayFour.style.height = "10vh";
+                        DayFour.style.overflow = "block";
+                        IconFour.style.transform = "rotate(90deg)";
+                        ListFour.style.display = "none";
+                    }
+                    isOpen = !isOpen;
+                })
 
-            </ul>
-            <h5>Day 5</h5>
-                <ul>
+            </script>
+            <!-- day 5 -->
+            <div class="box-days" id="day-5">
+                <div class="top-box">
+                    <div class="day">
+                        <h5>Day 5:</h5>
+                    </div>
+                    <h6> Islamabad</h6>
+                    <div class="icon" id="btn-5">
+                        <!-- font awesome icon -->
+                        <i class="fa-solid fa-plus" style="color: white; font-size: 2vw; font-weight: 200;"
+                            id="icon-5"></i>
+                    </div>
+                </div>
+                <ul id="list-5">
                     <li>Departure for Islamabad</li>
                     <li>Stop at Kutton waterfall</li>
                     <li>Lunch at Muzzafarabad</li>
                     <li>Arrival in Islamabad by 9 pm</li>
-
                 </ul>
-            
-            <h5>Dream your journey 😉</h5>
+            </div>
+            <!-- java day 5 ka -->
+            <script>
+                var DayFive = document.querySelector('#day-5');
+                var BtnFive = document.querySelector('#btn-5');
+                var ListFive = document.querySelector('#list-5');
+                var IconFive = document.querySelector('#icon-5');
+                var isOpen = false;
+
+                BtnFive.addEventListener("click", function () {
+                    if (!isOpen) {
+                        DayFive.style.height = "50vh";
+                        DayFive.style.overflow = "scroll";
+                        IconFive.style.transform = "rotate(45deg)";
+                        ListFive.style.display = "block";
+                    } else {
+                        DayFive.style.height = "10vh";
+                        DayFive.style.overflow = "block";
+                        IconFive.style.transform = "rotate(90deg)";
+                        ListFive.style.display = "none";
+                    }
+                    isOpen = !isOpen;
+                })
+
+            </script>
+
+<h5>Dream your journey 😉</h5>
 
             <button>BOOK NOW</button>
 
