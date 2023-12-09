@@ -740,6 +740,7 @@ section.packegespages-main .packegespages .box-days .icon {
 }
 /* blog page */
 .container-blog{
+    margin-top: 1vw;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;

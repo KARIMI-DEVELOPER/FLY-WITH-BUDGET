@@ -849,14 +849,37 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
       header nav ul {
         margin-top: 125%;
       }
+      /* blog paGE */
+     .container-blog{
+        flex-direction: column-reverse;
+     }
+     .container-blog .containerblog-main{
+        height: 90%;
+        width: 100%;
+     }
+     .container-blog .containerblog-main:nth-child(2){
+        height: 10%;
+        width: 100%;
+        position: relative;
+        flex-direction: row;
+     }
+     .container-blog .containerblog-main .containerblog:nth-child(2),.container-blog .containerblog-main .containerblog:nth-child(4){
+        flex-direction: column-reverse;
+     }
+     .container-blog .containerblog-main .containerblog:nth-child(2) .box:nth-child(2),.container-blog .containerblog-main .containerblog:nth-child(4) .box:nth-child(2){
+        width: 100%;
+     }
 }
 @media screen and (max-width:320px) {
     header nav ul {
-        display: block;
+{
+    width: 100%;
+}        display: block;
         flex-direction: column;
         margin-top: 140%;
         position: absolute;
         right: -50%;
         
       }
+
 }
