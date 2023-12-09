@@ -738,7 +738,61 @@ section.packegespages-main .packegespages .box-days .icon {
     align-items: center;
     background-color: rgba(23, 22, 22, 0.815);
 }
-   
+/* blog page */
+.container-blog{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    background-image: url(an\ aeroplane\ is\ 1.png);
+    border: solid 1px black;
+}
+.container-blog .containerblog-main{
+    height: 100%;
+    width: 80%;
+    overflow: scroll;
+    border: solid 1px black;
+   background-color: rgba(24, 24, 24, 0.651);
+
+}
+.container-blog .containerblog-main::-webkit-scrollbar{
+    display: none;
+}
+.container-blog .containerblog-main:nth-child(2){
+   width: 20%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.63);
+}
+.container-blog .containerblog-main:nth-child(2) h2{
+    font-size: 2.5vw;
+    margin-top: 1.5vw;
+   font-family: "Poppins", sans-serif; 
+   font-weight: 500;
+}
+.container-blog .containerblog-main .containerblog{
+    height: 10vh;
+    border: solid 1px black;
+}   
+.container-blog .containerblog-main .containerblog h2{
+    font-size: 2.5vw;
+    margin-top: 1.5vw;
+   font-family: "Poppins", sans-serif; 
+   font-weight: 500;
+}
+.container-blog .containerblog-main .containerblog:nth-child(2),.container-blog .containerblog-main .containerblog:nth-child(4){
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+}
+.container-blog .containerblog-main .containerblog .box{
+    height: 100%;
+    width: 50%;
+    border: solid 1px white;
+}
 /* toggle */
 label, #check {
     display: none;
