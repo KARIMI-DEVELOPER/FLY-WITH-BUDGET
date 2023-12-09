@@ -512,6 +512,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
      .containerdes1 .box{
         
      }
+     
 } 
 /* Small screens: 320px to 480px wide (e.g., older smartphones). */
 @media (min-width:319px) and (max-width:420.9px){
