@@ -95,6 +95,7 @@ Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
         font-weight: bold;
         position: absolute;
         right: -50%;
+        margin-top: 55%;
         
       }
 
@@ -114,7 +115,7 @@ Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
     }
     /* packege  */
     section.packeges-main{
-        height: 170vw;
+        height: 100vw;
         border: solid 1px white;
         border-left: none;
         border-right: none;
@@ -250,6 +251,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         margin-top: 93%;
         position: absolute;
         right: -50%;
+        margin-top: 70%;
         
       }
 
@@ -349,28 +351,28 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
       /* footer  */
       .containeroffooter{
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     .footercontact h4, .footerlink h4, .footermedia h4{
         margin-left: 30% ;
     }
     .footercontact p{
-        margin-left: 25%;
+        margin-left: 2%;
     }
     .footermedia ul{
-       margin-left: 45%;
+       margin-left: 30%;
     }
     .footerlink li {
         list-style-type: none;
     }
     .footerlink a{
 
-        margin-left: 45%;
+        margin-left: 30%;
     }
 
         /* packeges */
    section.packeges-main{
-    height: 430vw;
+    height: 230vw;
    }
    section.packeges-main .packeges{
     height: 100vw;
@@ -572,7 +574,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
       header nav ul {
         display: block;
         flex-direction: column;
-        /* margin-top: 160%; */
+        margin-top: 90%;
         position: absolute;
         right: -50%;
         
@@ -737,7 +739,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
 
    /* packeges */
    section.packeges-main{
-    height: 1850vw;
+    height: 950vw;
    }
    section.packeges-main .packeges{
     height: 450vw;
