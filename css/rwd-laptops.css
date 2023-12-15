@@ -54,7 +54,7 @@ Standard tablets: 1024px to 1280px wide (e.g., regular-sized tablets).(done)
 Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
 
 /* Small tablets: 768px to 1024px wide (e.g., iPad Mini).(done) */
-@media (max-width:768.9px) {
+@media (max-width:800.9px) {
     *{
         padding: 0;
         margin: 0;
@@ -211,7 +211,7 @@ Large screens (phablets): 768px to 1024px wide (e.g., larger smartphones and sma
 
 Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones).(done)
 */
-@media (max-width:480.9px) {
+@media (max-width:767.9px) {
     *{
         padding: 0;
         margin: 0;
@@ -349,7 +349,6 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
       /* footer  */
       .containeroffooter{
-        margin-top: 3%;
         flex-direction: column;
     }
     .footercontact h4, .footerlink h4, .footermedia h4{
@@ -536,7 +535,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
      
 } 
 /* Small screens: 320px to 480px wide (e.g., older smartphones). */
-@media (min-width:319px) and (max-width:420.9px){
+@media (min-width:319px) and (max-width:480.9px){
     *{
         padding: 0;
         margin: 0;
@@ -548,7 +547,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         transition: 1s;
       }     
       header nav ul{
-      background-color: rgb(38,37,37);
+      background-color: rgb(24,24,24);
       width: 45%;
       height: 100vh;
       }
@@ -558,6 +557,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     label{
       display: block;
       margin-top: -120%;
+      z-index: 1100;
 
     }
           
@@ -572,7 +572,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
       header nav ul {
         display: block;
         flex-direction: column;
-        margin-top: 150%;
+        /* margin-top: 160%; */
         position: absolute;
         right: -50%;
         
@@ -792,9 +792,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     font-size: 4.2vw;
    }
 
-    footer{
-        margin-top: 3%;
-    }
+
 
     /* visa main page */
     section.visa-main{
@@ -893,17 +891,4 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         margin-top: 125%;
       }
     
-}
-@media screen and (max-width:320px) {
-    header nav ul {
-{
-    width: 100%;
-}        display: block;
-        flex-direction: column;
-        margin-top: 140%;
-        position: absolute;
-        right: -50%;
-        
-      }
-
 }
