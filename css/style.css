@@ -40,15 +40,13 @@ header nav .box {
 header nav .box h2 {
     font-size: 25px;
     font-family: "Poppins", sans-serif;
-    color: rgb(1, 156, 205);
+    color: white;
     cursor: pointer;
     padding: 0 0;
+    font-weight: 750;
     margin-left: 3%;
 }
 
-header nav .box span {
-    color: rgb(128, 163, 1);
-}
 
 header nav .box ul {
     list-style-type: none;
@@ -89,7 +87,7 @@ header h2 {
 
 header p {
     font-size: 2vw;
-    color: rgb(38, 37, 37);
+    color: white;
     font-weight: 500;
     width: 60%;
     font-weight: 550;
