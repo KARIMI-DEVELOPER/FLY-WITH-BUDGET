@@ -622,17 +622,22 @@ section.packeges-main .packeges .pac-box .box h2{
         flex-direction: column;
         justify-content: center;
     }
+    section.aboutmain .about .box:first-child{
+        width: 60%;
+        height: 30%;
+    }
+     section.aboutmain .about-2 .box-2:nth-child(2){
+        width: 60%;
+        height: 30%;
+    }
     section.aboutmain .about-2{
         height: 150vw;
         flex-direction: column;
         justify-content: center;
     }
-    section.aboutmain .about .box:first-child{
-        padding: 0vw 0vw;
-        margin-left: -8%;
-    }
+ 
     section.aboutmain .about .box:nth-child(2){
-        margin-top: -3%;
+        margin-top: 4%;
     }
     section.aboutmain .about .box{
         height: 90vw;
@@ -894,10 +899,27 @@ section.packeges-main .packeges .pac-box .box button{
       .containeroffooter{
         padding-top: 10vw;
         flex-direction:column ;
+        margin-top: 110%;
     }
     
     .footercontact p{
         margin-left: 20%;
+    }
+    .containeroffooter .footerlink ul{
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+    .containeroffooter .footerlink{
+        margin-top: 3%;
+    }
+    .containeroffooter .footermedia{
+       margin-top: 3%;
+    }
+    .containeroffooter .footermedia ul{
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
     }
     
 
@@ -922,6 +944,9 @@ section.packeges-main .packeges .pac-box .box button{
       /* header */
       header nav ul{
         margin-top: 130%;
+      }
+      header nav{
+        height: 50px;
       }
     
 }
