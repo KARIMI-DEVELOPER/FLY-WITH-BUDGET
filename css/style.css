@@ -132,6 +132,7 @@ section.aboutmain .about-2 {
     background-color: rgb(24, 24, 24, 0.756);
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 0vw 5vw;
 }
 
@@ -139,6 +140,7 @@ section.aboutmain .about {
     height: 30vw;
     background-color: rgba(24, 24, 24, 0.756);
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 0vw 5vw;
 }
@@ -151,6 +153,29 @@ section.aboutmain .about-2 .box-2 {
 section.aboutmain .about .box {
     height: 100%;
     width: 50%;
+    padding: 0vw 3vw;
+}
+section.aboutmain .about .box:first-child{
+    height: 80%;
+    width: 30%;
+    border-radius: 10px;
+    background-image: url(../images/about-1.webp);
+    background-size: cover;
+}
+section.aboutmain .about .box:hover{
+    background-position: 50%, 50%;
+    transition-duration: 1s;
+}
+section.aboutmain .about-2 .box-2:hover{
+    background-position: 50%, 50%;
+    transition-duration: 1s;
+}
+section.aboutmain .about-2 .box-2:nth-child(2){
+    height: 80%;
+    width: 30%;
+    border-radius: 10px;
+    background-image: url(../images/about-2.webp);
+    background-size: cover;
 }
 
 section.aboutmain .about-2 .box-2 p {
@@ -169,20 +194,6 @@ section.aboutmain .about-2 .box-2 h2 {
     font-family: "Poppins", sans-serif;
 }
 
-section.aboutmain .about-2 .box-2 button {
-    padding: 1.5vw 2vw;
-    border-radius: 10px;
-    border: none;
-    margin-left: 15vw;
-    margin-top: 1vw;
-    color: rgb(24, 24, 24);
-}
-
-section.aboutmain .about-2 .box-2 button:hover {
-    cursor: pointer;
-    color: white;
-    background-color: rgb(77, 74, 74);
-}
 
 section.aboutmain .about .box p {
     font-size: 1.8vw;
@@ -336,7 +347,7 @@ main section.service-main .service .box:nth-child(2) {
 }
 
 main section.service-main .service .box:nth-child(3) {
-    background-image: url(create-an-image-0.webp);
+    background-image: url(../images/kabba.webp);
 }
 
 main section.service-main .service .box h1 {
