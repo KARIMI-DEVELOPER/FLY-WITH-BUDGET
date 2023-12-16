@@ -643,7 +643,7 @@ a {
 
 /* packeges page */
 section.packeges-main {
-    height: 80vw;
+    height: 70vw;
     background-image: url(A\ beautiful\ ima\ 0\ \(2\).png);
     background-size: 200%;
     margin-top: -3vw;
@@ -908,6 +908,15 @@ section.packegespages-main .packegespages .box-days .icon {
     height: 100%;
     width: 50%;
     border: solid 1px white;
+}
+/* footer secondary */
+footer.sec{
+    margin-top: 0vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 22, 22);
 }
 
 /* toggle */

@@ -1,50 +1,68 @@
 /* responsive */
 /* Desktops and Laptops:
 /* Laptop screens: 1024px and above.(done) */
-@media (max-width:1024.9px)  {
-    *{
+@media (min-width:1024.9px) {
+    * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
     }
+
     /* header */
-    header nav .box:nth-child(2){
+    header nav .box:nth-child(2) {
         padding: 4vw 2vw;
         justify-content: space-between;
     }
-    header nav .box ul li{
-      margin-left: 5%;
+
+    header nav .box ul li {
+        margin-left: 5%;
     }
+
     /* packeges */
-    section.packeges-main{
-        height: 170vw;
+    section.packeges-main {
+        height: 90vw;
         border: solid 1px white;
         border-left: none;
         border-right: none;
         border-bottom: none;
     }
-    section.packeges-main .packeges{
+
+    section.packeges-main .packeges {
         height: 35vw;
         margin-top: 5%;
     }
-    section.packeges-main .packeges .pac-box{
+
+    section.packeges-main .packeges .pac-box {
         width: 23.5%;
     }
-    section.packeges-main .packeges .pac-box .box h2{
+
+    section.packeges-main .packeges .pac-box .box h2 {
         font-size: 2vw;
     }
-    section.packeges-main .packeges .pac-box .box .box-info .box-detail{
+
+    section.packeges-main .packeges .pac-box .box .box-info .box-detail {
         width: 35%;
     }
-    section.packeges-main .packeges .pac-box .box .box-info .box-detail h4{
+
+    section.packeges-main .packeges .pac-box .box .box-info .box-detail h4 {
         font-size: 1.8vw;
     }
-    section.packegespages-main .packegespages .box-days .top-box .icon{
+
+    section.packegespages-main .packegespages .box-days .top-box .icon {
         width: 5vw;
-     }
+    }
+
+    section.packegespages-main .packegespages .box-days {
+        height: 5vw;
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box {
+        height: 5vw;
+    }
 }
+
 /* Desktop screens: 1280px and above. (done)*/
-/* Larger desktop screens: 1600px and above. (done)*/  
+/* Larger desktop screens: 1600px and above. (done)*/
 
 
 
@@ -54,156 +72,10 @@ Standard tablets: 1024px to 1280px wide (e.g., regular-sized tablets).(done)
 Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
 
 /* Small tablets: 768px to 1024px wide (e.g., iPad Mini).(done) */
-@media (max-width:800.9px) {
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    #check:checked ~ ul {
-        right: 0%;
-        transition: 1s;
-      }     
-      header nav ul{
-      background-color: rgb(24, 24, 24);
-      width: 45%;
-      height: 100vh;
-      }
-        header nav {
-            height: 8vw;
-        }
-    
-    label{
-      display: block;
-      margin-top: -180%;
-
-    }
-          
-       header nav #boxnav{
-        height: 50px;
-        width: 55px;
-        border-bottom-left-radius:10px ;
-        border-bottom-right-radius:10px ;
-        margin-left: 32%;
-        
-
-      }
-      header nav ul {
-        display: block;
-        flex-direction: column;
-        color: white;
-        font-weight: bold;
-        position: absolute;
-        right: -50%;
-        margin-top: 55%;
-        
-      }
-
-    /* header */
-    header nav .box h2{
-        font-size: 2vw;
-    }
-    header nav .box:nth-child(2){
-        padding: 0vw 2vw;
-        justify-content: space-between;
-    }
-    header nav .box ul li{
-      margin-left: 5%;
-    }
-    header nav .box ul li a {
-        font-size: 1.8vw;
-    }
-    /* packege  */
-    section.packeges-main{
-        height: 100vw;
-        border: solid 1px white;
-        border-left: none;
-        border-right: none;
-        border-bottom: none;
-    }
-    section.packeges-main .packeges{
-        height: 35vw;
-        margin-top: 5%;
-    }
-    section.packeges-main .packeges .pac-box{
-        width: 23.5%;
-    }
-    section.packeges-main .packeges .pac-box .box h2{
-        font-size: 2vw;
-    }
-    section.packeges-main .packeges .pac-box .box .box-info .box-detail{
-        width: 35%;
-    }
-    section.packeges-main .packeges .pac-box .box .box-info .box-detail h4{
-        font-size: 1.8vw;
-    }
-    /* packege back  */
-    section.packegespages-main{
-        height: 60vw;
-    }
-    section.packegespages-main .packegespages img{
-        height: 80%;
-        width: 80%;
-    }
-    section.packegespages-main .packegespages h2{
-        font-size: 5vw;
-    }
-    section.packegespages-main .packegespages h5{
-        font-size: 3vw;
-    }
-    section.packegespages-main .packegespages button{
-        padding: 2vw 8vw;
-    }
-     /* packeges abck page */
-   section.packegespages-main{
-    height: 100vh;
-    background-size: cover;
- }
-
- section.packegespages-main .packegespages h2{
-   font-size: 5vw;
- }
- section.packegespages-main .packegespages p{
-    font-size: 3vw;
- }
- section.packegespages-main .packegespages h5{
-    font-size: 4vw;
- }
- section.packegespages-main .packegespages button{
-    font-size: 3.5vw;
- }
-   
-   section.packegespages-main .packegespages .box-days {
-    width: 100%;
-    margin-left: 0vw;
- }
- section.packegespages-main .packegespages .box-days .top-box{
-    width: 100%;
-    margin-left: 0%;
-    
- }
- section.packegespages-main .packegespages .box-days .top-box .day{
-    width: 20vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
- }
- section.packegespages-main .packegespages .box-days .top-box .icon{
-    width: 5vw;
- }
- section.packegespages-main .packegespages ul{
-    margin-left: 5vw;
- }
- section.packegespages-main .packegespages .box-days .top-box h6{
-    font-size: 3vw;
- }
 
 
-}
 
 
- 
 
 
 /* Mobile Phones:
@@ -212,741 +84,897 @@ Large screens (phablets): 768px to 1024px wide (e.g., larger smartphones and sma
 
 Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones).(done)
 */
-@media (min-width:600px) and (max-width:767.9px) {
-    *{
+@media (min-width:599px) and (max-width:768.9px) {
+    * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
     }
+
     /* toggle hamburger */
-    #check:checked ~ ul {
+    #check:checked~ul {
         right: 0%;
         transition: 1s;
-      }     
-      header nav ul{
-      background-color: rgb(24, 24, 24);
-      width: 45%;
-      height: 100vh;
-      }
-        
-    label{
-      display: block;
-      margin-top: -160%;
+    }
+
+    header nav ul {
+        background-color: rgb(24, 24, 24);
+        width: 45%;
+        height: 100vh;
+    }
+
+    label {
+        display: block;
+        margin-top: -6vw;
 
     }
-          
-       header nav #boxnav{
+
+    header nav #boxnav {
         height: 50px;
         width: 55px;
-        border-bottom-left-radius:10px ;
-        border-bottom-right-radius:10px ;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
         margin-left: 32%;
-        background-color:transparent;
-      }
-      header nav ul {
+        background-color: transparent;
+    }
+
+    header nav ul {
         display: block;
         flex-direction: column;
         color: white;
         font-weight: bold;
-        margin-top: 62%;
+        margin-top: 55%;
+        z-index: -1100;
         position: absolute;
         right: -50%;
-        
-      }
+
+    }
 
     /* header */
-    header{
+    header {
         height: 60vw;
     }
-    header nav{
+
+    header nav {
         height: 10vw;
-      
+        top: 0;
     }
-    header nav .box h2{
+    #headh2{
+        margin-top: 5vw;
+    }
+
+    header nav .box h2 {
         font-size: 3vw;
     }
 
-    header h2{
+    header h2 {
         font-size: 5vw;
-        padding-top: 15vw;
     }
+
     header p {
         font-size: 3vw;
         width: 100%;
     }
+
     /* main  */
-    main{
+    main {
         height: 260vw;
         overflow: hidden;
     }
+
     /* about section */
-    section.aboutmain{
+    section.aboutmain {
         height: 100vw;
     }
-    section.aboutmain .about{
+
+    section.aboutmain .about {
         height: 45vw;
     }
-    section.aboutmain .about .box:first-child{
-       margin-left: -25%;
+
+    section.aboutmain .about .box:first-child {
+        margin-left: -25%;
     }
-    section.aboutmain .about .box h2{
+
+    section.aboutmain .about .box h2 {
         font-size: 5vw;
         width: 130%;
         margin-left: 10%;
-        
+
     }
-    section.aboutmain .about .box p{
+
+    section.aboutmain .about .box p {
         font-size: 2.5vw;
         margin-left: 20%;
     }
-    section.aboutmain .about-2 .box-2 h2{
+
+    section.aboutmain .about-2 .box-2 h2 {
         font-size: 4vw;
     }
-    section.aboutmain .about-2 .box-2 p{
+
+    section.aboutmain .about-2 .box-2 p {
         font-size: 2.5vw;
-        
+
     }
-   
-    section.aboutmain .about-2{
+
+    section.aboutmain .about-2 {
         height: 45vw;
     }
+
     /* about end */
     /* service */
-    main section.service-main{
+    main section.service-main {
         height: 70vw;
     }
-    main section.service-main .service{
+
+    main section.service-main .service {
         height: 45vw;
     }
-    main section.service-main .service .box{
+
+    main section.service-main .service .box {
         background-repeat: no-repeat;
         background-size: cover;
     }
-    main section.service-main .service .box h1{
+
+    main section.service-main .service .box h1 {
         font-size: 4vw;
     }
-    main section.service-main .service .box p{
+
+    main section.service-main .service .box p {
         font-size: 2vw;
     }
-    main section.service-main .service .box button{
+
+    main section.service-main .service .box button {
         height: 6vw;
         margin-left: 5%;
         font-size: 2vw;
     }
+
     /* destination */
-    main section.destination-main h1{
+    main section.destination-main h1 {
         font-size: 4vw;
     }
-    main section.destination-main h2{
+
+    main section.destination-main h2 {
         font-size: 3.5vw;
         padding: 0vw 28vw;
     }
-    main section.destination-main .destination .box{
+
+    main section.destination-main .destination .box {
         padding: 10vw 2vw;
     }
-    main section.destination-main .destination .box h3{
+
+    main section.destination-main .destination .box h3 {
         font-size: 3vw;
-        
+
     }
-      /* footer  */
-      .containeroffooter{
+
+    /* footer  */
+    .containeroffooter {
         flex-wrap: wrap;
     }
-    .footercontact h4, .footerlink h4, .footermedia h4{
-        margin-left: 30% ;
+
+    .footercontact h4,
+    .footerlink h4,
+    .footermedia h4 {
+        margin-left: 30%;
     }
-    .footercontact p{
+
+    .footercontact p {
         margin-left: 2%;
     }
-    .footermedia ul{
-       margin-left: 30%;
+
+    .footermedia ul {
+        margin-left: 30%;
     }
+
     .footerlink li {
         list-style-type: none;
     }
-    .footerlink a{
+
+    .footerlink a {
 
         margin-left: 30%;
     }
 
-        /* packeges */
-   section.packeges-main{
-    height: 230vw;
-   }
-   section.packeges-main .packeges{
-    height: 100vw;
-    
-   }
-   section.packeges-main .packeges .pac-box{
-    width: 40%;
-    height: 45vw;
-   }
-   section.packeges-main .packeges .pac-box .box button{
-      width: 45vw;
-      height: 6vw;
-      font-size: 3vw;
-   }
-   section.packeges-main .packeges .pac-box .box h2{
-    margin-top: -3%;
-    margin-left: 3%;
-    font-size: 3.5vw;
-    font-weight: 550;
-   }
-   section.packeges-main .packeges .pac-box .box img{
-    height: 35vw;
-    object-fit: cover;
-}
-section.packeges-main .packeges .pac-box .box h2{
-    margin-top: 15%;
-}
-   /* packeges abck page */
-   section.packegespages-main{
-    height: 100vh;
-    background-size: cover;
- }
-
- section.packegespages-main .packegespages h2{
-   font-size: 6vw;
- }
- section.packegespages-main .packegespages h5{
-    font-size: 5vw;
- }
- section.packegespages-main .packegespages button{
-
-    font-size: 5vw;
- }
-   
-   section.packegespages-main .packegespages .box-days {
-    width: 100%;
-    margin-left: 0vw;
- }
- section.packegespages-main .packegespages .box-days .top-box{
-    width: 100%;
-    margin-left: 0%;
-    
- }
- section.packegespages-main .packegespages .box-days .top-box .day{
-    width: 20vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
- }
- section.packegespages-main .packegespages .box-days .top-box .icon{
-    width: 10vw;
- }
- section.packegespages-main .packegespages ul{
-    margin-left: 5vw;
- }
- section.packegespages-main .packegespages .box-days .top-box h6{
-    font-size: 3vw;
- }
-    /* des1 */
-    .containerdes1{
-        height: 50vw;
+    /* packeges */
+    section.packeges-main {
+        height: 230vw;
     }
 
-    .containerdes1 .box img{
-        margin-left: 20%;
-        margin-top: 30%;
+    section.packeges-main .packeges {
+        height: 100vw;
+
     }
-    .containerdes1 .box h1{
-        margin-left: 2%;
+
+    section.packeges-main .packeges .pac-box {
+        width: 40%;
+        height: 45vw;
     }
-    .containerdes1 .box p{
+
+    section.packeges-main .packeges .pac-box .box button {
+        width: 45vw;
+        height: 6vw;
         font-size: 3vw;
     }
-     
-    .containerdes1 .box button{
-        margin-left: 5%;
-        margin-top: 5%;
-        padding: 3vw 0vw;
-    }
-    /* visa  */
-    section.visa-main{
-        height: 220vw;
-    }
-    section.visa-main .visa{
-        height: 70vw;
-        padding: 2vw 0vw;
-    }
-    section.visa-main .visa .box{
-        height: 30vw;
-        width: 40vw;
-        border-radius: 5px;
-    }
-    section.visa-main .visa-2{
-        height:70vw ;
-    }
-    section.visa-main .visa-2 .box-2{
-        height: 30vw;
-        width: 40vw;
-        border-radius: 5px;
-    }
-    section.visa-main .visa-3{
-        height: 70vw;
-    }
-    section.visa-main .visa-3 .box-3{
-        height: 30vw;
-        width: 40vw;
-        border-radius: 5px;
-    }
-    section.visa-main .visa .box a button , section.visa-main .visa-2 .box-2 a button, section.visa-main .visa-3 .box-3 a button{
-        width: 40vw;
-        height: 10vw;
-        font-size: 5vw;
-     }
-     section.packegespages-main{
-        height: 100vh;
-        background-size: cover;
-     }
-     section.packegespages-main .packegespages h5{
-        font-size: 5vw;
-     }
-     section.packegespages-main .packegespages ul{
+
+    section.packeges-main .packeges .pac-box .box h2 {
+        margin-top: -3%;
+        margin-left: 3%;
         font-size: 3.5vw;
-    }
-    section.packegespages-main .packegespages p{
-        font-size: 3vw;
-    }
-     /* visa click page  */
-     .containerdes1{
-        height: 130vw;
-     }
-       /* blog paGE */
-       .container-blog{
-        flex-direction: column-reverse;
-     }
-     .container-blog .containerblog-main{
-        height: 90%;
-        width: 100%;
-     }
-     .container-blog .containerblog-main:nth-child(2){
-        height: 10%;
-        width: 100%;
-        position: relative;
-        flex-direction: row;
-     }
-     .container-blog .containerblog-main .containerblog:nth-child(2),.container-blog .containerblog-main .containerblog:nth-child(4){
-        flex-direction: column-reverse;
-     }
-     .container-blog .containerblog-main .containerblog:nth-child(2) .box:nth-child(2),.container-blog .containerblog-main .containerblog:nth-child(4) .box:nth-child(2){
-        width: 100%;
-     }
-     
-     
-} 
-/* Small screens: 320px to 480px wide (e.g., older smartphones). */
-@media (min-width:319px) and (max-width:480.9px){
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    /* hamburger */
-    #check:checked ~ ul {
-        right: 0%;
-        transition: 1s;
-      }     
-      header nav ul{
-      background-color: rgb(24,24,24);
-      width: 45%;
-      height: 100vh;
-      }
- 
-       
-
-    label{
-      display: block;
-      margin-top: -150%;
-      z-index: 1100;
-
-    }
-          
-       header nav #boxnav{
-        height: 50px;
-        width: 55px;
-        border-bottom-left-radius:10px ;
-        border-bottom-right-radius:10px ;
-        margin-left: 32%;
-        background-color:transparent;
-      }
-      header nav ul {
-        display: block;
-        flex-direction: column;
-        margin-top: 90%;
-        position: absolute;
-        right: -50%;
-        
-      }
-    
-
-    /* header  */
-    header nav .box:first-child{
-        width: 70%;
-    }
-    header nav .box h2{
-        font-size: 3.4vw;
-        width: 70%;
-        font-weight: 750;
-    }
-    header{
-        height: 80vw;
-        background-size: cover;
-    }
-    header h2{
-        font-size: 7vw;
-        margin-left: 2%;
-    }
-    header p{
-        font-size: 4vw;
-    }
-    header button{
-        height:10vw;
-        margin-top: -2%;
-    }
-    /* main  */
-    main{
-        height: 960vw
-        
-    }
-    /* abbout */
-    section.aboutmain{
-        height: 330vw;
-        overflow: hidden;
-        padding: 0vw 0vw;
-        background-size: cover;
-    }
-    section.aboutmain .about{
-        height: 150vw;
-        flex-direction: column;
-        justify-content: center;
-    }
-    section.aboutmain .about .box:first-child{
-        width: 60%;
-        height: 30%;
-    }
-     section.aboutmain .about-2 .box-2:nth-child(2){
-        width: 60%;
-        height: 30%;
-    }
-    section.aboutmain .about-2{
-        height: 150vw;
-        flex-direction: column;
-        justify-content: center;
-    }
- 
-    section.aboutmain .about .box:nth-child(2){
-        margin-top: 4%;
-    }
-    section.aboutmain .about .box{
-        height: 90vw;
-        padding: 0vw 0vw;
-        width: 100%;
-        margin-left: -2%;
-    }
-    section.aboutmain .about .box h2{
-        font-size: 7vw;
-        margin-left: 2%;
-        padding: 2vw 7vw;
-    }
-    section.aboutmain .about .box p{
-        font-size: 4vw;
-        margin-left: 10%;
-        width: 70%;
-
+        font-weight: 550;
     }
 
-    section.aboutmain .about-2 .box-2{
-        height: 90vw;
-        padding: 0vw 0vw;
-        width: 100%;
-        margin-left: -2%;
+    section.packeges-main .packeges .pac-box .box img {
+        height: 35vw;
+        object-fit: cover;
     }
-    section.aboutmain .about-2 .box-2 h2{
-        font-size: 7vw;
-        margin-top: 5%;
-        padding: 4vw 7vw;
-    }
-    section.aboutmain .about-2 .box-2 p{
-        font-size: 4vw;
-        margin-left: 10%;
-        width: 70%;
-    }
-    section.aboutmain .about-2 .box-2 button{
-        height:10vw;
-    }
-    section.aboutmain .about-2 .box-2 img{
-        height: 80%;
-        margin-top: 5%;
-    }
-    /* destinations */
-    main section.destination-main{
-        height: 450vw;
-        background-size: cover;
-    }
-    main section.destination-main h1{
-        font-size: 7vw;
-        padding: 2vw 25vw;
-    }
-    main section.destination-main h2{
-        font-size: 6vw;
-        padding: 2vw 12vw;
-    }
-    main section.destination-main .destination{
-    height: 190vw;
-    flex-direction: column;
-    }
-    main section.destination-main .destination .box{
-        height: 60vw;
-        width: 80vw;
-        padding: 18vw 5vw;
-    }
-    main section.destination-main .destination .box h3{
-        font-size: 5vw;
-    }
-    /* services */
-    main section.service-main{
-        height: 285vw;
-        background-size: 130%;
-    }
-    main section.service-main h2{
-        font-size: 7vw;
-    }
-    main section.service-main h3{
-        font-size: 6vw;
-        padding: 0vw 10vw;
-    }
-   main section.service-main .service{
-    height: 230vw;
-    flex-direction: column;
-   }
-   main section.service-main .service .box{
-    height: 30%;
-    width: 70%;
-    background-size: 230%;
-    padding: 5vw 10vw;
-   }
-   main section.service-main .service .box h1{
-    font-size: 8vw;
-    
-   }
-   main section.service-main .service .box p{
-    font-size: 3.5vw;
-    margin-top: 1vw;
-    font-weight: 500;
-   }
-   main section.service-main .service .box button{
-    height: 10vw;
-    width: 30vw;
-    margin-left: 10%;
-    margin-top: 10%;
-    padding: 1vw 0vw    ;
-    font-size: 2.5vw;
-    border-radius: 5px;
-   }
 
-   /* packeges */
-   section.packeges-main{
-    height: 950vw;
-   }
-   section.packeges-main .packeges{
-    height: 450vw;
-    flex-direction: column;
-
-   }
-   section.packeges-main .packeges .pac-box{
-    height: 90vw;
-    width: 80%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-   }
-   section.packeges-main .packeges .pac-box .box button{
-
-    width: 120%;
-    height: 50px;
-    margin-top: 3%;
-    font-size: 5vw;
-   }
-   section.packeges-main .packeges .pac-box .box img{
-    height: 70vw;
-    object-fit: cover;
-}
-section.packeges-main .packeges .pac-box .box h2{
-    margin-top: 10%;
-    font-size: 8vw;
-}
-section.packeges-main .packeges .pac-box .box button{
-    height: 20vw;
-    font-weight: 600;
-    
-}
-   
-   /* visa page des */
-   .containerdes1{
-    flex-direction: column-reverse;
-    align-items: center;
-    height: 200vw;
-   }
-   .containerdes1 .box{
-    width: 100vw;
-   
-   }
-   .containerdes1 .box:nth-child(2){
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
-   .containerdes1 .box img{
-    width: 80%;
-    margin-top: 3%;
-    height: 200px;
-    margin-left: 0%;
-   }
-   .containerdes1 .box p{
-    font-size: 4.2vw;
-   }
-
-
-
-    /* visa main page */
-    section.visa-main{
-     height: 800vw;
-     background-size: 160%;
-     background-position-x: 40%;
+    section.packeges-main .packeges .pac-box .box h2 {
+        margin-top: 15%;
     }
-    section.visa-main .visa,  section.visa-main .visa-2, section.visa-main .visa-3 {
-        height: 250vw;
-        padding: 3vw 0vw;
-        width: 100vw;
-        flex-direction: column;
-    }
- 
-   section.visa-main .visa .box, section.visa-main .visa-2 .box-2, section.visa-main .visa-3 .box-3{
-    height: 60vw;
-    width: 80vw;
-   }
-   section.visa-main .visa .box a button , section.visa-main .visa-2 .box-2 a button, section.visa-main .visa-3 .box-3 a button{
-    width: 100vw;
-    margin-left: 0%;
-    height: 60px;
-    margin-top: 56%;
-   }
-    
-     /* packeges pages back */
-     section.packegespages-main{
+
+    /* packeges abck page */
+    section.packegespages-main {
         height: 100vh;
         background-size: cover;
-     }
-    
-     section.packegespages-main .packegespages h2{
-       font-size: 6vw;
-     }
-     section.packegespages-main .packegespages h5{
+    }
+
+    section.packegespages-main .packegespages h2 {
+        font-size: 6vw;
+    }
+
+    section.packegespages-main .packegespages h5 {
         font-size: 5vw;
-     }
-     section.packegespages-main .packegespages button{
-    
+    }
+
+    section.packegespages-main .packegespages button {
+
         font-size: 5vw;
-     }
-     section.packegespages-main .packegespages .box-days {
-        width: 90vw;
-        margin-left: -3vw;
-     }
-     section.packegespages-main .packegespages .box-days .top-box{
+    }
+
+    section.packegespages-main .packegespages .box-days {
+        width: 100%;
+        margin-left: 0vw;
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box {
         width: 100%;
         margin-left: 0%;
-        
-     }
-     section.packegespages-main .packegespages .box-days .top-box .day{
+
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box .day {
         width: 20vw;
         display: flex;
         align-items: center;
         justify-content: center;
 
-     }
-     section.packegespages-main .packegespages .box-days .top-box .icon{
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box .icon {
         width: 10vw;
-     }
-     section.packegespages-main .packegespages ul{
+    }
+
+    section.packegespages-main .packegespages ul {
         margin-left: 5vw;
-     }
-     section.packegespages-main .packegespages .box-days .top-box h6{
-        font-size: 4vw;
-     }
-       /* blog paGE */
-       .container-blog{
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box h6 {
+        font-size: 3vw;
+    }
+
+    /* des1 */
+    .containerdes1 {
+        height: 50vw;
+    }
+
+    .containerdes1 .box img {
+        margin-left: 20%;
+        margin-top: 30%;
+    }
+
+    .containerdes1 .box h1 {
+        margin-left: 2%;
+    }
+
+    .containerdes1 .box p {
+        font-size: 3vw;
+    }
+
+    .containerdes1 .box button {
+        margin-left: 5%;
+        margin-top: 5%;
+        padding: 3vw 0vw;
+    }
+
+    /* visa  */
+    section.visa-main {
+        height: 220vw;
+    }
+
+    section.visa-main .visa {
+        height: 70vw;
+        padding: 2vw 0vw;
+    }
+
+    section.visa-main .visa .box {
+        height: 30vw;
+        width: 40vw;
+        border-radius: 5px;
+    }
+
+    section.visa-main .visa-2 {
+        height: 70vw;
+    }
+
+    section.visa-main .visa-2 .box-2 {
+        height: 30vw;
+        width: 40vw;
+        border-radius: 5px;
+    }
+
+    section.visa-main .visa-3 {
+        height: 70vw;
+    }
+
+    section.visa-main .visa-3 .box-3 {
+        height: 30vw;
+        width: 40vw;
+        border-radius: 5px;
+    }
+
+    section.visa-main .visa .box a button,
+    section.visa-main .visa-2 .box-2 a button,
+    section.visa-main .visa-3 .box-3 a button {
+        width: 40vw;
+        height: 10vw;
+        font-size: 5vw;
+    }
+
+    section.packegespages-main {
+        height: 100vh;
+        background-size: cover;
+    }
+
+    section.packegespages-main .packegespages h5 {
+        font-size: 5vw;
+    }
+
+    section.packegespages-main .packegespages ul {
+        font-size: 3.5vw;
+    }
+
+    section.packegespages-main .packegespages p {
+        font-size: 3vw;
+    }
+
+    /* visa click page  */
+    .containerdes1 {
+        height: 130vw;
+    }
+
+    /* blog paGE */
+    .container-blog {
         flex-direction: column-reverse;
-     }
-     .container-blog .containerblog-main{
+    }
+
+    .container-blog .containerblog-main {
         height: 90%;
         width: 100%;
-     }
-     .container-blog .containerblog-main:nth-child(2){
+    }
+
+    .container-blog .containerblog-main:nth-child(2) {
         height: 10%;
         width: 100%;
         position: relative;
         flex-direction: row;
-     }
-     .container-blog .containerblog-main .containerblog:nth-child(2),.container-blog .containerblog-main .containerblog:nth-child(4){
-        flex-direction: column-reverse;
-     }
-     .container-blog .containerblog-main .containerblog:nth-child(2) .box:nth-child(2),.container-blog .containerblog-main .containerblog:nth-child(4) .box:nth-child(2){
-        width: 100%;
-     }
-      /* footer  */
-      .containeroffooter{
-        padding-top: 10vw;
-        flex-direction:column ;
-        margin-top: 110%;
     }
-    
-    .footercontact p{
-        margin-left: 20%;
-    }
-    .containeroffooter .footerlink ul{
-        display: flex;
-        justify-content: space-around;
-        list-style-type: none;
-    }
-    .containeroffooter .footerlink{
-        margin-top: 3%;
-    }
-    .containeroffooter .footermedia{
-       margin-top: 3%;
-    }
-    .containeroffooter .footermedia ul{
-        display: flex;
-        justify-content: space-around;
-        list-style-type: none;
-    }
-    
 
-     
- 
-}
-@media screen and (max-width:462px) {
-    header nav .box:first-child{
-        width: 80%;
+    .container-blog .containerblog-main .containerblog:nth-child(2),
+    .container-blog .containerblog-main .containerblog:nth-child(4) {
+        flex-direction: column-reverse;
     }
-    header nav .box h2{
-        font-size: 2.9vw;
+
+    .container-blog .containerblog-main .containerblog:nth-child(2) .box:nth-child(2),
+    .container-blog .containerblog-main .containerblog:nth-child(4) .box:nth-child(2) {
+        width: 100%;
+    }
+
+
+}
+
+/* Small screens: 320px to 480px wide (e.g., older smartphones). */
+@media (min-width:319px) and (max-width:425.9px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    /* hamburger */
+    #check:checked~ul {
+        right: 0%;
+        transition: 1s;
+    }
+
+    header nav ul {
+        background-color: rgb(24, 24, 24);
+        width: 45%;
+        height: 100vh;
+    }
+
+
+
+    label {
+        display: block;
+        margin-top: -150%;
+        z-index: 1100;
+
+    }
+
+    header nav #boxnav {
+        height: 50px;
+        width: 55px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: 32%;
+        background-color: transparent;
+    }
+
+    header nav ul {
+        display: block;
+        flex-direction: column;
+        margin-top: 100vw;
+        position: absolute;
+        right: -50%;
+    }
+
+
+    /* header  */
+    header nav {
+        height: 50px;
+        top: 0%;
+    }
+    header nav .box:first-child {
+        width: 70%;
+    }
+
+    header nav .box h2 {
+        font-size: 3.4vw;
         width: 70%;
         font-weight: 750;
     }
-    
-}
-@media screen and (max-width:360.99px) {
-      section.packegespages-main .packegespages button{
-        margin-top: 3%;
-      }
-      /* header */
-      header nav ul{
-        margin-top: 130%;
-      }
-      header nav{
+     
+    #headh2{
+        margin-top: 10vw;
+    }
+    header {
+        height: 80vw;
+        background-size: cover;
+    }
+
+    header h2 {
+        font-size: 7vw;
+        margin-left: 2%;
+    }
+
+    header p {
+        font-size: 4.5vw;
+        width: 80%;
+    }
+
+    header button {
+        height: 10vw;
+        margin-top: -2%;
+    }
+
+    /* main  */
+    main {
+        height: 960vw
+    }
+
+    /* abbout */
+    section.aboutmain {
+        height: 330vw;
+        overflow: hidden;
+        padding: 0vw 0vw;
+        background-size: cover;
+    }
+
+    section.aboutmain .about {
+        height: 150vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    section.aboutmain .about .box:first-child {
+        width: 60%;
+        height: 30%;
+    }
+
+    section.aboutmain .about-2 .box-2:nth-child(2) {
+        width: 60%;
+        height: 30%;
+    }
+
+    section.aboutmain .about-2 {
+        height: 150vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    section.aboutmain .about .box:nth-child(2) {
+        margin-top: 4%;
+    }
+
+    section.aboutmain .about .box {
+        height: 90vw;
+        padding: 0vw 0vw;
+        width: 100%;
+        margin-left: -2%;
+    }
+
+    section.aboutmain .about .box h2 {
+        font-size: 7vw;
+        margin-left: 2%;
+        padding: 2vw 7vw;
+    }
+
+    section.aboutmain .about .box p {
+        font-size: 4vw;
+        margin-left: 10%;
+        width: 70%;
+
+    }
+
+    section.aboutmain .about-2 .box-2 {
+        height: 90vw;
+        padding: 0vw 0vw;
+        width: 100%;
+        margin-left: -2%;
+    }
+
+    section.aboutmain .about-2 .box-2 h2 {
+        font-size: 7vw;
+        margin-top: 5%;
+        padding: 4vw 7vw;
+    }
+
+    section.aboutmain .about-2 .box-2 p {
+        font-size: 4vw;
+        margin-left: 10%;
+        width: 70%;
+    }
+
+    section.aboutmain .about-2 .box-2 button {
+        height: 10vw;
+    }
+
+    section.aboutmain .about-2 .box-2 img {
+        height: 80%;
+        margin-top: 5%;
+    }
+
+    /* destinations */
+    main section.destination-main {
+        height: 450vw;
+        background-size: cover;
+    }
+
+    main section.destination-main h1 {
+        font-size: 7vw;
+        padding: 2vw 25vw;
+    }
+
+    main section.destination-main h2 {
+        font-size: 6vw;
+        padding: 2vw 12vw;
+    }
+
+    main section.destination-main .destination {
+        height: 190vw;
+        flex-direction: column;
+    }
+
+    main section.destination-main .destination .box {
+        height: 60vw;
+        width: 80vw;
+        padding: 18vw 5vw;
+    }
+
+    main section.destination-main .destination .box h3 {
+        font-size: 5vw;
+    }
+
+    /* services */
+    main section.service-main {
+        height: 285vw;
+        background-size: 130%;
+    }
+
+    main section.service-main h2 {
+        font-size: 7vw;
+    }
+
+    main section.service-main h3 {
+        font-size: 6vw;
+        padding: 0vw 10vw;
+    }
+
+    main section.service-main .service {
+        height: 230vw;
+        flex-direction: column;
+    }
+
+    main section.service-main .service .box {
+        height: 30%;
+        width: 70%;
+        background-size: 230%;
+        padding: 5vw 10vw;
+    }
+
+    main section.service-main .service .box h1 {
+        font-size: 8vw;
+
+    }
+
+    main section.service-main .service .box p {
+        font-size: 3.5vw;
+        margin-top: 1vw;
+        font-weight: 500;
+    }
+
+    main section.service-main .service .box button {
+        height: 10vw;
+        width: 30vw;
+        margin-left: 10%;
+        margin-top: 10%;
+        padding: 1vw 0vw;
+        font-size: 2.5vw;
+        border-radius: 5px;
+    }
+
+    /* packeges */
+    section.packeges-main {
+        height: 950vw;
+    }
+
+    section.packeges-main .packeges {
+        height: 450vw;
+        flex-direction: column;
+
+    }
+
+    section.packeges-main .packeges .pac-box {
+        height: 90vw;
+        width: 80%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section.packeges-main .packeges .pac-box .box button {
+
+        width: 120%;
         height: 50px;
-      }
-    
+        margin-top: 3%;
+        font-size: 5vw;
+    }
+
+    section.packeges-main .packeges .pac-box .box img {
+        height: 70vw;
+        object-fit: cover;
+    }
+
+    section.packeges-main .packeges .pac-box .box h2 {
+        margin-top: 10%;
+        font-size: 8vw;
+    }
+
+    section.packeges-main .packeges .pac-box .box button {
+        height: 20vw;
+        font-weight: 600;
+
+    }
+
+    /* visa page des */
+    .containerdes1 {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 200vw;
+    }
+
+    .containerdes1 .box {
+        width: 100vw;
+
+    }
+
+    .containerdes1 .box:nth-child(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerdes1 .box img {
+        width: 80%;
+        margin-top: 3%;
+        height: 200px;
+        margin-left: 0%;
+    }
+
+    .containerdes1 .box p {
+        font-size: 4.2vw;
+    }
+
+
+
+    /* visa main page */
+    section.visa-main {
+        height: 800vw;
+        background-size: 160%;
+        background-position-x: 40%;
+    }
+
+    section.visa-main .visa,
+    section.visa-main .visa-2,
+    section.visa-main .visa-3 {
+        height: 250vw;
+        padding: 3vw 0vw;
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    section.visa-main .visa .box,
+    section.visa-main .visa-2 .box-2,
+    section.visa-main .visa-3 .box-3 {
+        height: 60vw;
+        width: 80vw;
+    }
+
+    section.visa-main .visa .box a button,
+    section.visa-main .visa-2 .box-2 a button,
+    section.visa-main .visa-3 .box-3 a button {
+        width: 100vw;
+        margin-left: 0%;
+        height: 60px;
+        margin-top: 56%;
+    }
+
+    /* packeges pages back */
+    section.packegespages-main {
+        height: 100vh;
+        background-size: cover;
+    }
+
+    section.packegespages-main .packegespages h2 {
+        font-size: 7vw;
+    }
+
+    section.packegespages-main .packegespages p {
+        font-size: 4vw;
+    }
+
+    section.packegespages-main .packegespages h5 {
+        font-size: 5vw;
+    }
+
+    section.packegespages-main .packegespages button {
+        font-size: 5vw;
+    }
+
+    section.packegespages-main .packegespages li {
+        font-size: 3.5vw;
+    }
+
+    section.packegespages-main .packegespages .box-days {
+        width: 90vw;
+        margin-left: -3vw;
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box {
+        width: 100%;
+        margin-left: 0%;
+
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box .day {
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box .icon {
+        width: 10vw;
+    }
+
+    section.packegespages-main .packegespages ul {
+        margin-left: 5vw;
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box h6 {
+        font-size: 4vw;
+    }
+
+    /* blog paGE */
+    .container-blog {
+        flex-direction: column-reverse;
+    }
+
+    .container-blog .containerblog-main {
+        height: 90%;
+        width: 100%;
+    }
+
+    .container-blog .containerblog-main:nth-child(2) {
+        height: 10%;
+        width: 100%;
+        position: relative;
+        flex-direction: row;
+    }
+
+    .container-blog .containerblog-main .containerblog:nth-child(2),
+    .container-blog .containerblog-main .containerblog:nth-child(4) {
+        flex-direction: column-reverse;
+    }
+
+    .container-blog .containerblog-main .containerblog:nth-child(2) .box:nth-child(2),
+    .container-blog .containerblog-main .containerblog:nth-child(4) .box:nth-child(2) {
+        width: 100%;
+    }
+
+    /* footer  */
+    .containeroffooter {
+        padding-top: 10vw;
+        flex-direction: column;
+        margin-top: 110%;
+    }
+
+    .footercontact p {
+        margin-left: 20%;
+    }
+
+    .containeroffooter .footerlink ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+
+    .containeroffooter .footerlink {
+        margin-top: 3%;
+    }
+
+    .containeroffooter .footermedia {
+        margin-top: 3%;
+    }
+
+    .containeroffooter .footermedia ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+
+
+
+
 }
+
+
+@media screen and (max-width:375.9px) {
+    header nav ul{
+        margin-top: 120vw;
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width:360.9px){
+    header nav ul{
+        margin-top: 190vw;
+    }
+    header{
+        background-size: 150%;
+        background-position-y: 10%;
+    }
+  
+}
+
