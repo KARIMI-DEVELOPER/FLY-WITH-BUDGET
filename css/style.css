@@ -6,7 +6,7 @@
 
 header {
     height: 40vw;
-    background-image: url(travel\ agency\ fly\ with\ budget\ header\ carosoul\ best\ travel\ agency.webp);
+    background-image: url(../images/home.webp);
     background-attachment: fixed;
     background-size: cover;
     background-position-y: 30%;
@@ -14,6 +14,16 @@ header {
     position: relative;
     padding: 0vw 0vw;
     border-bottom: solid 2px white;
+}
+#head-visa,.visa-back{
+    background-image: url(../images/visa.webp);
+}
+#head-packeges,.head-packeges{
+    background-image: url(../images/packeges\ \(1\).webp);
+
+}
+#head-about{
+    background-image: url(../images/about.webp);
 }
 
 header nav {
@@ -87,7 +97,7 @@ header h2 {
 
 header p {
     font-size: 2vw;
-    color: white;
+    color:black;
     font-weight: 500;
     width: 60%;
     font-weight: 550;
@@ -230,16 +240,34 @@ main section.destination-main .destination {
 main section.destination-main .destination .box {
     height: 25vw;
     width: 25vw;
-    background-image: url(create\ a\ travel\ 1.webp);
-    background-size: 100%;
+    background-image: url(../images/des-1.webp);
+    background-size: cover;
     border-radius: 5%;
     padding: 10vw 5vw;
 }
+main section.destination-main .destination .box:nth-child(2){
+    background-image: url(../images/des-2.webp);
+}
+main section.destination-main .destination .box:nth-child(3){
+    background-image: url(../images/des-3.webp);
+}
+#box-4{
+    background-image: url(../images/des-4.webp);
+    background-size: cover;
+}
+#box-5{
+    background-image: url(../images/des-5.webp);
+    background-size: cover;
+}
+#box-6{
+    background-image: url(../images/des-6.webp);
+    background-size: cover;
+}
 
 main section.destination-main .destination .box:hover {
-    background-size: 120%;
+    background-position: 50%, 50%;
     transition-duration: 1s;
-    background-position-y: 50% background-positon-x: 100%;
+    
 }
 
 main section.destination-main .destination .box h3 {
@@ -291,25 +319,24 @@ main section.service-main .service .box {
     height: 90%;
     width: 32%;
     padding: 2vw 5vw;
-    background-image: url(create\ a\ backgr\ 0.webp);
-    background-position-y: 10%;
-    background-size: 100%;
+    background-image: url(../images/packeges\ \(1\).webp);
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 10px;
 }
 
 main section.service-main .service .box:hover {
-    background-size: 120%;
+    background-position: 50%, 50%;
     transition-duration: 1s;
 }
 
 main section.service-main .service .box:nth-child(2) {
-    background-image: url(create\ a\ backgr\ 1.webp);
+    background-image: url(../images/visa.webp);
 
 }
 
 main section.service-main .service .box:nth-child(3) {
     background-image: url(create-an-image-0.webp);
-    background-position-x: 40%;
 }
 
 main section.service-main .service .box h1 {
@@ -551,7 +578,6 @@ a {
 /* des1 */
 .containerdes1 {
     height: 50vw;
-    margin-top: 3%;
     display: flex;
 }
 
@@ -641,13 +667,17 @@ section.packeges-main .packeges .pac-box .box {
     height: 40%;
     width: 100%;
 }
+section.packeges-main .packeges .pac-box .box img{
+    height: 25vw;
+    object-fit: cover;
+}
 
 section.packeges-main .packeges .pac-box .box h2 {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: centerS;
-    margin-top: 3%;
+    margin-top: 15%;
     font-weight: 500;
     color: rgb(38, 37, 37);
     font-family: "Poppins", sans-serif;
@@ -680,27 +710,6 @@ section.packeges-main .packeges .pac-box .box:nth-child(2) {
 }
 
 
-section.packeges-main .packeges .pac-box .box .box-info {
-    height: 30px;
-    width: 100%;
-    margin-top: 2%;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-section.packeges-main .packeges .pac-box .box .box-info .box-detail {
-    height: 100%;
-    width: 33%;
-
-}
-
-section.packeges-main .packeges .pac-box .box .box-info .box-detail h4 {
-    margin-top: 3%;
-    font-weight: 400;
-    color: rgb(38, 37, 37);
-    font-family: "Poppins", sans-serif;
-}
 
 /* packeges page back */
 section.packegespages-main {

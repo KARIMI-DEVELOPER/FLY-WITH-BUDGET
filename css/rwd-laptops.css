@@ -212,7 +212,7 @@ Large screens (phablets): 768px to 1024px wide (e.g., larger smartphones and sma
 
 Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones).(done)
 */
-@media (max-width:767.9px) {
+@media (min-width:600px) and (max-width:767.9px) {
     *{
         padding: 0;
         margin: 0;
@@ -248,10 +248,9 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         flex-direction: column;
         color: white;
         font-weight: bold;
-        margin-top: 93%;
+        margin-top: 62%;
         position: absolute;
         right: -50%;
-        margin-top: 70%;
         
       }
 
@@ -321,7 +320,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
     main section.service-main .service .box{
         background-repeat: no-repeat;
-        background-size: 130%;
+        background-size: cover;
     }
     main section.service-main .service .box h1{
         font-size: 4vw;
@@ -393,9 +392,13 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     font-size: 3.5vw;
     font-weight: 550;
    }
-   section.packeges-main .packeges .pac-box .box .box-info .box-detail h4{
-    font-size: 2.5vw;
-   }
+   section.packeges-main .packeges .pac-box .box img{
+    height: 35vw;
+    object-fit: cover;
+}
+section.packeges-main .packeges .pac-box .box h2{
+    margin-top: 15%;
+}
    /* packeges abck page */
    section.packegespages-main{
     height: 100vh;
@@ -510,9 +513,6 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
      .containerdes1{
         height: 130vw;
      }
-     .containerdes1 .box{
-        
-     }
        /* blog paGE */
        .container-blog{
         flex-direction: column-reverse;
@@ -558,7 +558,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
 
     label{
       display: block;
-      margin-top: -120%;
+      margin-top: -150%;
       z-index: 1100;
 
     }
@@ -677,9 +677,8 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
     /* destinations */
     main section.destination-main{
-        height: 400vw;
-        background-size: 180%;
-        background-position-x: 40%;
+        height: 450vw;
+        background-size: cover;
     }
     main section.destination-main h1{
         font-size: 7vw;
@@ -690,12 +689,12 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         padding: 2vw 12vw;
     }
     main section.destination-main .destination{
-    height: 150vw;
+    height: 190vw;
     flex-direction: column;
     }
     main section.destination-main .destination .box{
-        height: 40vw;
-        width: 50vw;
+        height: 60vw;
+        width: 80vw;
         padding: 18vw 5vw;
     }
     main section.destination-main .destination .box h3{
@@ -765,14 +764,19 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     margin-top: 3%;
     font-size: 5vw;
    }
-   section.packeges-main .packeges .pac-box .box h2{
-    font-size: 7vw;
-    margin-top: 3%;
-   }
-   section.packeges-main .packeges .pac-box .box .box-info .box-detail h4{
-    font-size: 5vw;
-    margin-left: 10%;
-   }
+   section.packeges-main .packeges .pac-box .box img{
+    height: 70vw;
+    object-fit: cover;
+}
+section.packeges-main .packeges .pac-box .box h2{
+    margin-top: 10%;
+    font-size: 8vw;
+}
+section.packeges-main .packeges .pac-box .box button{
+    height: 20vw;
+    font-weight: 600;
+    
+}
    
    /* visa page des */
    .containerdes1{
@@ -886,6 +890,17 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
      .container-blog .containerblog-main .containerblog:nth-child(2) .box:nth-child(2),.container-blog .containerblog-main .containerblog:nth-child(4) .box:nth-child(2){
         width: 100%;
      }
+      /* footer  */
+      .containeroffooter{
+        padding-top: 10vw;
+        flex-direction:column ;
+    }
+    
+    .footercontact p{
+        margin-left: 20%;
+    }
+    
+
      
  
 }
@@ -905,8 +920,8 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         margin-top: 3%;
       }
       /* header */
-      header nav ul {
-        margin-top: 125%;
+      header nav ul{
+        margin-top: 130%;
       }
     
 }
