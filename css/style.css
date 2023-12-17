@@ -126,6 +126,9 @@ section.handle-main .text{
     justify-content: center;
     align-items: center;
 }
+section.handle-main .text h2{
+    font-family: 'Fira Sans', sans-serif;
+}
 section.handle-main .conthandle{
     height: 30vw;
     margin-top: 3vw;
@@ -409,10 +412,10 @@ main section.service-main .service .box button:hover {
 
 /* Footer Styles */
 footer {
-    background-color: rgb(38, 37, 37);
-    color: #fff;
-    padding: 2vw 0vw;
-    margin-top: -10vw;
+    background-image: url(../images/Contact\ Us.svg);
+    background-size: cover;
+    background-position: center;
+    height: 60vw;
 }
 
 .containeroffooter {
