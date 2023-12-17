@@ -84,7 +84,407 @@ Large screens (phablets): 768px to 1024px wide (e.g., larger smartphones and sma
 
 Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones).(done)
 */
-@media (min-width:599px) and (max-width:768.9px) {
+@media screen and (max-width:800.9px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    /* toggle hamburger */
+    #check:checked~ul {
+        right: 0%;
+        transition: 1s;
+    }
+
+    header nav ul {
+        background-color: rgb(24, 24, 24);
+        width: 45%;
+        height: 100vh;
+    }
+
+    label {
+        display: block;
+        margin-top: -6vw;
+
+    }
+
+    header nav #boxnav {
+        height: 50px;
+        width: 55px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: 32%;
+        background-color: transparent;
+    }
+
+    header nav ul {
+        display: block;
+        flex-direction: column;
+        color: white;
+        font-weight: bold;
+        margin-top: 90vw;
+        position: absolute;
+        right: -50%;
+
+    }
+
+    /* header */
+    header {
+        height: 60vw;
+        background-size:110%;
+        background-position-y: -6   0%;
+    }
+
+    header nav {
+        height: 10vw;
+        top: 0;
+    }
+    #headh2{
+        margin-top: 5vw;
+    }
+
+    header nav .box h2 {
+        font-size: 3vw;
+    }
+
+    header h2 {
+        font-size: 5vw;
+    }
+
+    header p {
+        font-size: 3vw;
+        width: 100%;
+    }
+
+    /* main  */
+    main {
+        height: 260vw;
+        overflow: hidden;
+    }
+
+    /* about section */
+    section.aboutmain {
+        height: 100vw;
+    }
+
+    section.aboutmain .about {
+        height: 45vw;
+    }
+
+    section.aboutmain .about .box:first-child {
+        margin-left: -25%;
+    }
+
+    section.aboutmain .about .box h2 {
+        font-size: 5vw;
+        width: 130%;
+        margin-left: 10%;
+
+    }
+
+    section.aboutmain .about .box p {
+        font-size: 2.5vw;
+        margin-left: 20%;
+    }
+
+    section.aboutmain .about-2 .box-2 h2 {
+        font-size: 4vw;
+    }
+
+    section.aboutmain .about-2 .box-2 p {
+        font-size: 2.5vw;
+
+    }
+
+    section.aboutmain .about-2 {
+        height: 45vw;
+    }
+
+    /* about end */
+    /* service */
+    main section.service-main {
+        height: 70vw;
+    }
+
+    main section.service-main .service {
+        height: 45vw;
+    }
+
+    main section.service-main .service .box {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    main section.service-main .service .box h1 {
+        font-size: 4vw;
+    }
+
+    main section.service-main .service .box p {
+        font-size: 2vw;
+    }
+
+    main section.service-main .service .box button {
+        height: 5vw;
+        margin-top: 10vw;
+        margin-left: 5%;
+        font-size: 2vw;
+    }
+
+    /* destination */
+    main section.destination-main h1 {
+        font-size: 4vw;
+    }
+
+    main section.destination-main h2 {
+        font-size: 3.5vw;
+        padding: 0vw 28vw;
+    }
+
+    main section.destination-main .destination .box {
+        padding: 10vw 2vw;
+    }
+
+    main section.destination-main .destination .box h3 {
+        font-size: 3vw;
+
+    }
+
+    /* footer  */
+    .containeroffooter {
+        flex-wrap: wrap;
+    }
+
+    .footercontact h4,
+    .footerlink h4,
+    .footermedia h4 {
+        margin-left: 30%;
+    }
+
+    .footercontact p {
+        margin-left: 2%;
+    }
+
+    .footermedia ul {
+        margin-left: 30%;
+    }
+
+    .footerlink li {
+        list-style-type: none;
+    }
+
+    .footerlink a {
+
+        margin-left: 30%;
+    }
+
+    /* packeges */
+    section.packeges-main {
+        height: 230vw;
+    }
+
+    section.packeges-main .packeges {
+        height: 100vw;
+
+    }
+
+    section.packeges-main .packeges .pac-box {
+        width: 40%;
+        height: 45vw;
+    }
+
+    section.packeges-main .packeges .pac-box .box button {
+        width: 45vw;
+        height: 6vw;
+        font-size: 3vw;
+    }
+
+    section.packeges-main .packeges .pac-box .box h2 {
+        margin-top: -3%;
+        margin-left: 3%;
+        font-size: 3.5vw;
+        font-weight: 550;
+    }
+
+    section.packeges-main .packeges .pac-box .box img {
+        height: 35vw;
+        object-fit: cover;
+    }
+
+    section.packeges-main .packeges .pac-box .box h2 {
+        margin-top: 15%;
+    }
+
+    /* packeges abck page */
+    section.packegespages-main {
+        height: 100vh;
+        background-size: cover;
+    }
+
+    section.packegespages-main .packegespages h2 {
+        font-size: 6vw;
+    }
+
+    section.packegespages-main .packegespages h5 {
+        font-size: 5vw;
+    }
+
+    section.packegespages-main .packegespages button {
+
+        font-size: 5vw;
+    }
+
+    section.packegespages-main .packegespages .box-days {
+        width: 100%;
+        margin-left: 0vw;
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box {
+        width: 100%;
+        margin-left: 0%;
+
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box .day {
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box .icon {
+        width: 10vw;
+    }
+
+    section.packegespages-main .packegespages ul {
+        margin-left: 5vw;
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box h6 {
+        font-size: 3vw;
+    }
+
+    /* des1 */
+    .containerdes1 {
+        height: 50vw;
+    }
+
+    .containerdes1 .box img {
+        margin-left: 20%;
+        margin-top: 30%;
+    }
+
+    .containerdes1 .box h1 {
+        margin-left: 2%;
+    }
+
+    .containerdes1 .box p {
+        font-size: 3vw;
+    }
+
+    .containerdes1 .box button {
+        margin-left: 5%;
+        margin-top: 5%;
+        padding: 3vw 0vw;
+    }
+
+    /* visa  */
+    section.visa-main {
+        height: 220vw;
+    }
+
+    section.visa-main .visa {
+        height: 70vw;
+        padding: 2vw 0vw;
+    }
+
+    section.visa-main .visa .box {
+        height: 30vw;
+        width: 40vw;
+        border-radius: 5px;
+    }
+
+    section.visa-main .visa-2 {
+        height: 70vw;
+    }
+
+    section.visa-main .visa-2 .box-2 {
+        height: 30vw;
+        width: 40vw;
+        border-radius: 5px;
+    }
+
+    section.visa-main .visa-3 {
+        height: 70vw;
+    }
+
+    section.visa-main .visa-3 .box-3 {
+        height: 30vw;
+        width: 40vw;
+        border-radius: 5px;
+    }
+
+    section.visa-main .visa .box a button,
+    section.visa-main .visa-2 .box-2 a button,
+    section.visa-main .visa-3 .box-3 a button {
+        width: 40vw;
+        height: 10vw;
+        font-size: 5vw;
+    }
+
+    section.packegespages-main {
+        height: 100vh;
+        background-size: cover;
+    }
+
+    section.packegespages-main .packegespages h5 {
+        font-size: 5vw;
+    }
+
+    section.packegespages-main .packegespages ul {
+        font-size: 3.5vw;
+    }
+
+    section.packegespages-main .packegespages p {
+        font-size: 3vw;
+    }
+
+    /* visa click page  */
+    .containerdes1 {
+        height: 130vw;
+    }
+
+    /* blog paGE */
+    .container-blog {
+        flex-direction: column-reverse;
+    }
+
+    .container-blog .containerblog-main {
+        height: 90%;
+        width: 100%;
+    }
+
+    .container-blog .containerblog-main:nth-child(2) {
+        height: 10%;
+        width: 100%;
+        position: relative;
+        flex-direction: row;
+    }
+
+    .container-blog .containerblog-main .containerblog:nth-child(2),
+    .container-blog .containerblog-main .containerblog:nth-child(4) {
+        flex-direction: column-reverse;
+    }
+
+    .container-blog .containerblog-main .containerblog:nth-child(2) .box:nth-child(2),
+    .container-blog .containerblog-main .containerblog:nth-child(4) .box:nth-child(2) {
+        width: 100%;
+    }
+
+
+}
+@media (min-width:600px) and (max-width:768.9px) {
     * {
         padding: 0;
         margin: 0;
@@ -224,7 +624,8 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
 
     main section.service-main .service .box button {
-        height: 6vw;
+        height: 5vw;
+        margin-top: 10vw;
         margin-left: 5%;
         font-size: 2vw;
     }
