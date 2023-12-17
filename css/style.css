@@ -118,7 +118,6 @@ main {
 /* handles */
 section.handle-main{
     height: 75vw;
-    border: solid 1px black;
 }
 section.handle-main .text{
     height: 50px;
@@ -132,9 +131,8 @@ section.handle-main .text h2{
     font-family: 'Fira Sans', sans-serif;
 }
 section.handle-main .conthandle{
-    height: 30vw;
+    height: 25vw;
     margin-top: 3vw;
-     border: solid 1px black;
      display: flex;
      align-items: center;
      justify-content: space-around;
@@ -145,20 +143,39 @@ section.handle-main .conthandle .handle{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: solid 1px black;
 }
 section.handle-main .conthandle .handle .box{
     height: 70%;
     width: 40%;
-    border: solid 1px black;
 }
+
 section.handle-main .conthandle .handle .box:nth-child(2){
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
+#images{
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#images-2{
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#images-3{
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#images-4{
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 section.handle-main .conthandle .handle .box h3{
      font-size: 2.6vw;
      font-family: 'Fira Sans', sans-serif;
@@ -168,6 +185,7 @@ section.handle-main .conthandle .handle .box p{
     margin-top: 1vw;
     font-family: 'Nanum Gothic';
     font-weight: 50;
+    margin-left: 1vw;
 }
 /* about start */
 section.aboutmain {
@@ -900,14 +918,12 @@ section.packegespages-main .packegespages .box-days .icon {
     align-items: center;
     background-size: cover;
     background-image: url(an\ aeroplane\ is\ 1.png);
-    border: solid 1px black;
 }
 
 .container-blog .containerblog-main {
     height: 100%;
     width: 80%;
     overflow: scroll;
-    border: solid 1px black;
     background-color: rgba(24, 24, 24, 0.651);
 
 }
@@ -933,7 +949,6 @@ section.packegespages-main .packegespages .box-days .icon {
 
 .container-blog .containerblog-main .containerblog {
     height: 10vh;
-    border: solid 1px black;
 }
 
 .container-blog .containerblog-main .containerblog h2 {
