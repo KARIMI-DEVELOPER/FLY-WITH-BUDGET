@@ -7,11 +7,10 @@
 header {
     height: 60vw;
     background-image: url(../images/Home.svg);
-    background-attachment: scroll;
     background-size: cover;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: 5vw;
     position: relative;
-    border-bottom: solid 2px white;
 }
 #head-visa,.visa-back{
     background-image: url(../images/visa.webp);
