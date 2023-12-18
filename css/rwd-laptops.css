@@ -1303,7 +1303,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
    footer .cont-foot:first-child{
     background-size: cover;
     width: 100%;
-    background-position-y:-25vh;
+    background-position-y:-0vh;
    }
    footer .cont-foot .box{
      height: 100%;

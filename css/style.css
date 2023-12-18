@@ -16,11 +16,11 @@ header {
     background-image: url(../images/visa.webp);
 }
 #head-packeges,.head-packeges{
-    background-image: url(../images/packeges\ \(1\).webp);
+    background-image: url(../images/Travel\ Website\ in\ Bright\ Orange\ Cream\ Photocentric\ Travel\ Style.svg);
 
 }
 #head-about{
-    background-image: url(../images/about.webp);
+    background-image: url(../images/Untitled\ design\ \(2\).png);
 }
 
 header nav {
@@ -252,11 +252,9 @@ section.handle-main .conthandle .handle .box p{
 /* about start */
 section.aboutmain {
     padding: 0vw 0vw;
+    margin-top: 2vw;
     height: 80vw;
-    background-image: url(create\ a\ travel\ 0.webp);
-    background-attachment: fixed;
-    background-size: 100%;
-    border-bottom: solid 2px white;
+    background-color: rgb(34, 16, 75);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -265,7 +263,7 @@ section.aboutmain {
 
 section.aboutmain .about-2 {
     height: 30vw;
-    background-color: rgb(24, 24, 24, 0.756);
+    background-color:  rgba(81, 65, 40, 0.132);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,7 +272,7 @@ section.aboutmain .about-2 {
 
 section.aboutmain .about {
     height: 30vw;
-    background-color: rgba(24, 24, 24, 0.756);
+    background-color: rgba(81, 65, 40, 0.132);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -319,7 +317,7 @@ section.aboutmain .about-2 .box-2 p {
     color: white;
     font-weight: 500;
     width: 100%;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Nanum Gothic';
 }
 
 section.aboutmain .about-2 .box-2 h2 {
@@ -327,7 +325,7 @@ section.aboutmain .about-2 .box-2 h2 {
     color: white;
     word-spacing: 5px;
     padding: 1vw 3vw;
-    font-family: "Poppins", sans-serif;
+    font-family:  'Fira Sans';
 }
 
 
@@ -336,7 +334,7 @@ section.aboutmain .about .box p {
     color: white;
     font-weight: 500;
     width: 100%;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Nanum Gothic';
 }
 
 section.aboutmain .about .box h2 {
@@ -344,7 +342,7 @@ section.aboutmain .about .box h2 {
     color: white;
     word-spacing: 5px;
     padding: 4vw 3vw;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 /* about end */
@@ -440,7 +438,6 @@ main section.service-main h2 {
 
 main section.service-main h3 {
     font-size: 3vw;
-    color:black;
     color: white;
     margin-top: 1vw;
     font-family: 'Nanum Gothic';
@@ -515,10 +512,7 @@ main section.service-main .service .box button {
 section.visa-main {
     height: 70vw;
     margin-top: -2vw;
-    background-image: url(create\ a\ backgr\ 1.webp);
-    background-attachment: fixed;
-    background-position-y: 50%;
-    background-size: 100%;
+    background-color: rgb(81, 65, 40);
 
 }
 
@@ -666,7 +660,7 @@ a {
 .containerdes1 .box {
     height: 100%;
     width: 50%;
-    background-color: rgb(38, 37, 37);
+    background-color: rgb(81, 65, 40);
 }
 
 .containerdes1 .box img {
@@ -683,15 +677,15 @@ a {
     margin-top: 3%;
     font-weight: 600;
     color: white;
-    word-spacing: 5vw;
-    font-family: "Poppins", sans-serif;
+    font-size: 5vw;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .containerdes1 .box p {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Nanum Gothic';
     font-size: 2vw;
     margin-top: 5%;
-    margin-left: 3%;
+    width: 120%;
     color: white;
 }
 
@@ -699,11 +693,11 @@ a {
     margin-top: 5%;
     margin-left: 30%;
     padding: 1.5vw 2vw;
-    color: rgb(38, 37, 37);
+    color: white;
     border-radius: 10px;
-    background-color: white;
+    background-color: rgb(255, 170, 0);
     border: none;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Fira Sans';
 }
 
 .containerdes1 .box button:hover {
@@ -715,7 +709,6 @@ a {
 /* packeges page */
 section.packeges-main {
     height: 70vw;
-    background-image: url(A\ beautiful\ ima\ 0\ \(2\).png);
     background-size: 200%;
     margin-top: -3vw;
     background-attachment: fixed;
@@ -729,7 +722,6 @@ section.packeges-main .packeges {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: rgba(38, 37, 37, 0.767);
 }
 
 section.packeges-main .packeges .pac-box {
@@ -762,7 +754,7 @@ section.packeges-main .packeges .pac-box .box h2 {
     margin-top: 15%;
     font-weight: 500;
     color: rgb(38, 37, 37);
-    font-family: "Poppins", sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 section.packeges-main .packeges .pac-box .box button {
@@ -796,20 +788,18 @@ section.packeges-main .packeges .pac-box .box:nth-child(2) {
 /* packeges page back */
 section.packegespages-main {
     height: 200vh;
-    margin-top: 3%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(create\ a\ backgr\ 1.webp);
     background-size: 100%;
 }
 
 section.packegespages-main .packegespages {
     height: 80%;
     width: 100vw;
-    background-color: rgba(38, 37, 37, 0.495);
     overflow: scroll;
     padding: 3vw 10vw;
+    background-color:rgb(81, 65, 40);
 }
 
 section.packegespages-main .packegespages::-webkit-scrollbar {
@@ -818,34 +808,35 @@ section.packegespages-main .packegespages::-webkit-scrollbar {
 
 section.packegespages-main .packegespages p {
     font-size: 2vw;
-    color: white;
-    font-family: "Poppins", sans-serif;
+    color:white;
+    font-family:'Nanum Gothic';
 }
 
 
 section.packegespages-main .packegespages h2 {
     font-weight: 700;
     font-size: 4vw;
-    color: rgb(255, 251, 251);
-    font-family: "Poppins", sans-serif;
+    color:white;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 section.packegespages-main .packegespages h5 {
-    font-family: "Poppins", sans-serif;
+    color:white;
+    font-family: 'Fira Sans',
     font-weight: 400;
     margin-top: 2vw;
     font-size: 3vw;
-    color: white;
 }
 
 section.packegespages-main .packegespages .box-days .top-box .day h5 {
     margin-top: 0vw;
     font-size: 2.5vw;
-    font-weight: 600;
+    font-weight: 700;color:white;
+    font-family: 'Fira Sans',
 }
 
 section.packegespages-main .packegespages .box-days .top-box h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: 600;
     font-size: 2vw;
     color: white;
@@ -1025,13 +1016,14 @@ footer .cont-foot .box p a{
 }
 
 footer.sec{
-    margin-top: 0vw;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(81, 65, 40);
-
+}
+footer.sec p{
+    color: white;
 }
 
 /* toggle */
