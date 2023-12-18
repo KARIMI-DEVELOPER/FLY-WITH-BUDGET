@@ -92,16 +92,23 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
 
     /* toggle hamburger */
-    #check:checked~ul {
-        right: 0%;
-        transition: 1s;
-    }
-
-    header nav ul {
-        background-color: rgb(24, 24, 24);
-        width: 45%;
-        height: 100vh;
-    }
+  
+  ul{
+    flex-direction: column;
+    position: absolute;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(81, 65, 40);
+    right: -100%;
+    top: 0%;
+  }
+  header nav .box ul li a{
+    
+    color: white;
+    font-weight: 700;
+    font-family: 'Fira Sans', sans-serif;
+  }
 
     label {
         display: block;
@@ -109,35 +116,19 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
 
     }
 
-    header nav #boxnav {
-        height: 50px;
-        width: 55px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        margin-left: 32%;
-        background-color: transparent;
-    }
-
-    header nav ul {
-        display: block;
-        flex-direction: column;
-        color: white;
-        font-weight: bold;
-        margin-top: 90vw;
-        position: absolute;
-        right: -50%;
-
-    }
 
     /* header */
     header {
         height: 60vw;
         background-size:110%;
-        background-position-y: -6   0%;
+        background-position-y: -60%;
+    }
+    header nav .box sub{
+        display: none;
     }
 
     header nav {
-        height: 10vw;
+        height: 8vw;
         top: 0;
     }
     #headh2{
@@ -228,8 +219,9 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         height: 5vw;
         margin-top: 10vw;
         margin-left: 5%;
-        font-size: 2vw;
+        font-size: 1vw;
     }
+    
 
     /* destination */
     main section.destination-main h1 {
@@ -251,33 +243,13 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
 
     /* footer  */
-    .containeroffooter {
-        flex-wrap: wrap;
-    }
-
-    .footercontact h4,
-    .footerlink h4,
-    .footermedia h4 {
-        margin-left: 30%;
-    }
-
-    .footercontact p {
-        margin-left: 2%;
-    }
-
-    .footermedia ul {
-        margin-left: 30%;
-    }
-
-    .footerlink li {
-        list-style-type: none;
-    }
-
-    .footerlink a {
-
-        margin-left: 30%;
-    }
-
+   footer {
+    height: 80vh;
+    margin-top: 10vw;
+   }
+   footer .cont-foot{
+    height: 80%;
+   }
     /* packeges */
     section.packeges-main {
         height: 230vw;
@@ -481,7 +453,46 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     .container-blog .containerblog-main .containerblog:nth-child(4) .box:nth-child(2) {
         width: 100%;
     }
+    /* travel made easy */
+    section.tme-main{
+        margin-top: 5vw;
+    }
+    section.tme-main .tme h2{
+      font-size: 5vw;
 
+    }
+    section.tme-main .tme p{
+        font-size: 2.5vw;
+    }
+    section.tme-main .tme .box{
+        width: 80%;
+    }
+
+      /* handle */
+      section.handle-main{
+        height: 140vw;
+      }
+      section.handle-main .conthandle{
+        height: 60vw;
+        flex-direction: column;
+      }
+      section.handle-main .conthandle .handle{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+      }
+     
+      section.handle-main .text h2{
+        font-size: 5vw;
+        margin-top: 8vw;
+        
+      }
+      section.handle-main .conthandle .handle .box h3{
+        font-size: 3.5vw;
+      }
+      section.handle-main .conthandle .handle .box p{
+        font-size: 2.8vw;
+      }
 
 }
 @media (min-width:600px) and (max-width:768.9px) {
@@ -492,43 +503,14 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
 
     /* toggle hamburger */
-    #check:checked~ul {
-        right: 0%;
-        transition: 1s;
-    }
-
-    header nav ul {
-        background-color: rgb(24, 24, 24);
-        width: 45%;
-        height: 100vh;
-    }
-
+  
     label {
         display: block;
         margin-top: -6vw;
 
     }
 
-    header nav #boxnav {
-        height: 50px;
-        width: 55px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        margin-left: 32%;
-        background-color: transparent;
-    }
 
-    header nav ul {
-        display: block;
-        flex-direction: column;
-        color: white;
-        font-weight: bold;
-        margin-top: 55%;
-        z-index: -1100;
-        position: absolute;
-        right: -50%;
-
-    }
 
     /* header */
     header {
@@ -625,8 +607,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
 
     main section.service-main .service .box button {
         height: 5vw;
-        margin-top: 10vw;
-        margin-left: 5%;
+        width: 100%;
         font-size: 2vw;
     }
 
@@ -893,17 +874,17 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
 
     /* hamburger */
-    #check:checked~ul {
-        right: 0%;
-        transition: 1s;
-    }
-
-    header nav ul {
-        background-color: rgb(24, 24, 24);
-        width: 45%;
+    
+    ul{
+        flex-direction: column;
+        position: absolute;
         height: 100vh;
-    }
-
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(81, 65, 40);
+        right: -100%;
+        top: 0%;
+      }
 
 
     label {
@@ -913,23 +894,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
 
     }
 
-    header nav #boxnav {
-        height: 50px;
-        width: 55px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        margin-left: 32%;
-        background-color: transparent;
-    }
-
-    header nav ul {
-        display: block;
-        flex-direction: column;
-        margin-top: 100vw;
-        position: absolute;
-        right: -50%;
-    }
-
+   
 
     /* header  */
     header nav {
@@ -949,10 +914,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     #headh2{
         margin-top: 10vw;
     }
-    header {
-        height: 80vw;
-        background-size: cover;
-    }
+
 
     header h2 {
         font-size: 7vw;
@@ -1326,47 +1288,121 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
     }
 
     /* footer  */
-    .containeroffooter {
-        padding-top: 10vw;
+   footer{
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+   }
+   footer .cont-foot{
+    height: 50%;
+    width: 100%;
+    flex-direction: row;
+   }
+   footer .cont-foot:first-child{
+    background-size: 100%;
+    background-position-y:-4vh ;
+   }
+   footer .cont-foot .box{
+     height: 100%;
+     width: 30%;
+   }
+  footer .cont-foot:nth-child(2) .box h2{
+     font-size: 4vw;
+  }
+  footer .cont-foot:nth-child(2) .box #para-con{
+    width: 80%;
+  }
+   footer .cont-foot .box p{
+    width: 60%;
+    font-size: 2vw;
+   }
+     /* travel made easy */
+     section.tme-main{
+        height: 120vh;
         flex-direction: column;
-        margin-top: 110%;
-    }
-
-    .footercontact p {
-        margin-left: 20%;
-    }
-
-    .containeroffooter .footerlink ul {
-        display: flex;
-        justify-content: space-around;
-        list-style-type: none;
-    }
-
-    .containeroffooter .footerlink {
-        margin-top: 3%;
-    }
-
-    .containeroffooter .footermedia {
-        margin-top: 3%;
-    }
-
-    .containeroffooter .footermedia ul {
-        display: flex;
-        justify-content: space-around;
-        list-style-type: none;
-    }
-
+     }
+     section.tme-main .tme{
+        height: 50%;
+        width: 100%;
+     }
+     section.tme-main .tme:nth-child(2){
+        width: 100%;
+        height: 50%;
+        background-size: cover;
+        background-position: center;
+     }
+     .show{
+        height: 25px;
+        width: 25px;
+        margin-left: -60vw;
+     }
+     section.tme-main .tme .box{
+        height: 30px;
+        width: 60%;
+     }
+     section.tme-main .tme .box button{
+        font-size: 2vw;
+     }
+     section.tme-main .tme h2{
+        font-size: 7vw;
+     }
+     section.tme-main .tme p{
+        font-size: 3.3vw;
+     }
 
 
 
 }
 
-
+@media screen and (max-width:320.9px) {
+ /* travel made easy */
+ section.tme-main .tme h2{
+    font-size: 9vw;
+ }
+ section.tme-main .tme p{
+    font-size: 4vw;
+ }
+ section.tme-main .tme .box{
+    width: 80%;
+ }
+ section.tme-main .tme .box button{
+    font-size: 2.5vw;
+ }
+}
 @media screen and (max-width:375.9px) {
     header nav ul{
         margin-top: 120vw;
         font-size: 3vw;
     }
+    header{
+        height: 100vh;
+        background-size: 180%;
+        background-position-y: 10vh;
+        background-repeat: no-repeat;
+    }
+     /* handle */
+     section.handle-main{
+        height: 200vh;
+     }
+    
+     section.handle-main .text h2{
+        font-size: 7vw;
+     }
+     section.handle-main .conthandle{
+        height: 90vh;
+     }
+     section.handle-main .conthandle .handle{
+        height: 45vh;
+     }
+
+     section.handle-main .conthandle .handle .box h3{
+        font-size: 5vw;
+        
+     }
+     section.handle-main .conthandle .handle .box p{
+        font-size: 3.8vw;
+        width: 80%;
+     }
 }
 @media screen and (max-width:360.9px){
     header nav ul{

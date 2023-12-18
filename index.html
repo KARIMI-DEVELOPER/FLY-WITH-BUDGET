@@ -20,9 +20,12 @@
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+
+
 </head>
 
 <body style="background-color: rgb(253, 246, 234);">
+    
     <!-- header start -->
     <header>
         <!-- navigation -->
@@ -30,29 +33,74 @@
             <div class="box">
                 <img src="./css/IMG-20231015-WA0006.webp" alt="" height="90%"
                     style="border-radius: 10px; display: inline;">
-                <h2>FLY <span>WITH BUD</span>GET</h2>
+                <h2>FLY <span>WITH BUD</span>GET</h2><sub>TRAVEL AND TOUR</sub>
 
             </div>
             <div class="box" id="boxnav">
-
-            
                 <label for="check" id="Menu"><img src="./images/menu.webp" height="50px" width="50px"
-                        style="position: absolute; right: 5%;" alt=""></label>
-
-                <input type="checkbox" name="" id="check">
+                        style="position: absolute; right: 5%; background-color: black;" alt=""></label>
                 <ul id="listMain">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="packeges.html">PACKEGES</a></li>
                     <li><a href="visa.html">VISA</a></li>
-
                 </ul>
+                <!-- java script -->
+<script src="script.js"></script>
+               
             </div>
         </nav>
     </header>
     <!-- header end -->
     <!-- main start -->
     <main>
+        <!-- travel made easy -->
+        <section class="tme-main">
+            <div class="tme">
+               <div class="show"></div>
+                <h2>Travel made easy</h2>
+                <p>Write a paragraph that talks about your company
+                    here. You can talk about your company's background,
+                    history, mission, vision, or philosophy. Anything that
+                    will introduce your brand's persona to your clients.
+                    This will help build a connection between you and
+                    them, that hopefully leads into a working relationship</p>
+                    <div class="box">
+                        <button>LATEST PROMOS</button>
+                        <button>OUR OFFERINGS</button>
+                    </div>
+            </div>
+            <div class="tme"></div>
+        </section>
+        <!-- travel made easy end -->
+        
+        <!-- services -->
+        <section class="service-main">
+            <h2>SERVICES</h2>
+            <h3>"Services We Provide"</h3>
+            <div class="service">
+                <div class="box">
+                    <h1>TRAVEL </h1>
+                    <p>Discover curated travel packages that blend excitement, comfort, and affordability. Your dream
+                        vacation awaits!</p>
+                    <a href="packeges.html"><button>LEARN NOW</button></a>
+                </div>
+                <div class="box">
+                    <h1>VISA </h1>
+                    <p>"Unlock seamless travel experiences with Fly with Budget. We handle visas, so you can focus on
+                        exploration!"</p>
+                    <a href="visa.html"><button>LEARN NOW</button></a>
+
+                </div>
+                <div class="box">
+                    <h1>RELIGIOUS </h1>
+                    <p>Discover religious travel packages that blend excitement, comfort, and affordability. Your dream
+                        prayers awaits!</p>
+                    <a href="packeges.html"><button>LEARN NOW</button></a>
+                </div>
+            </div>
+        </section>
+        <!-- service end -->
         <!-- about start -->
         <section class="handle-main">
             <div class="text">
@@ -101,33 +149,6 @@
         </section>
         <!-- about end -->
 
-        <!-- services -->
-        <section class="service-main">
-            <h2>SERVICES</h2>
-            <h3>Latest From Our SERVICE</h3>
-            <div class="service">
-                <div class="box">
-                    <h1>TRAVEL </h1>
-                    <p>Discover curated travel packages that blend excitement, comfort, and affordability. Your dream
-                        vacation awaits!</p>
-                    <a href="packeges.html"><button>LEARN NOW</button></a>
-                </div>
-                <div class="box">
-                    <h1>VISA </h1>
-                    <p>"Unlock seamless travel experiences with Fly with Budget. We handle visas, so you can focus on
-                        exploration!"</p>
-                    <a href="visa.html"><button>LEARN NOW</button></a>
-
-                </div>
-                <div class="box">
-                    <h1>RELIGIOUS </h1>
-                    <p>Discover religious travel packages that blend excitement, comfort, and affordability. Your dream
-                        prayers awaits!</p>
-                    <a href="packeges.html"><button>LEARN NOW</button></a>
-                </div>
-            </div>
-        </section>
-        <!-- service end -->
 
         <!-- destinations -->
         <section class="destination-main">
@@ -162,7 +183,32 @@
     <!-- main end -->
     <!-- footer -->
     <footer>
-      
+      <div class="cont-foot"></div>
+      <div class="cont-foot">
+        <div class="box">
+            <h2>Address</h2>
+            <p>Office A-12, 4th Floor, Islamic Plaza,
+                Block 13B, Gulshan e Iqbal, Karachi,
+                Karachi, Pakistan</p>
+        </div>
+        <div class="box">
+            <h2>Contact</h2>
+            <p id="para-con">Telephone: (021) 348-00820
+                Mobile: +923241455755
+               <a href=""> Info@flywithbudget.com</a></p>
+        </div>
+        <div class="box">
+            <h2>Office Hours
+            </h2>
+            <p id="para-time">Monday: 10am – 7pm
+                Tuesday: 10am – 7pm
+                Wednesday: 10am – 7pm
+                Thursday: 10am – 7pm
+                Friday: 10am – 7pm
+                Satuarday: 10am – 7pm
+                </p>
+        </div>
+      </div>
     </footer>
 </body>
 

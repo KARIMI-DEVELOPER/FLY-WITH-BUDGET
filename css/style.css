@@ -30,8 +30,7 @@ header nav {
     position: fixed;
     align-items: center;
     justify-content: space-between;
-    padding: 0vw 3vw;
-    background-color: rgb(24, 24, 24);
+    background-color:rgb(247, 247, 247);
     z-index: 111111111111;
 }
 
@@ -45,40 +44,40 @@ header nav .box {
 }
 
 header nav .box h2 {
-    font-size: 25px;
-    font-family: "Poppins", sans-serif;
-    color: white;
+    font-size: 2.5vw;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(0, 156, 204);
     cursor: pointer;
     padding: 0 0;
     font-weight: 750;
     margin-left: 3%;
 }
-
+header nav .box h2 span{
+    color: rgb(128, 163, 0);
+}
+header nav .box sub{
+    color: rgb(255, 170, 0);
+    margin-top: 3vw;
+    margin-left: -10vw;
+}
 
 header nav .box ul {
     list-style-type: none;
     margin-left: 15%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    width: 60%;
 }
 
-header nav .box ul li {
-    margin-left: 10%;
-    margin-top: 10%;
-}
+
 
 header nav .box ul li a {
     text-decoration: none;
     font-size: 18px;
-    color: white;
-    word-spacing: 5px;
-    font-family: "Poppins", sans-serif;
-}
-
-header nav .box ul li a:hover {
-    cursor: pointer;
-    color: rgb(78, 76, 76);
-
+    color: black;
+    font-weight: 500;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 header h2 {
@@ -105,11 +104,70 @@ header p {
 /* header end */
 /* main start */
 main {
-    height: 230vw;
+    height: 270vw;
     position: relative;
 
 }
-
+/* travel made easy */
+section.tme-main{
+    height: 90vh;
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.tme-main .tme{
+    height: 80%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section.tme-main .tme:nth-child(2){
+    width: 35%;
+    height: 100%;
+    background-image: url(../images/tme.JPG);
+    background-size: cover;
+}
+.show{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 140, 0);
+    margin-left: -30vw;
+    margin-top: -4vw;
+}
+section.tme-main .tme h2{
+    font-size: 4vw;
+    font-family: 'Fira Sans', sans-serif;
+}
+section.tme-main .tme p{
+    width: 80%;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    font-family: 'Nanum Gothic';
+    font-weight: 50;
+    margin-left: 10vw;
+}
+section.tme-main .tme .box{
+    height: 50px;
+    width: 60%;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-around;
+}
+section.tme-main .tme .box button{
+    height: 100%;
+    width: 40%;
+    border: none;
+    background-color: rgb(255, 140, 0);
+    color: white;
+    border-radius: 40px;
+    font-family: 'Nanum Gothic';
+    font-size: 1.2vw;
+    font-weight: 600;
+}
 /* sira sanf  */
 /* ghothan */
 /* gghothan */
@@ -138,15 +196,17 @@ section.handle-main .conthandle{
 }
 section.handle-main .conthandle .handle{
     height: 100%;
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: rgba(254, 202, 111, 0.098);
 }
 section.handle-main .conthandle .handle .box{
     height: 70%;
     width: 40%;
 }
+
 
 section.handle-main .conthandle .handle .box:nth-child(2){
     width: 50%;
@@ -360,23 +420,27 @@ main section.destination-main .destination .box h3 {
 /* services starrt */
 main section.service-main {
     height: 60vw;
-    margin-top: 9vw;
+    margin-top: 10vw;
+    display: flex;
+    padding-top: 5vw;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(81, 65, 40);
+
 }
 
 main section.service-main h2 {
-    font-size: 3vw;
-    color: black;
-    word-spacing: 5px;
-    padding: 2vw 36vw;
-    font-family: "Poppins", sans-serif;
+    font-size: 5vw;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 main section.service-main h3 {
-    font-size: 2.5vw;
+    font-size: 3vw;
     color:black;
-    word-spacing: 5px;
-    padding: 0vw 30vw;
-    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-top: 1vw;
+    font-family: 'Nanum Gothic';
 }
 
 main section.service-main .service {
@@ -389,13 +453,17 @@ main section.service-main .service {
 }
 
 main section.service-main .service .box {
-    height: 90%;
-    width: 32%;
+    height: 100%;
+    width: 30%;
     padding: 2vw 5vw;
     background-image: url(../images/Travel\ Website\ in\ Bright\ Orange\ Cream\ Photocentric\ Travel\ Style.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 main section.service-main .service .box:hover {
@@ -414,18 +482,16 @@ main section.service-main .service .box:nth-child(3) {
 
 main section.service-main .service .box h1 {
     font-size: 3vw;
-    color:black;
-    word-spacing: 5px;
+    color: white;
+    font-weight: 700;
     font-family: 'Fira Sans', sans-serif;
 
 }
 
 main section.service-main .service .box p {
     font-size: 1.5vw;
-    color: black;
-    margin-top: 5%;
-    font-weight: 500;
-    width: 100%;
+    color: white;
+    font-weight: 600;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -433,75 +499,14 @@ main section.service-main .service .box button {
     padding: 1vw 3vw;
     border-radius: 10px;
     border: none;
-    margin-left: 5vw;
-    margin-top: 1vw;
-    color: rgb(24, 24, 24);
-}
-
-main section.service-main .service .box button:hover {
-    cursor: pointer;
+    background-color: rgb(255, 140, 0);
     color: white;
-    background-color: rgb(77, 74, 74);
+    font-size: 1.2vw;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
-/* Footer Styles */
-footer {
-    background-image: url(../images/Contact\ Us.svg);
-    background-size: cover;
-    background-position: center;
-    height: 60vw;
-}
 
-.containeroffooter {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
-.footercontact,
-.footerlink,
-.footermedia {
-    flex: 1;
-    margin: 0 20px;
-}
-
-.footercontact h4,
-.footerlink h4,
-.footermedia h4 {
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
-.footermedia ul {
-    list-style-type: none;
-}
-
-.footercontact p {
-    margin-bottom: 8px;
-}
-
-.footerlink ul li,
-.footermedia ul li {
-    margin-bottom: 15px;
-}
-
-.footerlink ul li a,
-.footermedia ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.footerlink ul li a:hover,
-.footermedia ul li a:hover {
-    color: black;
-    /* Hover par text color change ho */
-}
-
-.footercopy {
-    text-align: center;
-    margin-top: 20px;
-}
 
 /* visa page */
 section.visa-main {
@@ -970,13 +975,60 @@ section.packegespages-main .packegespages .box-days .icon {
     border: solid 1px white;
 }
 /* footer secondary */
+footer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(81, 65, 40);
+}
+footer .cont-foot{
+    height: 90vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .cont-foot:first-child{
+    width: 70%;
+    background-image: url(../images/foot.JPG);
+    background-size: cover;
+    background-position-y: -20vh;
+}
+footer .cont-foot:nth-child(2) .box{
+    height: 30%;
+    width: 80%;
+}
+footer .cont-foot:nth-child(2) .box h2{
+    color: white;
+    font-size: 2vw;
+    font-weight: 700;
+    font-family: 'Fira Sans', sans-serif;
+}
+footer .cont-foot .box p{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.3vw;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+footer .cont-foot .box p a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+#para-time{
+    width: 70%;
+}
+
 footer.sec{
     margin-top: 0vw;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(23, 22, 22);
+    background-color: rgb(81, 65, 40);
+
 }
 
 /* toggle */
