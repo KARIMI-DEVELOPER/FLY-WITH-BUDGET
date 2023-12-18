@@ -7,7 +7,6 @@ Menu.addEventListener("click",function(){
     List.style.right="0%"
     List.style.transitionDuration="2s"
     Menu.style.zIndex="1100"
-    Menu.style.backgroundColor="rgb(81, 65, 40)";
     }else{
         List.style.right="-100%"
     List.style.transitionDuration="2s"
