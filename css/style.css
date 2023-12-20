@@ -1,1031 +1,833 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-header {
-    height: 60vw;
-    background-image: url(../images/Home.svg);
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: 5vw;
-    position: relative;
-}
-#head-visa,.visa-back{
-    background-image: url(../images/Orange\ Modern\ Travel\ Facebook\ Cover.png);
-    background-size: cover;
-}
-#head-packeges,.head-packeges{
-    background-image: url(../images/Travel\ Website\ in\ Bright\ Orange\ Cream\ Photocentric\ Travel\ Style.svg);
-
-}
-#head-about{
-    background-image: url(../images/Untitled\ design\ \(2\).png);
-}
-
-header nav {
-    height: 5vw;
-    width: 100%;
-    display: flex;
-    position: fixed;
-    align-items: center;
-    justify-content: space-between;
-    background-color:rgb(247, 247, 247);
-    z-index: 111111111111;
-}
-
-header nav .box {
-    height: 100%;
-    width: 50%;
-    padding: 0vw 3vw;
-    display: flex;
-    align-items: center;
-
-}
-
-header nav .box h2 {
-    font-size: 2.5vw;
-    font-family: 'Fira Sans', sans-serif;
-    color: rgb(0, 156, 204);
-    cursor: pointer;
-    padding: 0 0;
-    font-weight: 750;
-    margin-left: 3%;
-}
-header nav .box h2 span{
-    color: rgb(128, 163, 0);
-}
-header nav .box sub{
-    color: rgb(255, 170, 0);
-    margin-top: 3vw;
-    margin-left: -10vw;
-}
-
-header nav .box ul {
-    list-style-type: none;
-    margin-left: 15%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 60%;
-}
-
-
-
-header nav .box ul li a {
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-    font-weight: 500;
-    font-family: 'Nanum Gothic', sans-serif;
-}
-
-header h2 {
-    font-size: 3vw;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.804);
-    word-spacing: 5px;
-    padding-top: 9vw;
-    padding-left: 5vw;
-    font-family: "Poppins", sans-serif;
-
-}
-
-header p {
-    font-size: 2vw;
-    color:black;
-    font-weight: 500;
-    width: 60%;
-    font-weight: 550;
-    padding: 2vw 10vw;
-    font-family: "Poppins", sans-serif;
-}
-
-/* header end */
-/* main start */
-main {
-    height: 270vw;
-    position: relative;
-
-}
-/* travel made easy */
-section.tme-main{
-    height: 90vh;
-    margin-top: 3vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-section.tme-main .tme{
-    height: 80%;
-    width: 55%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-section.tme-main .tme:nth-child(2){
-    width: 35%;
-    height: 100%;
-    background-image: url(../images/tme.JPG);
-    background-size: cover;
-}
-.show{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: rgb(255, 140, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: -30vw;
-    margin-top: -4vw;
-}
-section.tme-main .tme h2{
-    font-size: 4vw;
-    font-family: 'Fira Sans', sans-serif;
-}
-section.tme-main .tme p{
-    width: 80%;
-    margin-top: 2vw;
-    font-size: 1.5vw;
-    font-family: 'Nanum Gothic';
-    font-weight: 50;
-    margin-left: 10vw;
-}
-section.tme-main .tme .box{
-    height: 50px;
-    width: 60%;
-    margin-top: 2vw;
-    display: flex;
-    justify-content: space-around;
-}
-section.tme-main .tme .box button{
-    height: 100%;
-    width: 40%;
-    border: none;
-    background-color: rgb(255, 140, 0);
-    color: white;
-    border-radius: 40px;
-    font-family: 'Nanum Gothic';
-    font-size: 1.2vw;
-    font-weight: 600;
-}
-/* sira sanf  */
-/* ghothan */
-/* gghothan */
-
-/* handles */
-section.handle-main{
-    height: 75vw;
-}
-section.handle-main .text{
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4vw;
-}
-section.handle-main .text h2{
-    font-size: 4vw;
-    font-family: 'Fira Sans', sans-serif;
-}
-section.handle-main .conthandle{
-    height: 25vw;
-    margin-top: 3vw;
-     display: flex;
-     align-items: center;
-     justify-content: space-around;
-}
-section.handle-main .conthandle .handle{
-    height: 100%;
-    width: 45%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgba(254, 202, 111, 0.098);
-}
-section.handle-main .conthandle .handle .box{
-    height: 70%;
-    width: 40%;
-}
-
-
-section.handle-main .conthandle .handle .box:nth-child(2){
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-#images{
-    background-image: url(../images/1.jpg);
-    background-size: cover;
-    background-position: center;
-}
-#images-2{
-    background-image: url(../images/2.jpg);
-    background-size: cover;
-    background-position: center;
-}
-#images-3{
-    background-image: url(../images/3.jpg);
-    background-size: cover;
-    background-position: center;
-}
-#images-4{
-    background-image: url(../images/4.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-section.handle-main .conthandle .handle .box h3{
-     font-size: 2.6vw;
-     font-family: 'Fira Sans', sans-serif;
-}
-section.handle-main .conthandle .handle .box p{
-    width: 70%;
-    margin-top: 1vw;
-    font-family: 'Nanum Gothic';
-    font-weight: 50;
-    margin-left: 1vw;
-}
-/* about start */
-section.aboutmain {
-    padding: 0vw 0vw;
-    margin-top: 2vw;
-    height: 80vw;
-    background-color: rgb(34, 16, 75);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-section.aboutmain .about-2 {
-    height: 30vw;
-    background-color:  rgba(81, 65, 40, 0.132);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0vw 5vw;
-}
-
-section.aboutmain .about {
-    height: 30vw;
-    background-color: rgba(81, 65, 40, 0.132);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0vw 5vw;
-}
-
-section.aboutmain .about-2 .box-2 {
-    height: 100%;
-    width: 50%;
-}
-
-section.aboutmain .about .box {
-    height: 100%;
-    width: 50%;
-    padding: 0vw 3vw;
-}
-section.aboutmain .about .box:first-child{
-    height: 80%;
-    width: 30%;
-    border-radius: 10px;
-    background-image: url(../images/about-1.webp);
-    background-size: cover;
-}
-section.aboutmain .about .box:hover{
-    background-position: 50%, 50%;
-    transition-duration: 1s;
-}
-section.aboutmain .about-2 .box-2:hover{
-    background-position: 50%, 50%;
-    transition-duration: 1s;
-}
-section.aboutmain .about-2 .box-2:nth-child(2){
-    height: 80%;
-    width: 30%;
-    border-radius: 10px;
-    background-image: url(../images/about-2.webp);
-    background-size: cover;
-}
-
-section.aboutmain .about-2 .box-2 p {
-    font-size: 1.8vw;
-    color: white;
-    font-weight: 500;
-    width: 100%;
-    font-family: 'Nanum Gothic';
-}
-
-section.aboutmain .about-2 .box-2 h2 {
-    font-size: 3vw;
-    color: white;
-    word-spacing: 5px;
-    padding: 1vw 3vw;
-    font-family:  'Fira Sans';
-}
-
-
-section.aboutmain .about .box p {
-    font-size: 1.8vw;
-    color: white;
-    font-weight: 500;
-    width: 100%;
-    font-family: 'Nanum Gothic';
-}
-
-section.aboutmain .about .box h2 {
-    font-size: 3vw;
-    color: white;
-    word-spacing: 5px;
-    padding: 4vw 3vw;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-/* about end */
-/* destination start */
-main section.destination-main {
-    height: 80vw;
-}
-
-main section.destination-main h1 {
-    font-size: 3vw;
-    color: black;
-    word-spacing: 5px;
-    padding: 2vw 36vw;
-    font-family: "Poppins", sans-serif;
-}
-
-main section.destination-main h2 {
-    font-size: 2.5vw;
-    color: black;
-    word-spacing: 5px;
-    padding: 0vw 32vw;
-    font-family: "Poppins", sans-serif;
-}
-
-main section.destination-main .destination {
-    height: 30vw;
-    margin-top: 2%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-
-main section.destination-main .destination .box {
-    height: 25vw;
-    width: 25vw;
-    background-image: url(../images/des-1.webp);
-    background-size: cover;
-    border-radius: 5%;
-    padding: 10vw 5vw;
-}
-main section.destination-main .destination .box:nth-child(2){
-    background-image: url(../images/des-2.webp);
-}
-main section.destination-main .destination .box:nth-child(3){
-    background-image: url(../images/des-3.webp);
-}
-#box-4{
-    background-image: url(../images/des-4.webp);
-    background-size: cover;
-}
-#box-5{
-    background-image: url(../images/des-5.webp);
-    background-size: cover;
-}
-#box-6{
-    background-image: url(../images/des-6.webp);
-    background-size: cover;
-}
-
-main section.destination-main .destination .box:hover {
-    background-position: 50%, 50%;
-    transition-duration: 1s;
-    
-}
-
-main section.destination-main .destination .box h3 {
-    font-size: 2vw;
-    color: wheat;
-    font-family: "Poppins", sans-serif;
-
-    /* display: none;   */
-}
-
-/* destination end */
-/* services starrt */
-main section.service-main {
-    height: 60vw;
-    margin-top: 10vw;
-    display: flex;
-    padding-top: 5vw;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(81, 65, 40);
-
-}
-
-main section.service-main h2 {
-    font-size: 5vw;
-    color: white;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-main section.service-main h3 {
-    font-size: 3vw;
-    color: white;
-    margin-top: 1vw;
-    font-family: 'Nanum Gothic';
-}
-
-main section.service-main .service {
-    height: 35vw;
-    margin-top: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
-main section.service-main .service .box {
-    height: 100%;
-    width: 30%;
-    padding: 2vw 5vw;
-    background-image: url(../images/Travel\ Website\ in\ Bright\ Orange\ Cream\ Photocentric\ Travel\ Style.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-main section.service-main .service .box:hover {
-    background-position: 50%, 50%;
-    transition-duration: 1s;
-}
-
-main section.service-main .service .box:nth-child(2) {
-    background-image: url(../images/visa.webp);
-
-}
-
-main section.service-main .service .box:nth-child(3) {
-    background-image: url(../images/kalash-fes.webp);
-}
-
-main section.service-main .service .box h1 {
-    font-size: 3vw;
-    color: white;
-    font-weight: 700;
-    font-family: 'Fira Sans', sans-serif;
-
-}
-
-main section.service-main .service .box p {
-    font-size: 1.5vw;
-    color: white;
-    font-weight: 600;
-    font-family: 'Nanum Gothic', sans-serif;
-}
-
-main section.service-main .service .box button {
-    padding: 1vw 3vw;
-    border-radius: 10px;
-    border: none;
-    background-color: rgb(255, 140, 0);
-    color: white;
-    font-size: 1.2vw;
-    font-family: 'Nanum Gothic', sans-serif;
-}
-
-
-
-
-/* visa page */
-section.visa-main {
-    height: 70vw;
-    margin-top: 0vw;
-    background-color:rgb(81, 65, 40);
-
-}
-
-section.visa-main .visa {
-    height: 20vw;
-    margin-top: 1.5vw;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-
-section.visa-main .visa-2 {
-    height: 20vw;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-
-section.visa-main .visa .box a button,
-section.visa-main .visa-2 .box-2 a button,
-section.visa-main .visa-3 .box-3 a button {
-    width: 100%;
-    height: 5vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    margin-top: 55%;
-    font-size: 2.5vw;
-    font-weight: 700;
-    color: white;
-    background-color: rgba(198, 111, 25, 0.836);
-}
-
-section.visa-main .visa .box a button:hover {
-    background-color: rgba(200, 115, 25, 0.495);
-}
-
-section.visa-main .visa-2 .box-2 a button:hover {
-    background-color: rgba(200, 115, 25, 0.495);
-}
-
-section.visa-main .visa-3 .box-3 a button:hover {
-    background-color: rgba(200, 115, 25, 0.495);
-}
-
-section.visa-main .visa-3 {
-    height: 20vw;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-
-section.visa-main .visa .box {
-    height: 15vw;
-    width: 20vw;
-    overflow: hidden;
-    background-image: url(../images/AZERBAIJAN.webp);
-    background-position: center;
-    background-size: cover;
-
-}
-
-section.visa-main .visa .box:nth-child(2) {
-    background-image: url(../images/canada.webp);
-    background-position-x: 20%;
-}
-
-section.visa-main .visa .box:nth-child(3) {
-    background-image: url(../images/duabi.webp);
-}
-
-section.visa-main .visa .box:nth-child(4) {
-    background-image: url(../images/germany.webp);
-}
-
-section.visa-main .visa-2 .box-2 {
-    height: 15vw;
-    width: 20vw;
-    overflow: hidden;
-    background-image: url(../images/iran.webp);
-    background-size: cover;
-    background-position: center;
-
-}
-
-section.visa-main .visa-2 .box-2:nth-child(2) {
-    background-image: url(../images/italy.webp);
-}
-
-section.visa-main .visa-2 .box-2:nth-child(3) {
-    background-image: url(../images/malaysia.webp);
-    background-position-x: 20%;
-}
-
-section.visa-main .visa-2 .box-2:nth-child(4) {
-    background-image: url(../images/portugal.webp);
-    background-position-x: 20%;
-}
-
-section.visa-main .visa-3 .box-3 {
-    height: 15vw;
-    width: 20vw;
-    overflow: hidden;
-    background-image: url(../images/singapore.webp);
-    background-position: center;
-    background-size: cover;
-
-}
-
-section.visa-main .visa-3 .box-3:nth-child(1) {
-    background-position-x: 20%;
-    background-position-y: 20%;
-}
-
-section.visa-main .visa-3 .box-3:nth-child(2) {
-    background-image: url(../images/AZERBAIJAN.webp);
-}
-
-section.visa-main .visa-3 .box-3:nth-child(3) {
-    background-image: url(../images/turkey.webp);
-}
-
-section.visa-main .visa-3 .box-3:nth-child(4) {
-    background-image: url(../images/thailand.webp);
-    background-size: 90%;
-}
-
-a {
-    text-decoration: none;
-}
-
-/* des1 */
-.containerdes1 {
-    height: 50vw;
-    display: flex;
-}
-
-.containerdes1 .box {
-    height: 100%;
-    width: 50%;
-    background-color: rgb(81, 65, 40);
-}
-
-.containerdes1 .box img {
-    margin-left: 3%;
-    margin-top: 8%;
-    height: 25vw;
-    width: 30vw;
-    border-radius: 15px;
-    filter: drop-shadow(0 0 3px black) drop-shadow(0 0 3px black);
-}
-
-.containerdes1 .box h1 {
-    margin-left: 25%;
-    margin-top: 3%;
-    font-weight: 600;
-    color: white;
-    font-size: 5vw;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-.containerdes1 .box p {
-    font-family: 'Nanum Gothic';
-    font-size: 2vw;
-    margin-top: 5%;
-    width: 120%;
-    color: white;
-}
-
-.containerdes1 .box button {
-    margin-top: 5%;
-    margin-left: 30%;
-    padding: 1.5vw 2vw;
-    color: white;
-    border-radius: 10px;
-    background-color: rgb(255, 170, 0);
-    border: none;
-    font-family: 'Fira Sans';
-}
-
-.containerdes1 .box button:hover {
-    background-color: black;
-    color: white;
-}
-
-
-/* packeges page */
-section.packeges-main {
-    height: 70vw;
-    background-size: 200%;
-    margin-top: -3vw;
-    background-attachment: fixed;
-
-}
-
-section.packeges-main .packeges {
-    height: 30vw;
-    margin-top: 3%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-section.packeges-main .packeges .pac-box {
-    height: 90%;
-    width: 22%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    overflow: hidden;
-    border-radius: 10px;
-    background-color: rgb(201, 195, 195);
-    filter: drop-shadow(0 0 1.5px white) drop-shadow(0 0 1.5px white);
-
-}
-
-section.packeges-main .packeges .pac-box .box {
-    height: 40%;
-    width: 100%;
-}
-section.packeges-main .packeges .pac-box .box img{
-    height: 25vw;
-    object-fit: cover;
-}
-
-section.packeges-main .packeges .pac-box .box h2 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: centerS;
-    margin-top: 15%;
-    font-weight: 500;
-    color: rgb(38, 37, 37);
-    font-family: 'Fira Sans', sans-serif;
-}
-
-section.packeges-main .packeges .pac-box .box button {
-    width: 25vw;
-    height: 4vw;
-    margin-top: 5%;
-    margin-left: -5%;
-    border: none;
-    opacity: 0.5;
-    font-size: 1.5vw;
-    font-weight: 500;
-    color: white;
-    background-color: rgb(24, 24, 24);
-}
-
-section.packeges-main .packeges .pac-box .box button:hover {
-    opacity: 1;
-}
-
-section.packeges-main .packeges .pac-box .box:first-child {
-    height: 60%;
-
-}
-
-section.packeges-main .packeges .pac-box .box:nth-child(2) {
-    background-color: rgb(201, 195, 195);
-}
-
-
-
-/* packeges page back */
-section.packegespages-main {
-    height: 200vh;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    background-size: 100%;
-}
-
-section.packegespages-main .packegespages {
-    height: 80%;
-    width: 100vw;
-    overflow: scroll;
-    padding: 3vw 10vw;
-    background-color:rgb(81, 65, 40);
-}
-
-section.packegespages-main .packegespages::-webkit-scrollbar {
-    display: none;
-}
-
-section.packegespages-main .packegespages p {
-    font-size: 2vw;
-    color:white;
-    font-family:'Nanum Gothic';
-}
-
-
-section.packegespages-main .packegespages h2 {
-    font-weight: 700;
-    font-size: 4vw;
-    color:white;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-section.packegespages-main .packegespages h5 {
-    color:white;
-    font-family: 'Fira Sans',
-    font-weight: 400;
-    margin-top: 2vw;
-    font-size: 3vw;
-}
-
-section.packegespages-main .packegespages .box-days .top-box .day h5 {
-    margin-top: 0vw;
-    font-size: 2.5vw;
-    font-weight: 700;color:white;
-    font-family: 'Fira Sans',
-}
-
-section.packegespages-main .packegespages .box-days .top-box h6 {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 600;
-    font-size: 2vw;
-    color: white;
-}
-
-section.packegespages-main .packegespages button {
-    padding: 1vw 3vw;
-    font-size: 2vw;
-    border-radius: 10px;
-    border: none;
-    margin-top: 2vw;
-}
-
-section.packegespages-main .packegespages button:hover {
-    background-color: rgb(23, 22, 22);
-    color: white;
-}
-
-section.packegespages-main .packegespages ul {
-    font-size: 2vw;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    display: none;
-    margin-left: 3vw;
-}
-
-section.packegespages-main .packegespages .box-days {
-    height: 10vh;
-    width: 70vw;
-    margin-top: 2vw;
-    border: solid 1px white;
-    border-radius: 15px;
-    overflow: hidden;
-}
-
-section.packegespages-main .packegespages .box-days::-webkit-scrollbar {
-    display: none;
-}
-
-section.packegespages-main .packegespages .box-days .top-box {
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: solid 1px white;
-
-
-}
-
-section.packegespages-main .packegespages .box-days .day {
-    height: 100%;
-    width: 20%;
-    padding: 0.8vw 2vw;
-    background-color: rgba(23, 22, 22, 0.742);
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-}
-
-section.packegespages-main .packegespages .box-days .icon {
-    height: 80%;
-    border-radius: 50%;
-    width: 4vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(23, 22, 22, 0.815);
-}
-
-/* blog page */
-.container-blog {
-    margin-top: 1vw;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    background-size: cover;
-    background-image: url(an\ aeroplane\ is\ 1.png);
-}
-
-.container-blog .containerblog-main {
-    height: 100%;
-    width: 80%;
-    overflow: scroll;
-    background-color: rgba(24, 24, 24, 0.651);
-
-}
-
-.container-blog .containerblog-main::-webkit-scrollbar {
-    display: none;
-}
-
-.container-blog .containerblog-main:nth-child(2) {
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.63);
-}
-
-.container-blog .containerblog-main:nth-child(2) h2 {
-    font-size: 2.5vw;
-    margin-top: 1.5vw;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-}
-
-.container-blog .containerblog-main .containerblog {
-    height: 10vh;
-}
-
-.container-blog .containerblog-main .containerblog h2 {
-    font-size: 2.5vw;
-    margin-top: 1.5vw;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-}
-
-.container-blog .containerblog-main .containerblog:nth-child(2),
-.container-blog .containerblog-main .containerblog:nth-child(4) {
-    height: 80vh;
-    display: flex;
-    justify-content: space-around;
-}
-
-.container-blog .containerblog-main .containerblog .box {
-    height: 100%;
-    width: 50%;
-    border: solid 1px white;
-}
-/* footer secondary */
-footer{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(81, 65, 40);
-}
-footer .cont-foot{
-    height: 90vh;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-footer .cont-foot:first-child{
-    width: 70%;
-    background-image: url(../images/foot.JPG);
-    background-size: cover;
-    background-position-y: -20vh;
-}
-footer .cont-foot:nth-child(2) .box{
-    height: 30%;
-    width: 80%;
-}
-footer .cont-foot:nth-child(2) .box h2{
-    color: white;
-    font-size: 2vw;
-    font-weight: 700;
-    font-family: 'Fira Sans', sans-serif;
-}
-footer .cont-foot .box p{
-    color: white;
-    font-weight: lighter;
-    font-size: 1.3vw;
-    font-family: 'Nanum Gothic', sans-serif;
-}
-footer .cont-foot .box p a{
-    text-decoration: none;
-    color: white;
-    font-weight: 400;
-}
-#para-time{
-    width: 70%;
-}
-
-footer.sec{
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(81, 65, 40);
-}
-footer.sec p{
-    color: white;
-}
-
-/* toggle */
-label,
-#check {
-    display: none;
-}
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }header {
+        height: 60vw;
+        background-image: url(../images/home.webp);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: 5vw;
+        position: relative;
+    }#head-visa,
+    .visa-back {
+        background-image: url(../images/Unlock\ seamless\ travel\ experiences\ with\ Fly\ with\ Budget.\ We\ handle\ visas\,\ so\ you\ can\ focus\ on\ exploration!.webp);
+        background-size: cover;
+    }#head-packeges,
+    .head-packeges {
+        background-image: url(../images/Travel\ Website\ in\ Bright\ Orange\ Cream\ Photocentric\ Travel\ Style.webp);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }#head-about {
+        background-image: url(../images/Dark\ Blue\ Modern\ Geometric\ Simple\ Feature\ Section\ Website\ UI\ Prototype.webp);
+    }header nav {
+        height: 5vw;
+        width: 100%;
+        display: flex;
+        position: fixed;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(247, 247, 247);
+        z-index: 111111111111;
+    }header nav .box {
+        height: 100%;
+        width: 50%;
+        padding: 0vw 3vw;
+        display: flex;
+        align-items: center;
+
+    }header nav .box h2 {
+        font-size: 2.5vw;
+        font-family: 'Fira Sans', sans-serif;
+        color: rgb(0, 156, 204);
+        cursor: pointer;
+        padding: 0 0;
+        font-weight: 750;
+        margin-left: 3%;
+    }header nav .box h2 span {
+        color: rgb(128, 163, 0);
+    }header nav .box sub {
+        color: rgb(255, 170, 0);
+        margin-top: 3vw;
+        margin-left: -10vw;
+    }header nav .box ul {
+        list-style-type: none;
+        margin-left: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 60%;
+    }header nav .box ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        font-weight: 500;
+        font-family: 'Nanum Gothic', sans-serif;
+    }header h2 {
+        font-size: 5vw;
+        font-weight: 600;
+        color: white;
+        word-spacing: 5px;
+        padding-top: 9vw;
+        padding-left: 5vw;
+        font-family: 'Feri Sans';
+
+    }header p {
+        font-size: 3vw;
+        color: white;
+        width: 60%;
+        font-weight: 500;
+        font-family: ;
+    }header .head-cont {
+        width: 60%;
+        height: 40%;
+        margin-top: 15vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(255, 140, 0, 0.116);
+    }/* header end *//* main start */ main {
+        height: 180vw;
+        position: relative;
+
+    } /* travel made easy */section.tme-main {
+        height: 90vh;
+        margin-top: 3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }section.tme-main .tme {
+        height: 80%;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }section.tme-main .tme:nth-child(2) {
+        width: 35%;
+        height: 100%;
+        background-image: url(../images/tme.webp);
+        background-size: cover;
+    }.show {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: rgb(255, 140, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -30vw;
+        margin-top: -4vw;
+    }section.tme-main .tme h2 {
+        font-size: 4vw;
+        font-family: 'Fira Sans', sans-serif;
+    }section.tme-main .tme p {
+        width: 80%;
+        margin-top: 2vw;
+        font-size: 1.5vw;
+        font-family: 'Nanum Gothic';
+        font-weight: 50;
+        margin-left: 10vw;
+    }section.tme-main .tme .box {
+        height: 50px;
+        width: 60%;
+        margin-top: 2vw;
+        display: flex;
+        justify-content: space-around;
+    }section.tme-main .tme .box button {
+        height: 100%;
+        width: 40%;
+        border: none;
+        background-color: rgb(255, 140, 0);
+        color: white;
+        border-radius: 40px;
+        font-family: 'Nanum Gothic';
+        font-size: 1.2vw;
+        font-weight: 600;
+    }/* handles */section.handle-main {
+        height: 75vw;
+    }section.handle-main .text {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vw;
+    }section.handle-main .text h2 {
+        font-size: 4vw;
+        font-family: 'Fira Sans', sans-serif;
+    }section.handle-main .conthandle {
+        height: 25vw;
+        margin-top: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }section.handle-main .conthandle .handle {
+        height: 100%;
+        width: 45%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(254, 202, 111, 0.098);
+    }section.handle-main .conthandle .handle .box {
+        height: 70%;
+        width: 40%;
+    }section.handle-main .conthandle .handle .box:nth-child(2) {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }#images {
+        background-image: url(../images/1.webp);
+        background-size: cover;
+        background-position: center;
+    }#images-2 {
+        background-image: url(../images/2.webp);
+        background-size: cover;
+        background-position: center;
+    }#images-3 {
+        background-image: url(../images/3.webp);
+        background-size: cover;
+        background-position: center;
+    }#images-4 {
+        background-image: url(../images/4.webp);
+        background-size: cover;
+        background-position: center;
+    }section.handle-main .conthandle .handle .box h3 {
+        font-size: 2.6vw;
+        font-family: 'Fira Sans', sans-serif;
+    }section.handle-main .conthandle .handle .box p {
+        width: 70%;
+        margin-top: 1vw;
+        font-family: 'Nanum Gothic';
+        font-weight: 50;
+        margin-left: 1vw;
+    }/* about start */section.aboutmain {
+        padding: 0vw 0vw;
+        margin-top: 2vw;
+        height: 80vw;
+        background-color: rgb(34, 16, 75);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }section.aboutmain .about-2 {
+        height: 30vw;
+        background-color: rgba(81, 65, 40, 0.132);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0vw 5vw;
+    }section.aboutmain .about {
+        height: 30vw;
+        background-color: rgba(81, 65, 40, 0.132);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0vw 5vw;
+    }section.aboutmain .about-2 .box-2 {
+        height: 100%;
+        width: 50%;
+    }section.aboutmain .about .box {
+        height: 100%;
+        width: 50%;
+        padding: 0vw 3vw;
+    }section.aboutmain .about .box:first-child {
+        height: 80%;
+        width: 30%;
+        border-radius: 10px;
+        background-image: url(../images/about-1.webp);
+        background-size: cover;
+    }section.aboutmain .about .box:hover {
+        background-position: 50%, 50%;
+        transition-duration: 1s;
+    }section.aboutmain .about-2 .box-2:hover {
+        background-position: 50%, 50%;
+        transition-duration: 1s;
+    }section.aboutmain .about-2 .box-2:nth-child(2) {
+        height: 80%;
+        width: 30%;
+        border-radius: 10px;
+        background-image: url(../images/about-2.webp);
+        background-size: cover;
+    }section.aboutmain .about-2 .box-2 p {
+        font-size: 1.8vw;
+        color: white;
+        font-weight: 500;
+        width: 100%;
+        font-family: 'Nanum Gothic';
+    }section.aboutmain .about-2 .box-2 h2 {
+        font-size: 3vw;
+        color: white;
+        word-spacing: 5px;
+        padding: 1vw 3vw;
+        font-family: 'Fira Sans';
+    }section.aboutmain .about .box p {
+        font-size: 1.8vw;
+        color: white;
+        font-weight: 500;
+        width: 100%;
+        font-family: 'Nanum Gothic';
+    }section.aboutmain .about .box h2 {
+        font-size: 3vw;
+        color: white;
+        word-spacing: 5px;
+        padding: 4vw 3vw;
+        font-family: 'Fira Sans', sans-serif;
+    }/* about end *//* services starrt */main section.service-main {
+        height: 60vw;
+        margin-top: 10vw;
+        display: flex;
+        padding-top: 5vw;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(81, 65, 40);
+
+    }main section.service-main h2 {
+        font-size: 5vw;
+        color: white;
+        font-family: 'Fira Sans', sans-serif;
+    }main section.service-main h3 {
+        font-size: 3vw;
+        color: white;
+        margin-top: 1vw;
+        font-family: 'Nanum Gothic';
+    }main section.service-main .service {
+        height: 35vw;
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }main section.service-main .service .box {
+        height: 100%;
+        width: 30%;
+        padding: 2vw 5vw;
+        background-image: url(../images/Travel\ Website\ in\ Bright\ Orange\ Cream\ Photocentric\ Travel\ Style.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }main section.service-main .service .box:hover {
+        background-position: 50%, 50%;
+        transition-duration: 1s;
+    }main section.service-main .service .box:nth-child(2) {
+        background-image: url(../images/visa.webp);
+
+    }main section.service-main .service .box:nth-child(3) {
+        background-image: url(../images/kalash-fes.webp);
+    }main section.service-main .service .box h1 {
+        font-size: 3vw;
+        color: white;
+        font-weight: 700;
+        font-family: 'Fira Sans', sans-serif;
+
+    }main section.service-main .service .box p {
+        font-size: 1.5vw;
+        color: white;
+        font-weight: 600;
+        font-family: 'Nanum Gothic', sans-serif;
+    }main section.service-main .service .box button {
+        padding: 1vw 3vw;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(255, 140, 0);
+        color: white;
+        font-size: 1.2vw;
+        font-family: 'Nanum Gothic', sans-serif;
+    }/* visa page */section.visa-main {
+        height: 70vw;
+        margin-top: 0vw;
+        background-color: rgb(81, 65, 40);
+
+    }section.visa-main .visa {
+        height: 20vw;
+        margin-top: 1.5vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }section.visa-main .visa-2 {
+        height: 20vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }section.visa-main .visa .box a button,section.visa-main .visa-2 .box-2 a button,section.visa-main .visa-3 .box-3 a button {
+        width: 100%;
+        height: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        margin-top: 55%;
+        font-size: 2.5vw;
+        font-weight: 700;
+        color: white;
+        background-color: rgba(198, 111, 25, 0.836);
+    }section.visa-main .visa .box a button:hover {
+        background-color: rgba(200, 115, 25, 0.495);
+    }section.visa-main .visa-2 .box-2 a button:hover {
+        background-color: rgba(200, 115, 25, 0.495);
+    }section.visa-main .visa-3 .box-3 a button:hover {
+        background-color: rgba(200, 115, 25, 0.495);
+    }section.visa-main .visa-3 {
+        height: 20vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }section.visa-main .visa .box {
+        height: 15vw;
+        width: 20vw;
+        overflow: hidden;
+        background-image: url(../images/AZERBAIJAN.webp);
+        background-position: center;
+        background-size: cover;
+
+    }section.visa-main .visa .box:nth-child(2) {
+        background-image: url(../images/canada.webp);
+        background-position-x: 20%;
+    }section.visa-main .visa .box:nth-child(3) {
+        background-image: url(../images/duabi.webp);
+    }section.visa-main .visa .box:nth-child(4) {
+        background-image: url(../images/germany.webp);
+    }section.visa-main .visa-2 .box-2 {
+        height: 15vw;
+        width: 20vw;
+        overflow: hidden;
+        background-image: url(../images/iran.webp);
+        background-size: cover;
+        background-position: center;
+
+    }section.visa-main .visa-2 .box-2:nth-child(2) {
+        background-image: url(../images/italy.webp);
+    }section.visa-main .visa-2 .box-2:nth-child(3) {
+        background-image: url(../images/malaysia.webp);
+        background-position-x: 20%;
+    }section.visa-main .visa-2 .box-2:nth-child(4) {
+        background-image: url(../images/portugal.webp);
+        background-position-x: 20%;
+    }section.visa-main .visa-3 .box-3 {
+        height: 15vw;
+        width: 20vw;
+        overflow: hidden;
+        background-image: url(../images/singapore.webp);
+        background-position: center;
+        background-size: cover;
+
+    }section.visa-main .visa-3 .box-3:nth-child(1) {
+        background-position-x: 20%;
+        background-position-y: 20%;
+    }section.visa-main .visa-3 .box-3:nth-child(2){background-image: url(../images/AZERBAIJAN.webp);
+    }
+
+    section.visa-main .visa-3 .box-3:nth-child(3) {
+        background-image: url(../images/turkey.webp);
+    }
+
+    section.visa-main .visa-3 .box-3:nth-child(4) {
+        background-image: url(../images/thailand.webp);
+        background-size: 90%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* des1 */
+    .containerdes1 {
+        height: 50vw;
+        display: flex;
+    }
+
+    .containerdes1 .box {
+        height: 100%;
+        width: 50%;
+        background-color: rgb(81, 65, 40);
+    }
+
+    .containerdes1 .box img {
+        margin-left: 3%;
+        margin-top: 8%;
+        height: 25vw;
+        width: 30vw;
+        border-radius: 15px;
+        filter: drop-shadow(0 0 3px black) drop-shadow(0 0 3px black);
+    }
+
+    .containerdes1 .box h1 {
+        margin-left: 25%;
+        margin-top: 3%;
+        font-weight: 600;
+        color: white;
+        font-size: 5vw;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    .containerdes1 .box p {
+        font-family: 'Nanum Gothic';
+        font-size: 2vw;
+        margin-top: 5%;
+        width: 90%;
+        color: white;
+    }
+
+    .containerdes1 .box button {
+        margin-top: 5%;
+        margin-left: 30%;
+        padding: 1.5vw 2vw;
+        color: white;
+        border-radius: 10px;
+        background-color: rgb(255, 170, 0);
+        border: none;
+        font-family: 'Fira Sans';
+    }
+
+    .containerdes1 .box button:hover {
+        background-color: black;
+        color: white;
+    }
+
+
+    /* packeges page */
+    section.packeges-main {
+        height: 70vw;
+        background-size: 200%;
+        margin-top: -3vw;
+        background-attachment: fixed;
+
+    }
+
+    section.packeges-main .packeges {
+        height: 30vw;
+        margin-top: 3%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    section.packeges-main .packeges .pac-box {
+        height: 90%;
+        width: 22%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius: 5px;
+
+    }
+
+    section.packeges-main .packeges .pac-box:hover {
+        filter: drop-shadow(0 0 10px black);
+    }
+
+    section.packeges-main .packeges .pac-box .box {
+        height: 40%;
+        width: 100%;
+    }
+
+    section.packeges-main .packeges .pac-box .box img {
+        height: 25vw;
+        object-fit: cover;
+    }
+
+    section.packeges-main .packeges .pac-box .box h2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: centerS;
+        margin-top: 15%;
+        font-weight: 500;
+        color: rgb(38, 37, 37);
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    section.packeges-main .packeges .pac-box .box button {
+        width: 100%;
+        height: 4vw;
+        margin-top: 5%;
+        border: none;
+        opacity: 0.5;
+        font-size: 1.5vw;
+        font-weight: 500;
+        color: white;
+        background-color: rgb(24, 24, 24);
+    }
+
+    section.packeges-main .packeges .pac-box .box button:hover {
+        opacity: 1;
+    }
+
+    section.packeges-main .packeges .pac-box .box:first-child {
+        height: 60%;
+
+    }
+
+    section.packeges-main .packeges .pac-box .box:nth-child(2) {
+        background-color: rgb(215, 209, 209);
+    }
+
+
+
+
+    /* packeges page back */
+    section.packegespages-main {
+        height: 200vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-size: 100%;
+    }
+
+    section.packegespages-main .packegespages {
+        height: 80%;
+        width: 100vw;
+        overflow: scroll;
+        padding: 3vw 10vw;
+        background-color: rgb(81, 65, 40);
+    }
+
+    section.packegespages-main .packegespages::-webkit-scrollbar {
+        display: none;
+    }
+
+    section.packegespages-main .packegespages p {
+        font-size: 2vw;
+        color: white;
+        font-family: 'Nanum Gothic';
+    }
+
+
+    section.packegespages-main .packegespages h2 {
+        font-weight: 700;
+        font-size: 4vw;
+        color: white;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    section.packegespages-main .packegespages h5 {
+        color: white;
+        font-family: 'Fira Sans',
+            font-weight: 400;
+        margin-top: 2vw;
+        font-size: 3vw;
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box .day h5 {
+        margin-top: 0vw;
+        font-size: 2.5vw;
+        font-weight: 700;
+        color: white;
+        font-family: 'Fira Sans',
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box h6 {
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 600;
+        font-size: 2vw;
+        color: white;
+    }
+
+    section.packegespages-main .packegespages button {
+        padding: 1vw 3vw;
+        font-size: 2vw;
+        border-radius: 10px;
+        border: none;
+        margin-top: 2vw;
+    }
+
+    section.packegespages-main .packegespages button:hover {
+        background-color: rgb(23, 22, 22);
+        color: white;
+    }
+
+    section.packegespages-main .packegespages ul {
+        font-size: 2vw;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        display: none;
+        margin-left: 3vw;
+    }
+
+    section.packegespages-main .packegespages .box-days {
+        height: 10vh;
+        width: 70vw;
+        margin-top: 2vw;
+        border: solid 1px white;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    section.packegespages-main .packegespages .box-days::-webkit-scrollbar {
+        display: none;
+    }
+
+    section.packegespages-main .packegespages .box-days .top-box {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px white;
+
+
+    }
+
+    section.packegespages-main .packegespages .box-days .day {
+        height: 100%;
+        width: 20%;
+        padding: 0.8vw 2vw;
+        background-color: rgba(23, 22, 22, 0.742);
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    section.packegespages-main .packegespages .box-days .icon {
+        height: 80%;
+        border-radius: 50%;
+        width: 4vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(23, 22, 22, 0.815);
+    }
+
+    /* blog page */
+    .container-blog {
+        margin-top: 1vw;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-size: cover;
+        background-image: url(an\ aeroplane\ is\ 1.png);
+    }
+
+    .container-blog .containerblog-main {
+        height: 100%;
+        width: 80%;
+        overflow: scroll;
+        background-color: rgba(24, 24, 24, 0.651);
+
+    }
+
+    .container-blog .containerblog-main::-webkit-scrollbar {
+        display: none;
+    }
+
+    .container-blog .containerblog-main:nth-child(2) {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.63);
+    }
+
+    .container-blog .containerblog-main:nth-child(2) h2 {
+        font-size: 2.5vw;
+        margin-top: 1.5vw;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+
+    .container-blog .containerblog-main .containerblog {
+        height: 10vh;
+    }
+
+    .container-blog .containerblog-main .containerblog h2 {
+        font-size: 2.5vw;
+        margin-top: 1.5vw;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+    }
+
+    .container-blog .containerblog-main .containerblog:nth-child(2),
+    .container-blog .containerblog-main .containerblog:nth-child(4) {
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container-blog .containerblog-main .containerblog .box {
+        height: 100%;
+        width: 50%;
+        border: solid 1px white;
+    }
+
+    /* footer secondary */
+    footer {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(81, 65, 40);
+    }
+
+    footer .cont-foot {
+        height: 90vh;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .cont-foot:first-child {
+        width: 70%;
+        background-image: url(../images/foot.webp);
+        background-size: cover;
+        background-position-y: -20vh;
+    }
+
+    footer .cont-foot:nth-child(2) .box {
+        height: 30%;
+        width: 80%;
+    }
+
+    footer .cont-foot:nth-child(2) .box h2 {
+        color: white;
+        font-size: 2vw;
+        font-weight: 700;
+        font-family: 'Fira Sans', sans-serif;
+    }
+
+    footer .cont-foot .box p {
+        color: white;
+        font-weight: lighter;
+        font-size: 1.3vw;
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    footer .cont-foot .box p a {
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
+    }
+
+    #para-time {
+        width: 70%;
+    }
+
+    footer.sec {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(81, 65, 40);
+    }
+
+    footer.sec p {
+        color: white;
+    }
+
+    /* toggle */
+    label {
+        display: none;
+    }
