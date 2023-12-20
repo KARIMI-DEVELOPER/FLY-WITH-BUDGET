@@ -22,7 +22,20 @@
 
     }#head-about {
         background-image: url(../images/Dark\ Blue\ Modern\ Geometric\ Simple\ Feature\ Section\ Website\ UI\ Prototype.webp);
-    }header nav {
+    
+    }
+ 
+    .Icon-box{
+        height: 5vw;
+        width: 40%;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    Icon-box #ico{
+        font-size: 5vw;
+    }
+    header nav {
         height: 5vw;
         width: 100%;
         display: flex;

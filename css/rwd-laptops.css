@@ -841,6 +841,15 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         background-size: 140%;
         background-position-y: 10vh;
     }
+    .Icon-box{
+        margin-top: 5vh;
+        height: 5vw;
+        width: 50%;
+        margin-left: 10vh;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
   header .head-cont{
     width: 90%;
     }
