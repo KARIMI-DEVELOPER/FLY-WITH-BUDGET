@@ -318,7 +318,7 @@
         height: 100%;
         width: 30%;
         padding: 2vw 5vw;
-        background-image: url(../images/Travel\ Website\ in\ Bright\ Orange\ Cream\ Photocentric\ Travel\ Style.svg);
+        background-image: url(../images/Travel\ Website\ in\ Bright\ Orange\ Cream\ Photocentric\ Travel\ Style.webp);
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 5px;
@@ -333,7 +333,7 @@
         background-image: url(../images/visa.webp);
 
     }main section.service-main .service .box:nth-child(3) {
-        background-image: url(../images/kalash-fes.webp);
+        background-image: url(../images/kabba.webp);
     }main section.service-main .service .box h1 {
         font-size: 3vw;
         color: white;
@@ -526,15 +526,7 @@
         flex-wrap: wrap;
     }
 
-    section.packeges-main .packeges .pac-box {
-        height: 90%;
-        width: 22%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        border-radius: 5px;
-
-    }
+    section.packeges-main .packeges .pac-box {height: 90%;width: 22%;display: flex;flex-wrap: wrap;flex-direction: column;border-radius: 5px;overflow: hidden;}
 
     section.packeges-main .packeges .pac-box:hover {
         filter: drop-shadow(0 0 10px black);
