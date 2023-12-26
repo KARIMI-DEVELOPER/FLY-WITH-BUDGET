@@ -7,6 +7,10 @@
         margin: 0;
         box-sizing: border-box;
     }
+    #whats{
+        margin-top: 50vh;
+        margin-left: 85vw;
+    }
 
     /* header */
     header nav .box:nth-child(2) {
@@ -82,7 +86,10 @@ Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
         margin: 0;
         box-sizing: border-box;
     }
-
+    #whats{
+        margin-top: 25vh;
+        margin-left: 90vw;
+    }
 
     /* toggle hamburger */
   
@@ -479,6 +486,10 @@ header nav .box ul li{
 
 }
 @media only screen and (max-height:1368.9px) {
+    #whats{
+        margin-top: 25vh;
+        margin-left: 85vw;
+    }
     header nav .box ul{
         width: 100%;
     }
@@ -499,7 +510,10 @@ header nav .box ul li{
    }
 }
 @media only screen and (max-height:1366.9px) {
-  
+    #whats{
+        margin-top: 25vh;
+        margin-left: 85vw;
+    }
    section.tme-main{
     height: 40vh;
    }
@@ -524,6 +538,7 @@ header nav .box ul li{
         height: 30%;
     }
 }
+
 @media only screen and (max-height:360.9px) {
     footer{
         margin-top: 0vh;
@@ -562,6 +577,10 @@ header nav .box ul li{
         height: 80%;
         font-size: 2vw;
     }
+    #whats{
+        margin-top: 35vh;
+        margin-left: 80vw;
+    }
     main{
         overflow: scroll;
     }
@@ -583,7 +602,9 @@ header nav .box ul li{
         margin: 0;
         box-sizing: border-box;
     }
-
+    #whats{
+        margin-top: 35vh;
+    }
     /* toggle hamburger */
   
   
@@ -945,6 +966,9 @@ header nav .box ul li{
         background-image: url(../images/aboutmob.webp);
         background-size: cover;
         background-position: center;
+    }
+    #whats{
+        margin-top: 55vh;
     }
 
     /* #head-packeges,.head-packeges{
@@ -1431,6 +1455,9 @@ header nav .box ul li{
       main{
         height: 430vh;
       }
+      #whats{   
+        margin-left: 75vw;
+    }
    
       footer .cont-foot:first-child{
         background-repeat:no-repeat;
@@ -1489,6 +1516,9 @@ header nav .box ul li{
 }
 @media only screen and (max-width:375.9px) {
 
+    #whats{
+        margin-top: 40vh;
+    }
     #head-about{
         height: 75vh;
         background-size: 110%;
@@ -1549,6 +1579,9 @@ header nav .box ul li{
     }
 }
 @media only screen and (max-width:430.9px) {
+    #whats{
+        margin-top: 35vh;
+    }
     header{
         height: 70vh;
         background-position-y: 3vh;
@@ -1634,6 +1667,9 @@ header nav .box ul li{
         background-position-y: 3vh;
         background-size: 205%;
         background-attachment: fixed;
+    }
+    #whats{
+        margin-top: 30vh;
     }
     section.tme-main .tme h2{
         font-size: 5vh;
@@ -1724,6 +1760,9 @@ header nav .box ul li{
         background-position: center;
         background-attachment: scroll;
     }
+    #whats{
+        margin-top: 55vh;
+    }
 
     main{
         height: 430vh;
@@ -1760,6 +1799,9 @@ header nav .box ul li{
     section.handle-main{
         overflow: hidden;
     }
+    #whats{
+        margin-left: 75vw;
+    }
     footer{
         height: 150vh;
         justify-content: flex-start;
@@ -1779,6 +1821,10 @@ header nav .box ul li{
     main{
         height: 355vh;
         overflow: scroll;
+    }
+    #whats{
+        margin-top: 40vh;
+        margin-left: 80vw;
     }
     footer{
         height: 150vh;
