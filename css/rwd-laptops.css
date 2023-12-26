@@ -73,17 +73,6 @@ Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
 
 /* Small tablets: 768px to 1024px wide (e.g., iPad Mini).(done) */
 
-
-
-
-
-
-/* Mobile Phones:
-
-Large screens (phablets): 768px to 1024px wide (e.g., larger smartphones and smaller tablets).(done)
-
-Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones).(done)
-*/
 @media screen and (max-width:800.9px) {
     * {
         padding: 0;
@@ -95,17 +84,18 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
   
  #listMain{
     flex-direction: column;
+    padding: 15vw 0;
+    justify-content: flex-start;
     position: absolute;
-    height: 100vh;
+    height: 50vh;
     background-color: rgb(81, 65, 40);
-    padding-top: 5vh;
-    padding-bottom: 5vh;
     right: -100%;
     top: 0%;
   }
-
+header nav .box ul li{
+    margin-top: 5vw;
+}
   header nav .box ul li a{
-    
     color: white;
     font-weight: 700;
     font-family: 'Fira Sans', sans-serif;
@@ -477,7 +467,8 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
       }
 
 }
-@media (min-width:600px) and (max-width:768.9px) {
+  /* Small devices (tablets) */
+  @media only screen and (min-width: 576px) and (max-width: 768px) {
     * {
         padding: 0;
         margin: 0;
@@ -486,17 +477,11 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
 
     /* toggle hamburger */
   
-    label {
-        display: block;
-        margin-top: -6vw;
-
-    }
-
-
-
+  
     /* header */
     header {
-        height: 60vw;
+        height: 65vw;
+        background-position-y: 10vh;
     }
 
     header nav {
@@ -519,10 +504,13 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         font-size: 3vw;
         width: 100%;
     }
-
+/* travel made easy button */
+section.tme-main .tme .box button{
+    height: 8vh;
+}
     /* main  */
     main {
-        height: 260vw;
+        height: 270vw;
         overflow: hidden;
     }
 
@@ -830,7 +818,8 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
 }
 
 /* Small screens: 320px to 480px wide (e.g., older smartphones). */
-@media (min-width:319px) and (max-width:425.9px) {
+/* Extra small devices (phones) */
+@media only screen and (max-width: 575.98px) {
     * {
         padding: 0;
         margin: 0;
@@ -1315,14 +1304,12 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
 
 
 }
-
-@media screen and (max-width:320.9px) {
+@media only screen and (max-width:320.9px) {
    
-    #listMain{flex-direction: column;position: absolute;height: 100vh;background-color: rgb(81, 65, 40);right: -100%;top: 0%;}
       main{
-        height: 700vw;
+        height: 430vh;
       }
-    
+   
       footer .cont-foot:first-child{
         background-repeat:no-repeat;
         background-size: cover;
@@ -1378,7 +1365,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
  
 
 }
-@media screen and (max-width:375.9px) {
+@media only screen and (max-width:375.9px) {
 
     #head-about{
         height: 75vh;
@@ -1386,16 +1373,15 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         background-position-y: 13vh;
     }
     header{
-        height: 100vh;
-        background-size: 180%;
+        height: 130vh;
+        background-size: 150%;
         background-position-y: 10vh;
-        background-repeat: no-repeat;
     }
+
     /* footer */
     footer{
-        justify-content: center;
-        align-items: center;
         height: 100vh;
+        
     }
     footer .cont-foot:first-child{
         background-repeat:no-repeat;background-size: cover;
@@ -1403,7 +1389,7 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         width: 100%;
     }
     footer .cont-foot:nth-child(2){
-        height: 40%;
+        height: 60%;
     }
      /* handle */
      section.handle-main{
@@ -1440,4 +1426,257 @@ Standard smartphone screens: 480px to 767px wide (e.g., most modern smartphones)
         background-position-y: 10vh;
     }
 }
+@media only screen and (max-width:430.9px) {
+    header{
+        height: 70vh;
+        background-position-y: 3vh;
+        background-size: 205%;
+        background-attachment: fixed;
+    }
+    section.tme-main .tme h2{
+        font-size: 5vh;
+    }
+    section.tme-main .tme p{
+        font-size: 3vh;
+    }
+    section.tme-main .tme .box{
+        width: 100%;
+    }
+    section.tme-main .tme .box button{
+        height: 5vh;
+        width: 40%;
+        font-size: 1.6vh;
+    }
+    main{
+        height: 340vh;
+    }
+     /* handle */
+     section.handle-main{
+        height: 160vw;
+      }
+      section.handle-main .conthandle{
+        height: 70vw;
+        flex-direction: column;
+      }
+      section.handle-main .conthandle .handle{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+      }
+     
+      section.handle-main .text h2{
+        font-size: 6.6vw;
+        margin-top: 8vw;
+        
+      }
+      section.handle-main .conthandle .handle .box h3{
+        font-size: 5vw;
+      }
+      section.handle-main .conthandle .handle .box p{
+        font-size: 3.5vw;
+        font-weight: 700;
+      }
+      footer{
+        margin-top: 0%;
+        height: 90vh;
+        position: relative;
+      }
+      
+      footer .cont-foot{
+        flex-wrap: wrap;
+      }
+      footer .cont-foot:first-child{
+        background-position-y: -8vh;
+        height: 30vh;
+      }
+     
+      footer .cont-foot:nth-child(2) .box h2{
+        font-size: 6vw;
+      } 
+      #para-con{
+        width: 20%;
+      }
+      footer .cont-foot:nth-child(2) .box p{
+        font-size: 4vw;
+      }
+  
+}
+@media only screen and (max-width:393.9px){
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+    header{
+        height: 70vh;
+        background-position-y: 3vh;
+        background-size: 205%;
+        background-attachment: fixed;
+    }
+    section.tme-main .tme h2{
+        font-size: 5vh;
+    }
+    section.tme-main .tme p{
+        font-size: 3vh;
+    }
+    section.tme-main .tme .box{
+        width: 100%;
+    }
+    section.tme-main .tme .box button{
+        height: 5vh;
+        width: 40%;
+        font-size: 1.6vh;
+    }
+    main{
+        height: 370vh;
+    }
+     /* handle */
+     section.handle-main{
+        height: 160vw;
+      }
+      section.handle-main .conthandle{
+        height: 70vw;
+        flex-direction: column;
+      }
+      section.handle-main .conthandle .handle{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+      }
+     
+      section.handle-main .text h2{
+        font-size: 6.6vw;
+        margin-top: 8vw;
+        
+      }
+      section.handle-main .conthandle .handle .box h3{
+        font-size: 5vw;
+      }
+      section.handle-main .conthandle .handle .box p{
+        font-size: 3.5vw;
+        font-weight: 700;
+      }
+      footer{
+        margin-top: 0%;
+        height: 90vh;
+        position: relative;
+      }
+      
+      footer .cont-foot{
+        flex-wrap: wrap;
+      }
+      footer .cont-foot:first-child{
+        background-position-y: -8vh;
+        height: 30vh;
+      }
+     
+      footer .cont-foot:nth-child(2) .box h2{
+        font-size: 6vw;
+      } 
+      #para-con{
+        width: 20%;
+      }
+      footer .cont-foot:nth-child(2) .box p{
+        font-size: 4vw;
+      }
+  
+}
+@media only screen and (max-width:360.0px){
+    main{
+        height: 430vh;
+        overflow: scroll;
+    }
+    
+    section.tme-main .tme .box button{
+        height: 5vh;
+    }
+    footer{
+        height: 90vh;
+        margin-top: 3vh;
+    }
 
+    footer .cont-foot:nth-child(2){
+        height: 70%;
+    }
+    footer .cont-foot:nth-child(2) .box{
+        height: 15vh;
+    }
+    footer .cont-foot:nth-child(2){
+        height: 50%;
+    }
+    #foot-box-2{
+        margin-top: -30vh;
+    }
+  
+    
+}
+@media only screen and (max-width:390.9px) {
+    main{
+        height: 380vh;
+    }
+    section.handle-main{
+        overflow: hidden;
+    }
+    footer{
+        height: 150vh;
+        justify-content: flex-start;
+    }
+    footer .cont-foot:first-child{
+        height: 30%;
+        background-position-y: 0vh;
+    }
+    #foot-box-1{
+        margin-top: -20vh;
+    }
+    #foot-box-2{
+        margin-top: -25vh;
+    }
+}
+@media only screen and (max-width:414.9px) {
+    main{
+        height: 355vh;
+        overflow: scroll;
+    }
+    footer{
+        height: 150vh;
+        justify-content: flex-start;
+    }
+    footer .cont-foot:first-child{
+        height: 25%;
+        background-position-y: 0vh;
+    }
+    #foot-box-1{
+        margin-top: -20vh;
+    }
+    #foot-box-2{
+        margin-top: -25vh;
+    }
+    section.tme-main .tme p{
+        font-size: 5.5vw;
+    }
+}
+@media only screen and (max-width:353.9px) {
+    main{
+        height: 340vh;
+    }
+    footer{
+        margin-top: 0vh;
+    }
+}
+
+
+
+
+/*1=> Black berry play book */
+/*2=> Galaxy Tab S4*/
+/*3=> Kindle Fire HDX*/
+/*4=> Microsoft Lumina 550*/
+/*5=> Nexus 10*/
+/*6=> iPad Mini*/
+/*7=> iPad Air*/
+/*8=> Surface Pro 7*/
+/*9=> Surface Duo*/
+/*10=> Nest Hub*/
+/*11=> Nest Hub Max*/
+/*12=> iPad*/
+/*13=> iPad Pro*/
