@@ -512,10 +512,13 @@ header nav .box ul li{
 }
 @media only screen and (max-height:640.9px) {
     footer{
-        margin-top: 0vh;
+        margin-top: 20vh;
     }
     footer .cont-foot{
         height: 40%;
+    }
+    footer .cont-foot:nth-child(2){
+        height: 50%;
     }
     section.tme-main{
         height: 30%;
