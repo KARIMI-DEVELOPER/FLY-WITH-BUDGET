@@ -59,6 +59,7 @@
     section.packegespages-main .packegespages .box-days .top-box {
         height: 5vw;
     }
+   
 }
 
 /* Desktop screens: 1280px and above. (done)*/
@@ -72,8 +73,10 @@ Standard tablets: 1024px to 1280px wide (e.g., regular-sized tablets).(done)
 Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
 
 /* Small tablets: 768px to 1024px wide (e.g., iPad Mini).(done) */
-
-@media screen and (max-width:800.9px) {
+/*4=> Microsoft Lumina 550*/
+/*9=> Surface Duo*/
+/* Tablets */
+@media screen and (max-width:820.9px) {
     * {
         padding: 0;
         margin: 0;
@@ -111,7 +114,7 @@ header nav .box ul li{
     /* header */
     header {
         height: 60vw;
-        background-size:110%;
+        background-size:cover
         background-position-y: -60%;
     }
     header nav .box sub{
@@ -142,7 +145,7 @@ header nav .box ul li{
     /* main  */
     main {
         height: 260vw;
-        overflow: hidden;
+        overflow: scroll;
     }
 
     /* about section */
@@ -199,7 +202,7 @@ header nav .box ul li{
     }
 
     main section.service-main .service .box h1 {
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
 
     main section.service-main .service .box p {
@@ -208,16 +211,22 @@ header nav .box ul li{
 
     main section.service-main .service .box button {
         height: 5vw;
-        margin-top: 10vw;
-        margin-left: 5%;
         font-size: 1vw;
     }
   
 
     /* footer  */
-   footer{height: 80vh;margin-top: 20vw;}
+   footer{
+    height: 100vh;
+    margin-top: 5vw;
+    align-items: flex-start;
+}
    footer .cont-foot{
-    height: 80%;
+    height: 20%;
+   }
+   footer .cont-foot:first-child{
+    background-position-y: -5vh;
+    height: 27%;
    }
     /* packeges */
     section.packeges-main {
@@ -256,7 +265,7 @@ header nav .box ul li{
         margin-top: 15%;
     }
 
-    /* packeges abck page */
+    /* packeges back page */
     section.packegespages-main {
         height: 100vh;
         background-size: cover;
@@ -425,6 +434,7 @@ header nav .box ul li{
     /* travel made easy */
     section.tme-main{
         margin-top: 5vw;
+        height: 40vh;
     }
     section.tme-main .tme h2{
       font-size: 5vw;
@@ -436,10 +446,10 @@ header nav .box ul li{
     section.tme-main .tme .box{
         width: 80%;
     }
-
-    main{
-        overflow: visible;
+    section.tme-main .tme .box button{
+        height: 80%;
     }
+
       /* handle */
       section.handle-main{
         height: 150vw;
@@ -467,7 +477,102 @@ header nav .box ul li{
       }
 
 }
-  /* Small devices (tablets) */
+@media only screen and (max-height:1368.9px) {
+    header nav .box ul{
+        width: 100%;
+    }
+   section.tme-main{
+    height: 35vh;
+   }
+   footer{
+    margin-top: 13vh;
+    height: 120vh;
+    align-items: flex-start;
+   }
+   footer .cont-foot{
+    height: 30%;
+   }
+   footer .cont-foot:first-child{
+    background-size: cover;
+    background-position: center;
+   }
+}
+@media only screen and (max-height:1366.9px) {
+  
+   section.tme-main{
+    height: 40vh;
+   }
+   footer{
+    margin-top: 8vh;
+    height: 120vh;
+    align-items: flex-start;
+   }
+  
+}
+@media only screen and (max-height:640.9px) {
+    footer{
+        margin-top: 0vh;
+    }
+    footer .cont-foot{
+        height: 40%;
+    }
+    section.tme-main{
+        height: 30%;
+    }
+}
+@media only screen and (max-height:360.9px) {
+    footer{
+        margin-top: 0vh;
+        height: 100vh;
+    }
+    footer .cont-foot:nth-child(2){
+        height: 50%;
+    }
+ 
+}
+@media only screen and (max-height:800.9px) {
+    footer .cont-foot{
+        height: 40%;
+    }
+    footer .cont-foot:first-child{
+        height: 50%;
+        background-size: cover;
+        background-position-y: -20vh;
+    }
+}
+@media only screen and (max-width:712.9px) {
+    header{
+        background-position-y: 3vh;
+    }
+    section.tme-main{
+        height: 40vh;
+    }
+    section.tme-main .tme:nth-child(2){
+        height: 70%;
+        width: 40%;
+    }
+    section.tme-main .tme .box{
+        width: 100%;
+    }
+    section.tme-main .tme .box button{
+        height: 80%;
+        font-size: 2vw;
+    }
+    main{
+        overflow: scroll;
+    }
+    footer{
+        margin-top: 3vh;
+        height: 100vh;
+        align-items: flex-start;
+    }
+    footer .cont-foot{
+        height: 25%;
+    }
+    footer .cont-foot:first-child{
+        background-position-y: -5vh;
+    }
+}
   @media only screen and (min-width: 576px) and (max-width: 768px) {
     * {
         padding: 0;
@@ -480,8 +585,8 @@ header nav .box ul li{
   
     /* header */
     header {
-        height: 65vw;
-        background-position-y: 10vh;
+        height: 60vw;
+        background-position-y: 5vh;
     }
 
     header nav {
@@ -504,10 +609,7 @@ header nav .box ul li{
         font-size: 3vw;
         width: 100%;
     }
-/* travel made easy button */
-section.tme-main .tme .box button{
-    height: 8vh;
-}
+
     /* main  */
     main {
         height: 270vw;
@@ -816,8 +918,6 @@ section.tme-main .tme .box button{
 
 
 }
-
-/* Small screens: 320px to 480px wide (e.g., older smartphones). */
 /* Extra small devices (phones) */
 @media only screen and (max-width: 575.98px) {
     * {
@@ -1667,16 +1767,3 @@ section.tme-main .tme .box button{
 
 
 
-/*1=> Black berry play book */
-/*2=> Galaxy Tab S4*/
-/*3=> Kindle Fire HDX*/
-/*4=> Microsoft Lumina 550*/
-/*5=> Nexus 10*/
-/*6=> iPad Mini*/
-/*7=> iPad Air*/
-/*8=> Surface Pro 7*/
-/*9=> Surface Duo*/
-/*10=> Nest Hub*/
-/*11=> Nest Hub Max*/
-/*12=> iPad*/
-/*13=> iPad Pro*/
