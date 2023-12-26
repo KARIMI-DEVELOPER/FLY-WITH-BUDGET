@@ -83,6 +83,7 @@ Large tablets: 1280px to 1600px wide (e.g., larger tablets). (done)*/
         box-sizing: border-box;
     }
 
+
     /* toggle hamburger */
   
  #listMain{
@@ -925,11 +926,29 @@ header nav .box ul li{
         margin: 0;
         box-sizing: border-box;
     }
-    #head-packeges,.head-packeges{
+    #head-visa,
+    .visa-back {
+        background-image: url(../images/visamob.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    #head-packeges,
+    .head-packeges {
+        background-image: url(../images/mobliepak.webp);
+        background-size: cover;
+        background-position: center;
+    }
+    #head-about{
+        background-image: url(../images/aboutmob.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* #head-packeges,.head-packeges{
         height: 90vh;
         background-size: 140%;
         background-position-y: 10vh;
-    }
+    } */
     .Icon-box{
         margin-top: 5vh;
         height: 5vw;
@@ -961,14 +980,14 @@ header nav .box ul li{
 
     }
 
-    #head-visa,.visa-back{
+    /* #head-visa,.visa-back{
         background-position-y: 5vh;
     }
     #head-about{
         height: 90vh;
         background-size: 105%;
         background-position-y: 10vh;
-    }
+    } */
 
     /* header  */
  
@@ -1682,6 +1701,27 @@ header nav .box ul li{
   
 }
 @media only screen and (max-width:360.0px){
+    #head-visa,
+    .visa-back {
+        background-image: url(../images/visamob.webp);
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+    }
+    #head-packeges,
+    .head-packeges {
+        background-image: url(../images/mobliepak.webp);
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+    }
+    #head-about{
+        background-image: url(../images/aboutmob.webp);
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+    }
+
     main{
         height: 430vh;
         overflow: scroll;
