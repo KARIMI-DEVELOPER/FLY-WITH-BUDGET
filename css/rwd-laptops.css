@@ -550,6 +550,9 @@ header nav .box ul li{
  
 }
 @media only screen and (max-height:800.9px) {
+    header{
+        background-repeat: no-repeat;
+    }
     footer .cont-foot{
         height: 40%;
     }
@@ -971,11 +974,6 @@ header nav .box ul li{
         margin-top: 55vh;
     }
 
-    /* #head-packeges,.head-packeges{
-        height: 90vh;
-        background-size: 140%;
-        background-position-y: 10vh;
-    } */
     .Icon-box{
         margin-top: 5vh;
         height: 5vw;
@@ -1007,14 +1005,7 @@ header nav .box ul li{
 
     }
 
-    /* #head-visa,.visa-back{
-        background-position-y: 5vh;
-    }
-    #head-about{
-        height: 90vh;
-        background-size: 105%;
-        background-position-y: 10vh;
-    } */
+    
 
     /* header  */
  
@@ -1022,6 +1013,7 @@ header nav .box ul li{
         height: 75vh;
         background-size: 120%;
         background-position-y: 10vh;
+        background-repeat: no-repeat;
     }
     header nav {
         height: 50px;

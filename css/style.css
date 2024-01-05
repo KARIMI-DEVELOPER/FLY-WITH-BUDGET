@@ -1,3 +1,4 @@
+    
     * {
         padding: 0;
         margin: 0;
@@ -309,14 +310,13 @@
         font-family: 'Nanum Gothic';
     }main section.service-main .service {
         height: 35vw;
+        width: 100%;
         margin-top: 5%;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
+        justify-content: space-between;
     }main section.service-main .service .box {
         height: 100%;
-        width: 30%;
+        width: 30vw;
         padding: 2vw 5vw;
         background-image: url(../images/Travel\ Website\ in\ Bright\ Orange\ Cream\ Photocentric\ Travel\ Style.webp);
         background-size: cover;
@@ -326,7 +326,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-    }main section.service-main .service .box:hover {
+    }
+  
+    main section.service-main .service .box:hover {
         background-position: 50%, 50%;
         transition-duration: 1s;
     }main section.service-main .service .box:nth-child(2) {
@@ -356,9 +358,8 @@
     }/* visa page */section.visa-main {
         height: 70vw;
         margin-top: 0vw;
-        background-color: rgb(81, 65, 40);
-
-    }section.visa-main .visa {
+        background-color: lightblue;
+ }section.visa-main .visa {
         height: 20vw;
         margin-top: 1.5vw;
         display: flex;
@@ -511,11 +512,9 @@
     /* packeges page */
     section.packeges-main {
         height: 70vw;
-        background-size: 200%;
         margin-top: -3vw;
-        background-attachment: fixed;
-
     }
+
 
     section.packeges-main .packeges {
         height: 30vw;
@@ -587,7 +586,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        background-size: 100%;
+        margin-top: 0;
     }
 
     section.packegespages-main .packegespages {
@@ -595,6 +594,7 @@
         width: 100vw;
         overflow: scroll;
         padding: 3vw 10vw;
+        margin-top: -20%;
         background-color: rgb(81, 65, 40);
     }
 
@@ -618,8 +618,8 @@
 
     section.packegespages-main .packegespages h5 {
         color: white;
-        font-family: 'Fira Sans',
-            font-weight: 400;
+        font-family: 'Fira Sans',;
+        font-weight: 400;
         margin-top: 2vw;
         font-size: 3vw;
     }
@@ -772,6 +772,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 0%;
         background-color: rgb(81, 65, 40);
     }
 
