@@ -310,13 +310,14 @@
         font-family: 'Nanum Gothic';
     }main section.service-main .service {
         height: 35vw;
-        width: 100%;
         margin-top: 5%;
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
     }main section.service-main .service .box {
         height: 100%;
-        width: 30vw;
+        width: 30%;
         padding: 2vw 5vw;
         background-image: url(../images/Travel\ Website\ in\ Bright\ Orange\ Cream\ Photocentric\ Travel\ Style.webp);
         background-size: cover;
@@ -327,7 +328,7 @@
         align-items: center;
         justify-content: space-around;
     }
-  
+ 
     main section.service-main .service .box:hover {
         background-position: 50%, 50%;
         transition-duration: 1s;
@@ -587,6 +588,8 @@
         flex-wrap: wrap;
         align-items: center;
         margin-top: 0;
+        background-color: rgb(81, 65, 40);
+
     }
 
     section.packegespages-main .packegespages {
@@ -595,7 +598,6 @@
         overflow: scroll;
         padding: 3vw 10vw;
         margin-top: -20%;
-        background-color: rgb(81, 65, 40);
     }
 
     section.packegespages-main .packegespages::-webkit-scrollbar {
@@ -821,34 +823,46 @@
         width: 70%;
     }
 
-    footer.sec {
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(81, 65, 40);
-    }
 
-    footer.sec p {
-        color: white;
-    }
 
     /* toggle */
     label {
         display: none;
     }
+    .whatsapp{
+        height: 60px;
+        width: 200px;
+        bottom: 0%;
+        right: 2%;
+        background-color: rgb(18, 140, 126);
+        z-index: 11110000;
+        position: fixed;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 5px;
+        padding: 0 5px;
+    }
+    .whatsapp:hover{
+        cursor: pointer;
+         
+    }
+    .whatsapp h6{
+     font-size: 25px;
+     color:white;
+     font-family: 'Fira Sans', sans-serif;
+    }
      #whats{
-        font-size: 60px;
+        font-size: 55px;
         position: absolute;
         font-weight: 800;
         border-radius: 50%;
-        color: rgb(18, 140, 126);
-        margin-top: 85vh;
-        margin-left: 80vw;
+        color: white;
         position: fixed;
+        bottom: 1%;
+        right: 4.5%;
         z-index: 1111000;
      }
      #whats:hover{
-        font-size: 70px;
-        transition-duration: 0.5s;
+        transform: rotate(360deg);transition-duration: 1s;
      }
